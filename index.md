@@ -7,5 +7,6 @@ This website is part of my personal interest to build better tools for lawyers a
 * [motions (Tracking Council motions)](http://vzvenyach.github.io/Council_Motions)
 * [HRA](http://vzvenyach.github.io/HRA/)
 * [Council Rules](http://vzvenyach.github.io/Council_Rules)
+* openlims.org: Pull up a PDF by DC Law Number (e.g., [http://openlims.org/public/L8-227.pdf](http://openlims.org/public/L8-227.pdf))
 
 Contact me at vdavez (at) gmail (dot) com. Report any issues [here](http://github.com/vzvenyach/vzvenyach.github.io/issues).
