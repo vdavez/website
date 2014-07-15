@@ -10,7 +10,7 @@ You can [read about some of the things I've been working on at the Council](http
 On the side, I am an ["accomplished armchair coder"](http://www.washingtonpost.com/blogs/mike-debonis/wp/2014/03/19/dcdecoded-org-offers-better-public-access-to-d-c-laws/) and have written at least one ["clever piece of code."](http://gigaom.com/2014/06/12/clever-piece-of-code-exposes-hidden-changes-to-supreme-court-opinions/) For details about my projects, see my [Projects Page](projects.html). I recently was named a [FastCase 50 winner](http://www.fastcase.com/fastcase50-winners-2014/) for some of these projects.
 </div>
 <div class="col-md-2">
-<img src="../img/Zvenyach.png" class=".visible-sm" width="120"/>
+<img src="../img/Zvenyach.jpg" class=".visible-sm" width="120"/>
 </div>
 </div>
 ## Contact
