@@ -2,7 +2,7 @@
 
 ### SCOTUS_Servo
 
-[@SCOTUS_servo](https://twitter.com/scotus_servo) is a project to keep track of Supreme Court opinions and, specifically, to identify changes in them. Here is [a presentation about @SCOTUS_servo]() and [here is the source code](). It is built using Node.
+[@SCOTUS_servo](https://twitter.com/scotus_servo) is a project to keep track of Supreme Court opinions and, specifically, to identify changes in them. Here is [a presentation about @SCOTUS_servo](https://esq.io/presentations/scotus-servo-presentation.html) and [here is the source code](https://github.com/vzvenyach/scotus-servo). It is built using Node.
 
 ### Legal Markdown
 
