@@ -43,7 +43,7 @@
         <!--/.navbar-collapse -->
     </div>
 
-    <div class="container" contenteditable>
+    <div class="container">
    
     {{ content }}
 
