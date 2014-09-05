@@ -1,3 +1,5 @@
+// wax on, wax off
+
 var swig = require('swig');
 var marked = require('marked');
 var path = require('path');
