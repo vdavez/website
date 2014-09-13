@@ -1,5 +1,9 @@
 ## Code Projects of Note
 
+### Coding for Lawyers
+
+[Coding for Lawyers](http://codingforlawyers.com) is an effort to teach the basics of web development to lawyers. Some may question whether the world needs more lawyers, but it is indisputable that the world needs more legal hackers!
+
 ### SCOTUS_Servo
 
 [@SCOTUS_servo](https://twitter.com/scotus_servo) is a project to keep track of Supreme Court opinions and, specifically, to identify changes in them. Here is [a presentation about @SCOTUS_servo](https://esq.io/presentations/scotus-servo-presentation.html) and [here is the source code](https://github.com/vzvenyach/scotus-servo). It is built using Node.
@@ -7,6 +11,10 @@
 ### Legal Markdown
 
 [LegalMarkdownJS](http://legalmarkdown.com) is an effort to build a browser-based editor for legal documents. It is built using Node, React, and Browserify. Here is [the source code](https://github.com/vzvenyach/legalmd).
+
+### Permafrast
+
+[Permafrast](https://permafrast.herokuapp.com) is a little application that let's you link to a judicial opinion using Fastcase's public API using the case citation. If, for example, you wanted to go directly to the _Citizen's United_ decision, you could simply point your browser at <https://permafrast.herokuapp.com/558/U.S./310/redirect>. Simple as that.
 
 ### Effdate
 
