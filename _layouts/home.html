@@ -1,0 +1,15 @@
+<html>
+<head>
+{% include head.html %}
+<title>V. David Zvenyach's Blog</title>
+</head>
+<body>
+<div class="container">
+{% include nav.html %}
+<div class="post">
+{{ content | markdownify }}
+</div>
+</div>
+{% include footer.html %}
+</body>
+</html>

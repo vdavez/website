@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+<style>
+big {
+        color: rgb(51, 51, 51);
+}
+
+figcaption {
+        text-align: center;
+        font-size: 70%;
+        font-weight: bold;
+}
+
+.post > h2 {
+        padding-top: 0.5em;
+}
+
+.post {
+        padding: 0 0%;
+        line-height:150%;
+}
+.post > p {
+        padding: 0.5em 0;
+		font-size: 20px;
+}
+</style>
+<title>V. David Zvenyach's Blog</title>
+</head>
+<body>
+<div class="container">
+    <div class="navbar nav-justified navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">esq.io</a>
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar sr-only">About</span>
+            <span class="icon-bar sr-only">Blog</span>
+            <span class="icon-bar sr-only">Projects</span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/pages/projects.html">Projects</a></li>
+              </ul>
+            </div>
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+<div class="post">
+<h2 class="text-center"><big>An RSS feed for LIMS</big><br><small>Syndicating data for better legislation tracking<br><em>Published on: Nov 07, 2014</em></small></h2>
+<p>Recently, I built an <a href="https://esq.io/lims-rss.xml">RSS feed for LIMS</a>. </p>
+
+<p>The URL for the RSS feed is here: <a href="https://esq.io/lims-rss.xml">https://esq.io/lims-rss.xml</a>, and the source code is available here: <a href="https://gist.github.com/vzvenyach/757fa97fd99c3a14e798">https://gist.github.com/vzvenyach/757fa97fd99c3a14e798</a>. This post explains my reasons for doing it.</p>
+
+<figure>
+<img src="/assets/images/lims.png" width="100%" class="center-block" />
+<figcaption>A screenshot of LIMS</figcaption>
+</figure>
+
+<h3 id="what-is-lims">What is LIMS?</h3>
+
+<p>One of the most important resources for tracking legislation in the District of Columbia is the <a href="http://lims.dccouncil.us">Legislative Information Management System</a>, known as “LIMS,” and found at <a href="http://lims.dccouncil.us">http://lims.dccouncil.us</a>. LIMS provides information on all legislation before the Council, and allows issue advocates, Council staff, and others to easily filter or search through the database to find legislation, sorted by type (bill, resolution, contract, etc.), status (pending, enacted, official law, etc.), and other criteria.</p>
+
+<p>LIMS is a great resource for most users. And it is a huge improvement from earlier iterations. But, on its face, it’s not ideal for web developers. For example, there’s no documented API. There are few obvious URL endpoints. It uses certain web-design choices–such as sessions–that make scraping particularly difficult. And, relevant to <em>this</em> post, there’s no RSS feed or sitemap. (If you don’t know what any of that stuff means, that’s ok.)</p>
+
+<h3 id="so-what">So what?</h3>
+
+<p>So what, you might be wondering? To answer that question, I need to describe a particular “use case” for LIMS: tracking new legislation. As General Counsel, I am responsible for tracking all legislation pending through the Council. In practice, there are different ways to doing this: </p>
+
+<ol>
+  <li>Check the LIMS site every day. </li>
+  <li>If you work at the Council, check your paper inbox every day.</li>
+  <li>Check the <a href="http://dcregs.dc.gov">DC Register</a> every Friday for “Notices of Intent to Act.”</li>
+</ol>
+
+<p>All of these are fine solutions, but they require you to actually <em>do</em> something. Repeatedly. And <a href="http://codingforlawyers.com/chapters/ch6/">that’s not great</a>.</p>
+
+<p>It would be better if there was a way to get automatic notifications of new legislation.</p>
+
+<h3 id="rss-and-ifttt">RSS and IFTTT</h3>
+
+<p>One way that web developers thought to address the problem of automatic notification of changing content was through the introduction of <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>. When a website includes an RSS feed, a user can get automatic updates of new and changed content on the site. You can use an RSS reader to keep track of <em>all</em> of the sites that you care about (I personally use <a href="https://digg.com/reader">Digg Reader</a>, but many other options exist).</p>
+
+<p>And, once you have an RSS feed, you do other cool things. For example, you can use <a href="https://ifttt.com">IFTTT</a>, which stands for “IF This Then That,” to get notifications in other places once you have an RSS feed. Personally, I have set up my RSS feed to send a text message to my phone anytime there is new legislation introduced at the Council. But you can imagine many other options. So, RSS and IFTTT would solve the problem of automatically tracking Council legislation.</p>
+
+<h3 id="building-lims-rss">Building LIMS-RSS</h3>
+
+<p>As discussed above, LIMS does not offer RSS feeds. And even though it is not well-documented, the underlying architecture of LIMS allows it to be developer friendly. Specifically, it has a “hidden” API, which allows a user to send an HTTP request to the server, and receive a JSON response. [At some point, I’ll set out to actually document the API.] </p>
+
+<p>Using this hidden API, you can get data about all of the laws that <a href="http://lims.dccouncil.us/SearchResults/?Category=0&amp;Introduced=0&amp;coSponsoredBy=0&amp;ReferredTo=0&amp;ReferredWithCommitee=0&amp;LegislationStatus=10&amp;AtrequestOF=0&amp;AdvancedKeyword=&amp;StartDate=&amp;EndDate=&amp;IsDoc=0">LIMS has identified as being “New”</a> (LIMS explains that all legislation introduced in the last 7 days is considered “new”). Once I accessed this information, I wrote a Python script to convert that data into an XML file, using the <a href="http://tools.ietf.org/html/rfc4287">Atom Syndication Format</a>, to “look” like an RSS feed. Then, I set up a “cron” job to tell the computer to do this every hour, so that any new information on LIMS would be included in the XML file, thus making it a functional RSS feed.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Obviously, some of this might look like wizardry. And, to a certain extent, it is not the <em>most</em> basic of programming. But, it’s also not <strong>too</strong> hard once you have some comfort with Python and web development.</p>
+
+<p>The whole thing is only 27 lines of code, but it will make sure that I never have to bother going to LIMS every day, or checking the Register, or looking for things in my paper inbox. I’ll just get a text message anytime there’s a new measure introduced in the Council. And, if you set up an IFTTT recipe, you can too.</p>
+
+<p>Finally, if you want to follow this blog, the link to the RSS feed is: <a href="https://esq.io/blog/feed.xml">https://esq.io/blog/feed.xml</a>. Thanks!</p>
+
+<div class="text-right"><a href="/"><em>Return Home</em></a></div>
+</div>
+</div>
+<!-- /container -->        
+
+<div class="footer">V. David Zvenyach. <a href="https://github.com/vzvenyach/vzvenyach.github.io">Source Code and Content</a> available <a href="https://creativecommons.org/licenses/by-sa/4.0/">[CC BY-SA 4.0.]</a>.</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://mitzvotech.org/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://mitzvotech.org/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+</html>

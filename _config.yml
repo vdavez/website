@@ -1,0 +1,12 @@
+title: "esq.io"
+repo: "https://github.com/vzvenyach/vzvenyach.github.io"
+
+markdown: kramdown
+
+collections:
+    blog:
+        output: true
+        permalink: "blog/posts/:path/"
+    pages:
+        output: true
+        permalink: "pages/:path.html"

@@ -1,0 +1,17 @@
+<html>
+<head>
+{% include head.html %}
+<title>V. David Zvenyach's Blog</title>
+</head>
+<body>
+<div class="container">
+{% include nav.html %}
+<div class="post">
+<h2 class="text-center"><big>{{ page.title }}</big><br><small>{{page.subtitle}}<br><em>Published on: {{page.date | date: "%b %d, %Y"}}</em></small></h2>
+{{ content }}
+<div class="text-right"><a href="/"><em>Return Home</em></a></div>
+</div>
+</div>
+{% include footer.html %}
+</body>
+</html>
