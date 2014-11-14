@@ -6,7 +6,7 @@ markdown: kramdown
 collections:
     blog:
         output: true
-        permalink: "blog/posts/:path/"
+        permalink: "blog/posts/:title/"
     pages:
         output: true
         permalink: "pages/:path.html"

@@ -1,7 +1,8 @@
 ---
 title: Hello World
+posttitle: Hello World
 subtitle: "Just what the world needs: another blog..."
-permalink: blog/helloworld
+slug: helloworld
 date: 2014-11-06
 layout: post
 order: 0
