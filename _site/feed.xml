@@ -7,5 +7,216 @@
     <language>en-us</language>
     <atom:link href="https://esq.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>&quot;Dumb&quot; Government Data</title>
+      <description>&lt;p&gt;I recently was named a member of the Mayor’s &lt;a href=&quot;https://opengovadvisorygroup.github.io&quot;&gt;Open Government Advisory Group&lt;/a&gt;. Among the things that the Group will be &lt;a href=&quot;https://opengovadvisorygroupdc.github.io/documents/mayors-order__2014-250/&quot;&gt;tasked with&lt;/a&gt; is “[e]stablish[ing] specific criteria for agency identification of additional datasets.”&lt;/p&gt;
+
+&lt;p&gt;Much has been written on the publication of &lt;a href=&quot;http://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-06.pdf#page=7&quot;&gt;high-value datasets&lt;/a&gt;, including some &lt;a href=&quot;http://sunlightfoundation.com/blog/2010/02/11/term-high-value-dataset-bunk/&quot;&gt;critiques&lt;/a&gt;. It is, in many respects, completely sensible to prioritize inherently useful data. But, in my experience, the focus on high-value datasets is a missed opportunity for governments to publish “dumb” data in machine-readable formats. In some situations, prioritizing dumb data may be the most important thing of all.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&quot;/assets/images/dumb_and_dumber.jpg&quot; alt=&quot;Dumb and Dumber&quot; width=&quot;100%&quot; /&gt;
+&lt;figcaption&gt;&lt;em&gt;Dumb and Dumber.&lt;/em&gt; Photo from tom-margie at https://secure.flickr.com/photos/tom-margie/2079121875&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;defining-dumb-data&quot;&gt;Defining “dumb” data&lt;/h3&gt;
+
+&lt;p&gt;What do I mean by “dumb data”? I define “dumb data” as data that is &lt;em&gt;descriptive of immediately perceptible things&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This definition encompasses two important features: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Perceptibility.&lt;/strong&gt; First, dumb data must be completely, obviously, &lt;em&gt;there&lt;/em&gt;. It should not require measurement or analysis to generate the data. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Descriptive.&lt;/strong&gt; Second, dumb data must be descriptive–not normative or evaluative. If it requires a judgment call about how to calculate the data, it’s not a good candidate for dumb data.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, if I were to describe an individual, high-value data might include information about the individual’s hobbies, or educational attainment, or even zip code. By contrast, dumb data would include information about the individual’s height, hair color, and perhaps his or her name.&lt;/p&gt;
+
+&lt;p&gt;An individual’s height is immediately perceptible and utterly descriptive. An individual’s hobbies, by contrast, are not.&lt;/p&gt;
+
+&lt;p&gt;Take another example: sports. In sports, dumb data comes in the form of nightly &lt;a href=&quot;http://www.baseball-reference.com/boxes/&quot;&gt;box scores&lt;/a&gt;. When did the winning team score the winning run? Check the box score. Which team is &lt;em&gt;hot&lt;/em&gt; going into the playoffs? Well, that’s not something included in dumb data. You might be able to &lt;em&gt;discern&lt;/em&gt; that information from dumb data, but it is not itself dumb data.&lt;/p&gt;
+
+&lt;h3 id=&quot;dumb-data-inaction--in-action&quot;&gt;Dumb data inaction &amp;amp; in action&lt;/h3&gt;
+
+&lt;p&gt;Having defined dumb data, we turn to the utility of managing dumb data. In one sense, dumb-data collection might seem an enormous waste of time and effort. After all, if dumb data is &lt;em&gt;immediately perceptible&lt;/em&gt;, why bother capturing, storing, and publishing it?&lt;/p&gt;
+
+&lt;p&gt;Here are three vignettes of where, in my experience, dumb data matters in government:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Effdate: An example of dumb data inaction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the very first applications I built is a little tool called &lt;a href=&quot;http://effdate.esq.io&quot;&gt;Effdate&lt;/a&gt;. Effdate is a very simple application. It does only one thing: it computes the effective dates of District laws.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/images/effdate.png&quot; alt=&quot;Effdate&quot; width=&quot;100%&quot; /&gt;
+&lt;figcaption&gt;Screenshot from Effdate&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As the &lt;a href=&quot;https://github.com/vzvenyach/effdate#description&quot;&gt;readme&lt;/a&gt; explains, until I built Effdate, “calculating the [effective date of a particular law] required reference to several calendars and hand counts.” This is so because, to calculate the effective date, one needed to know whether at least one chamber of Congress was in session on any given day.&lt;/p&gt;
+
+&lt;p&gt;It turns out, the &lt;em&gt;calendar&lt;/em&gt; for a legislature is dumb data. What officially happens on any given day is entirely knowable and descriptive.&lt;/p&gt;
+
+&lt;p&gt;But, even though the Framers of the United States Constitution saw fit to require Congress to “keep a Journal of its Proceedings, and from time to time publish the same,”&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and you can &lt;a href=&quot;https://www.congress.gov/congressional-record/browse-by-date&quot;&gt;browse the Congressional Record&lt;/a&gt;, there is no way to get an authoritative list of the days that Congress is in session.&lt;/p&gt;
+
+&lt;p&gt;Instead, I had to &lt;a href=&quot;https://github.com/vzvenyach/effdate/blob/master/gpo_session.py&quot;&gt;write a script&lt;/a&gt; that checks the Government Printing Office website to see whether either chamber has published a Congressional Record on any given day. The end result, dumb data &lt;a href=&quot;http://effdate.esq.io/house.json&quot;&gt;for the House&lt;/a&gt; and dumb data &lt;a href=&quot;http://effdate.esq.io/senate.json&quot;&gt;for the Senate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And lest you think that publishing the dumb data of calendars is a worthless effort, consider &lt;a href=&quot;http://www.citizensforethics.org/blog/entry/congress-at-a-glance&quot;&gt;this post by Daniel Schuman&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Legislative committees: An example of dumb data inaction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the D.C. Council–as in many legislatures around the country–there is an important biennial tradition: committee assignments. The &lt;a href=&quot;https://www.senate.gov/artandhistory/history/common/briefing/Committees.htm&quot;&gt;United States Senate’s&lt;/a&gt; website observes that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Committees are essential to the effective operation of legislative bodies. Committee membership enables members to develop specialized knowledge of the matters under their jurisdiction. As “little legislatures,” committees monitor on-going governmental operations, identify issues suitable for legislative review, gather and evaluate information; and recommend courses of action to their parent body&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At the Council, committee assignments and committee jurisdictions change over time. In the next Council period, as a result of the election cycle, at least four Council committees will be under different leadership.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; In our &lt;a href=&quot;/blog/lims-rss/&quot;&gt;Legislative Information Management System&lt;/a&gt;, or elsewhere on our Council website, however, we do not have a simple list of the committee chairs or of the committees’ responsibilities. &lt;/p&gt;
+
+&lt;p&gt;Committee assignments are dumb data. Once the committees are announced, everyone &lt;em&gt;knows&lt;/em&gt; who’s on a committee. Even though it’s dumb data, I guarantee that when the Council reorganizes in Council Period 21, my office will be inundated with requests for a list of the committee assignments.&lt;/p&gt;
+
+&lt;p&gt;One &lt;em&gt;smart&lt;/em&gt; way to use the dumb data will be to recognize that the &lt;em&gt;same&lt;/em&gt; dumb data that we use to generate the Council rules and the Committee assignment list can also be used to populate the Council’s website (and the lists maintained by every one who cares about such things). It’s not hard to imagine that, once governments get in the habit of publishing this sort of dumb data, others inside and outside government would spend less energy trying to replicate it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. &lt;code&gt;members.yml&lt;/code&gt;: An example of dumb data in action&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As I mentioned at the outset of this post, I am a member of the Mayor’s new Open Government Advisory Group. On the Advisory Group’s website, I posted a number of documents, such as &lt;a href=&quot;https://opengovadvisorygroupdc.github.io/documents/&quot;&gt;Agencies’ Transparency Reports&lt;/a&gt; and the &lt;a href=&quot;https://opengovadvisorygroupdc.github.io/documents/mayors-order__2014-250/&quot;&gt;Mayor’s Order establishing the Advisory Group&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But, I also decided to embrace dumb data and publish three dumb datasets: (1) a list of the &lt;a href=&quot;https://raw.githubusercontent.com/OpenGovAdvisoryGroupDC/opengovadvisorygroupdc.github.io/master/_data/members.yml&quot;&gt;Advisory Group’s members&lt;/a&gt;; (2) a list of the &lt;a href=&quot;https://raw.githubusercontent.com/OpenGovAdvisoryGroupDC/opengovadvisorygroupdc.github.io/master/_data/agency_reports.yml&quot;&gt;agencies’ transparency reports&lt;/a&gt;, and (3) a list of the &lt;a href=&quot;https://raw.githubusercontent.com/OpenGovAdvisoryGroupDC/opengovadvisorygroupdc.github.io/master/_data/meetings.yml&quot;&gt;meeting dates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At this stage, it is far too early to tell whether any of these datasets will prove useful to anyone else. But, even if no one else finds use in them, they’ve already earned their keep. That’s because I actually &lt;a href=&quot;https://raw.githubusercontent.com/OpenGovAdvisoryGroupDC/opengovadvisorygroupdc.github.io/master/_documents/agencyreports.md&quot;&gt;used the data to &lt;em&gt;build the website&lt;/em&gt;&lt;/a&gt;. I captured the data, made it machine-readable, and then used that data to populate the site’s pages. When changes are made, for example, to the membership of the Advisory Group, all that will need to happen is an update to the dumb data file. That same dataset can then update the distribution list, the subcommittee lists, roll call votes (if necessary), etc. No muss, no fuss.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-dumb-data-may-matter-the-most&quot;&gt;Why dumb data may matter the most&lt;/h3&gt;
+
+&lt;p&gt;Having explored three different variations of dumb data, it is worth reflecting on a &lt;em&gt;social&lt;/em&gt; form of dumb data: the #selfie. &lt;/p&gt;
+
+&lt;p&gt;Regardless of &lt;a href=&quot;http://publicdomainreview.org/collections/robert-cornelius-self-portrait-the-first-ever-selfie-1839/&quot;&gt;whether or not a selfie is a modern phenomenon&lt;/a&gt;, a selfie is quintessentially dumb data. It’s descriptive and immediately perceptible.&lt;/p&gt;
+
+&lt;p&gt;However &lt;a href=&quot;http://www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon&quot;&gt;you feel about selfies&lt;/a&gt;, two things are beyond dispute: one, they’re &lt;em&gt;simple and ubiquitous&lt;/em&gt; to take and, two, people &lt;em&gt;love to publish them&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stop for a moment and &lt;a href=&quot;http://i.dailymail.co.uk/i/pix/2014/08/07/article-2718727-20532F4B00000578-527_964x1141.jpg&quot;&gt;imagine&lt;/a&gt; a world in which government data were simple and ubiquitous &lt;em&gt;and&lt;/em&gt; government employees loved to publish the data.&lt;/p&gt;
+
+&lt;p&gt;If a selfie is the dumb data of social-media, can the government adapt the lesson in the form of machine-readable dumb data to promote open government? I believe the answer is yes because focusing on dumb data actually elevates some of our most important open government data.&lt;/p&gt;
+
+&lt;p&gt;For example, the United States Department of Justice’s website publishes a &lt;a href=&quot;http://www.justice.gov/data.json&quot;&gt;JSON file with an impressive 968 datasets&lt;/a&gt;. This is great! But, incredibly, exactly &lt;strong&gt;none&lt;/strong&gt; of those datasets are any of the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A list of Attorneys Generals;&lt;/li&gt;
+  &lt;li&gt;An organization chart;&lt;/li&gt;
+  &lt;li&gt;The budget for the current fiscal year;&lt;/li&gt;
+  &lt;li&gt;Title 28 of the United States Code (the enabling legislation for the Attorney General)&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s not to say these records don’t exist. &lt;a href=&quot;http://www.justice.gov/ag/historical-bios&quot;&gt;They&lt;/a&gt; &lt;a href=&quot;http://www.justice.gov/doj/agencies-0&quot;&gt;do&lt;/a&gt;. But they’re not considered datasets. Incredibly, they’re &lt;em&gt;too&lt;/em&gt; important for the JSON treatment. &lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;importance&lt;/em&gt; of dumb data has actually limited its publication. The reason why the days Congress is in session is not published in CSV? Too important! Why committee assignments are not published in YML? Too important! Instead, we have elaborate portals, webpages, white papers, reports, etc., to publish this information.&lt;/p&gt;
+
+&lt;p&gt;This is an opportunity lost.&lt;/p&gt;
+
+&lt;p&gt;By reimagining these records as dumb data, government employees may begin to appreciate that they’re not just building a &lt;em&gt;website&lt;/em&gt;. They’re contributing &lt;em&gt;knowledge&lt;/em&gt; that can be instantaneously shared and used in different fora. &lt;/p&gt;
+
+&lt;p&gt;To be more concrete for a moment, imagine you were asked to research whether any of the Attorneys General ever said anything publicly about the Third Amendment to the United States Constitution. Of course, you could search with “Attorney General” and “Third Amendment.” But, what if they later became a Supreme Court Justice? How could you capture that without using all of their names. In fact, how many Justices of the Supreme Court were Attorneys General? Without dumb data, answering these really basic questions is no trivial matter.&lt;/p&gt;
+
+&lt;p&gt;But if a government employee (or contractor) used a dumb dataset to power the &lt;a href=&quot;http://www.justice.gov/ag/historical-bios&quot;&gt;biography page&lt;/a&gt;, this research would be feasible. And when the website is eventually updated, there wouldn’t be any need to screw around with HTML or Content Management Systems. You’d just add a new record to the dataset.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-modest-proposal-governments-should-publish-dumb-data&quot;&gt;A modest proposal: Governments should publish dumb data&lt;/h3&gt;
+
+&lt;p&gt;I hope by now that I have persuaded you that capturing and publishing dumb data would be a smart thing for governments to do. Happily, it is also an easy thing to do. Dumb data does not need to exist in a fancy web portal. Generating dumb data does not need to be done once a relational database is created. Dumb data does not require sophisticated instrumentation or fancy software. &lt;/p&gt;
+
+&lt;p&gt;Collecting and publishing dumb data can be as simple an act as putting something into an Excel spreadsheet and exporting it to CSV. Heck, if you do not want to do that, just save it as an Excel spreadsheet. Someone else can convert it for you.&lt;/p&gt;
+
+&lt;p&gt;If you are feeling adventurous, make a &lt;a href=&quot;http://www.yaml.org&quot;&gt;YAML file&lt;/a&gt;. I’ll even help you do it. Seriously.&lt;/p&gt;
+
+&lt;p&gt;My theory is that once government employees start thinking about our everyday, humdrum observations as “data,” the world can start to look a little different, a little more fun, and a &lt;em&gt;lot&lt;/em&gt; more connected. &lt;/p&gt;
+
+&lt;p&gt;If 2013 was the year of the “selfie”, maybe 2015 can be the year of “dumb data.” Time will tell.&lt;/p&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;“U.S. Const., art. I, § 5, cl. 3” &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Councilmembers Muriel Bowser, David Catania, Jim Graham, and Tommy Wells chaired the Economic Development, Education, Human Services, and Judiciary and Public Safety committees, respectively. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;By contrast, title 21 of the United States Code, which concerns the Controlled Substances Act, is the second item on the list. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      <link>https://esq.io/blog/blog/posts/dumbdata/</link>
+      <guid>https://esq.io/blog/blog/posts/dumbdata/</guid>
+      <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>An RSS feed for LIMS</title>
+      <description>&lt;p&gt;Recently, I built an &lt;a href=&quot;https://esq.io/lims-rss.xml&quot;&gt;RSS feed for LIMS&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The URL for the RSS feed is here: &lt;a href=&quot;https://esq.io/lims-rss.xml&quot;&gt;https://esq.io/lims-rss.xml&lt;/a&gt;, and the source code is available here: &lt;a href=&quot;https://gist.github.com/vzvenyach/757fa97fd99c3a14e798&quot;&gt;https://gist.github.com/vzvenyach/757fa97fd99c3a14e798&lt;/a&gt;. This post explains my reasons for doing it.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/images/lims.png&quot; width=&quot;100%&quot; class=&quot;center-block&quot; /&gt;
+&lt;figcaption&gt;A screenshot of LIMS&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;what-is-lims&quot;&gt;What is LIMS?&lt;/h3&gt;
+
+&lt;p&gt;One of the most important resources for tracking legislation in the District of Columbia is the &lt;a href=&quot;http://lims.dccouncil.us&quot;&gt;Legislative Information Management System&lt;/a&gt;, known as “LIMS,” and found at &lt;a href=&quot;http://lims.dccouncil.us&quot;&gt;http://lims.dccouncil.us&lt;/a&gt;. LIMS provides information on all legislation before the Council, and allows issue advocates, Council staff, and others to easily filter or search through the database to find legislation, sorted by type (bill, resolution, contract, etc.), status (pending, enacted, official law, etc.), and other criteria.&lt;/p&gt;
+
+&lt;p&gt;LIMS is a great resource for most users. And it is a huge improvement from earlier iterations. But, on its face, it’s not ideal for web developers. For example, there’s no documented API. There are few obvious URL endpoints. It uses certain web-design choices–such as sessions–that make scraping particularly difficult. And, relevant to &lt;em&gt;this&lt;/em&gt; post, there’s no RSS feed or sitemap. (If you don’t know what any of that stuff means, that’s ok.)&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what&quot;&gt;So what?&lt;/h3&gt;
+
+&lt;p&gt;So what, you might be wondering? To answer that question, I need to describe a particular “use case” for LIMS: tracking new legislation. As General Counsel, I am responsible for tracking all legislation pending through the Council. In practice, there are different ways to doing this: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check the LIMS site every day. &lt;/li&gt;
+  &lt;li&gt;If you work at the Council, check your paper inbox every day.&lt;/li&gt;
+  &lt;li&gt;Check the &lt;a href=&quot;http://dcregs.dc.gov&quot;&gt;DC Register&lt;/a&gt; every Friday for “Notices of Intent to Act.”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All of these are fine solutions, but they require you to actually &lt;em&gt;do&lt;/em&gt; something. Repeatedly. And &lt;a href=&quot;http://codingforlawyers.com/chapters/ch6/&quot;&gt;that’s not great&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It would be better if there was a way to get automatic notifications of new legislation.&lt;/p&gt;
+
+&lt;h3 id=&quot;rss-and-ifttt&quot;&gt;RSS and IFTTT&lt;/h3&gt;
+
+&lt;p&gt;One way that web developers thought to address the problem of automatic notification of changing content was through the introduction of &lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt;. When a website includes an RSS feed, a user can get automatic updates of new and changed content on the site. You can use an RSS reader to keep track of &lt;em&gt;all&lt;/em&gt; of the sites that you care about (I personally use &lt;a href=&quot;https://digg.com/reader&quot;&gt;Digg Reader&lt;/a&gt;, but many other options exist).&lt;/p&gt;
+
+&lt;p&gt;And, once you have an RSS feed, you do other cool things. For example, you can use &lt;a href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt;, which stands for “IF This Then That,” to get notifications in other places once you have an RSS feed. Personally, I have set up my RSS feed to send a text message to my phone anytime there is new legislation introduced at the Council. But you can imagine many other options. So, RSS and IFTTT would solve the problem of automatically tracking Council legislation.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-lims-rss&quot;&gt;Building LIMS-RSS&lt;/h3&gt;
+
+&lt;p&gt;As discussed above, LIMS does not offer RSS feeds. And even though it is not well-documented, the underlying architecture of LIMS allows it to be developer friendly. Specifically, it has a “hidden” API, which allows a user to send an HTTP request to the server, and receive a JSON response. [At some point, I’ll set out to actually document the API.] &lt;/p&gt;
+
+&lt;p&gt;Using this hidden API, you can get data about all of the laws that &lt;a href=&quot;http://lims.dccouncil.us/SearchResults/?Category=0&amp;amp;Introduced=0&amp;amp;coSponsoredBy=0&amp;amp;ReferredTo=0&amp;amp;ReferredWithCommitee=0&amp;amp;LegislationStatus=10&amp;amp;AtrequestOF=0&amp;amp;AdvancedKeyword=&amp;amp;StartDate=&amp;amp;EndDate=&amp;amp;IsDoc=0&quot;&gt;LIMS has identified as being “New”&lt;/a&gt; (LIMS explains that all legislation introduced in the last 7 days is considered “new”). Once I accessed this information, I wrote a Python script to convert that data into an XML file, using the &lt;a href=&quot;http://tools.ietf.org/html/rfc4287&quot;&gt;Atom Syndication Format&lt;/a&gt;, to “look” like an RSS feed. Then, I set up a “cron” job to tell the computer to do this every hour, so that any new information on LIMS would be included in the XML file, thus making it a functional RSS feed.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Obviously, some of this might look like wizardry. And, to a certain extent, it is not the &lt;em&gt;most&lt;/em&gt; basic of programming. But, it’s also not &lt;strong&gt;too&lt;/strong&gt; hard once you have some comfort with Python and web development.&lt;/p&gt;
+
+&lt;p&gt;The whole thing is only 27 lines of code, but it will make sure that I never have to bother going to LIMS every day, or checking the Register, or looking for things in my paper inbox. I’ll just get a text message anytime there’s a new measure introduced in the Council. And, if you set up an IFTTT recipe, you can too.&lt;/p&gt;
+
+&lt;p&gt;Finally, if you want to follow this blog, the link to the RSS feed is: &lt;a href=&quot;https://esq.io/blog/feed.xml&quot;&gt;https://esq.io/blog/feed.xml&lt;/a&gt;. Thanks!&lt;/p&gt;
+</description>
+      <link>https://esq.io/blog/blog/posts/lims-rss/</link>
+      <guid>https://esq.io/blog/blog/posts/lims-rss/</guid>
+      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <description>&lt;p&gt;I’ve decided to start a blog. I’ll explain more later.&lt;/p&gt;
+</description>
+      <link>https://esq.io/blog/blog/posts/hello-world/</link>
+      <guid>https://esq.io/blog/blog/posts/hello-world/</guid>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    
   </channel>
 </rss>
