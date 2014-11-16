@@ -37,7 +37,7 @@ In the courts, the data may cause courts to evaluate and calibrate the degree to
 
 <figure>
 <img src="/assets/images/discovery-impact-on-settlement.png" alt="Discovery's Impact on Settlement" width="100%">
-<figcaption>Data on the Discovery's Impact on Settlement.</figcaption>
+<figcaption>Data on discovery's impact on settlement.</figcaption>
 </figure>
 
 The data also confirms that discovery played a bigger role in 2007 than it did in 1996. Courts should be looking closely at their rules to see whether discovery and scheduling practices are more or less likely to result in successful alternative dispute resolution.
