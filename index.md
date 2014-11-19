@@ -1,6 +1,6 @@
 ---
 title: Home Page
-subtitle: V. David Zvenyach's Blog
+subtitle: V. David Zvenyach's Home Page
 layout: home
 ---
 
