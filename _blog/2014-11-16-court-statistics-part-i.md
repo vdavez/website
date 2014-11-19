@@ -1,7 +1,7 @@
 ---
 title: court-statistics-part-i
 posttitle: "Court Statistics: Part I"
-subtitle: 'Why we may need a "floodgate" of judicial data'
+subtitle: 'Why we may need to open a "floodgate" of judicial data'
 date: 2014-11-15
 layout: post
 newest: true
