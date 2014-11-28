@@ -8,12 +8,89 @@
     <atom:link href="https://esq.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>In Praise of Commoditization</title>
+      <description>&lt;p&gt;Earlier this week, Dr. Robert Read and &lt;a href=&quot;https://konklone.com&quot;&gt;Eric Mill&lt;/a&gt; penned an article for the &lt;a href=&quot;https://18f.gsa.gov&quot;&gt;18F blog&lt;/a&gt;, entitled &lt;a href=&quot;https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/&quot;&gt;How to Use More Open Source in Your Next Federal IT Acquisition&lt;/a&gt;. It’s an important article for a variety of reasons. Most of it is a pitch-perfect explanation of why open-source tools are more important than ever, and why federal (and &lt;em&gt;ahem&lt;/em&gt; local and state governments) should be looking for opportunities to use open-source tools.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s important that every Federal CIO, CTO, Architect, and Program Manager seeking to build or procure new IT projects understand that open source exists, that it can be of high quality and highly reusable, and how to use it securely.”
+- Dr. Robert Read &amp;amp; Eric Mill &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Couldn’t agree more.&lt;/p&gt;
+
+&lt;p&gt;But there were two aspects of the post that jumped out at me: (1) the article’s definition of commodity; and (2) the impression that the maturation of open-source tools is essentially teleological. Neither aspect is essential to their argument. And I imagine that the authors might even refine their points if the post were longer. That said, dwelling on the nuances of these two points can lead to an greater understanding of &lt;em&gt;why&lt;/em&gt; open source matters.    &lt;/p&gt;
+
+&lt;h2 id=&quot;ware-what-is-it-good-for&quot;&gt;WAR(E): What is It Good For?&lt;/h2&gt;
+
+&lt;p&gt;In their post, Read &amp;amp; Mill lead with the following unassailable observation: “[t]he Federal knowledge worker who shares responsibility for an IT project cannot escape the need to understand trends in the commoditization of information technology.” &lt;/p&gt;
+
+&lt;p&gt;The follow this observation with the following assertions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;By commoditization, we mean the relentless evolution of technology: from a unique idea, to custom-built usage, to a widely used Commercial Off-The Shelf (COTS) product, into a Free Open-Source Software (FOSS) commodity. By commodity, we mean a product, function, or service that is broadly and cheaply available. It is natural for important software systems to eventually become commodities.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The end point of this evolution is always a freely available, reliable, open source software project supported by a large, accommodating community. In other words, a broadly supported Free Open-Source Software (FOSS) project is the ultimate commoditization of a Commercial Off-The Shelf (COTS) project. FOSS is COTS, whether a firm ever offers paid support for it or not.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As projects become more stable and widely used, they develop communities of supporters and users. These communities prevent the negative aspects of being dependent upon, or locked-in to, a single entity for support. No Federal project should be handcuffed to a tiny, unproductive development community. The best way to harness the innovative effort of a large number of people is to use a mature, commoditized project that many people are actively contributing to—and that means using open source.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure&gt;
+&lt;a href=&quot;http://reactiongifs.com/?p=18327&quot;&gt;&lt;img src=&quot;/assets/images/yes-wait-wtf.gif&quot; alt=&quot;Yes, Wait, WTF?&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;&quot;Yes, Wait, WTF?&quot;, via &lt;a href=&quot;http://reactiongifs.com/?p=18327&quot;&gt;Reaction GIFS&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Let’s unpack this.&lt;/p&gt;
+
+&lt;h2 id=&quot;commoditization-a-definitional-quibble&quot;&gt;Commoditization: A definitional quibble&lt;/h2&gt;
+
+&lt;p&gt;At the jump, Read &amp;amp; Mill define a commodity as a “product, function, or service that is broadly and cheaply available.” This is an intriguing definition for a few reasons.&lt;/p&gt;
+
+&lt;p&gt;First, it does not align with the most common meaning of the word “commodity” in that it includes services and implies that the goods are “refined,” rather than raw materials. When I typically think of commodities, I think “animals, vegetable, minerals.” Not, e.g., Android phones. And some commodities ain’t bountiful or cheap. Think Rare-Earth Magnets. Think Gold. Think Caviar. &lt;/p&gt;
+
+&lt;p&gt;Based on my reading of the post, my guess is that Read and Mill would argue that I’m describing “commoditized components” not “commodities.” This might be a perfectly valid narrowing construction, but it’s still not clear that the commodities are always cheap or broadly available, particularly at scale.&lt;/p&gt;
+
+&lt;p&gt;Moreover, under their definition, most closed-source software is a commodity. Adobe Acrobat Reader, for example, is broadly and cheaply available. But it is not a FOSS commodity. And it is unlikely to “evolve into” a FOSS commodity. &lt;/p&gt;
+
+&lt;p&gt;Ultimately, their definition probably aligns with a &lt;a href=&quot;http://www.merriam-webster.com/dictionary/commodity&quot;&gt;lesser-known definition of commodity&lt;/a&gt;: “a good or service whose wide availability typically leads to smaller profit margins and diminishes the importance of factors (as brand name) other than price.” Or perhaps, they are implicitly channeling the &lt;a href=&quot;http://ianmurdock.com/open-source-and-the-commoditization-of-software/&quot;&gt;concept of commoditization as a mercantile race to the bottom&lt;/a&gt;. Yet even this is not always so. Surely, &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt; and &lt;a href=&quot;https://jquery.org/&quot;&gt;jQuery&lt;/a&gt; are ubiquitous and free, but they’re not ubiquitous &lt;em&gt;because&lt;/em&gt; they’re free. They’re ubiqitous because of their utility and–to a certain extent–the network effects of an accepted framework. And it is hardly the case that Bootstrap is interchangeable with other front-end frameworks. &lt;/p&gt;
+
+&lt;p&gt;In some sense, the problem of their definition is that it ignores “differentiating value” (h/t to &lt;a href=&quot;https://twitter.com/ghelleks&quot;&gt;@ghelleks&lt;/a&gt;). If the software is uniquely different enough, it is &lt;a href=&quot;http://www.extension.iastate.edu/agdm/wholefarm/html/c5-203.html&quot;&gt;not really a commodity&lt;/a&gt;. It might be cheap and broadly available, but it is not suspectible to commoditization.&lt;/p&gt;
+
+&lt;p&gt;All of which is to say, if we read the post applying a common understanding of commodity (raw materials available on the market), there’s actually a new insight. Thinking of &lt;em&gt;FOSS commodities&lt;/em&gt; allows us to see the trees from the forest. If you want to refresh your legacy system, &lt;a href=&quot;https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/&quot;&gt;you don’t need to throw it away and start over&lt;/a&gt;. Instead, you can plug-in some FOSS and make your customers happy. If you find that you need a relational database, “there’s  an app for that.” &lt;/p&gt;
+
+&lt;p&gt;By understanding the characteristics of the raw materials, you can make informed decisions about how to get a little extra mileage out of your existing systems and how to avoid additional cost for unnecessary refinements on new systems. After all, if you want to make a gold necklace, it’s better to start with just plain gold than to start with a gold watch.&lt;/p&gt;
+
+&lt;h2 id=&quot;evolution-a-communal-challenge-and-a-call-to-arms&quot;&gt;Evolution: A communal challenge and a call to arms&lt;/h2&gt;
+
+&lt;p&gt;We all remember what happened with &lt;a href=&quot;http://en.wikipedia.org/wiki/Heartbleed&quot;&gt;Heartbleed&lt;/a&gt;, right? It was a &lt;a href=&quot;http://www.nytimes.com/2014/04/19/technology/heartbleed-highlights-a-contradiction-in-the-web.html&quot;&gt;failing of the community&lt;/a&gt;, an Internet version of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Tragedy_of_the_commons&quot;&gt;Tragedy of the Commons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, it was surprising for me to see Read &amp;amp; Mill argue that “the end point of this evolution is always a freely available, reliable, open source software project supported by a large, accommodating community.” Surely, it is not &lt;em&gt;always&lt;/em&gt; the case. Sometimes FOSS lacks the robust community support that it needs, as was the case with Heartbleed. Sometimes FOSS goes &lt;em&gt;kaput&lt;/em&gt; once the &lt;a href=&quot;http://www.theatlantic.com/technology/archive/2014/01/on-the-reign-of-benevolent-dictators-for-life-in-software/283139/&quot;&gt;benevolent dictator&lt;/a&gt; moves on.&lt;/p&gt;
+
+&lt;p&gt;I know what they &lt;em&gt;meant&lt;/em&gt;, which is that FOSS explicitly allows for communities to emerge around tools, and that maturation and extensibility of software can be improved when it is FOSS. But, we should not assume that FOSS is teleological. It isn’t. A lot of software–all software really–needs assiduous attention. That’s why Read &amp;amp; Mill have it exactly right when they say that “It is our hope that ten years from now there may be many people contributing to Federal open source projects under tight code review.”&lt;/p&gt;
+
+&lt;p&gt;This aspiration–that government’s source code will be constantly scrutinized and improved-upon–is an implicit and accurate critique of the &lt;em&gt;status quo&lt;/em&gt;. If government software is closed source, it will always be up to the government and its vendors to tend to the bugs and design errors  in the system. We gain none of the benefit of the broad–and growing–open-source community. But if the government is both &lt;em&gt;contributing&lt;/em&gt; to open source and &lt;em&gt;participating&lt;/em&gt; in the open-source ecosystem, there is a greater chance that our software systems will stand the tests of time. &lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Notwithstanding my two proposed refinements to their article, Read &amp;amp; Mill have it completely right in the end: “Code that you write or contract to have written should be open source from the start, because it relieves you of the terrible risk and burden of maintaining the secrecy of the codebase.” Such good advice.&lt;/p&gt;
+</description>
+      <link>https://esq.io//blog/posts/in-praise-of-commoditization/</link>
+      <guid>https://esq.io//blog/posts/in-praise-of-commoditization/</guid>
+      <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>Court Statistics: Part I</title>
       <description>&lt;p&gt;This weekend, I spent approximately 16 hours sitting in a windowless meeting room in a Chicago hotel discussing specific processes for &lt;a href=&quot;http://uniformlaws.org/Committee.aspx?title=Family%20Law%20Arbitration&quot;&gt;arbitrating family-law&lt;/a&gt; disputes. This is how &lt;a href=&quot;http://www.uniformlaws.org&quot;&gt;Uniform Law Commissioners&lt;/a&gt; like me get our kicks.&lt;/p&gt;
 
 &lt;p&gt;During the weekend, I learned of a recent article entitled &lt;a href=&quot;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2398550&quot;&gt;&lt;em&gt;Let’s Stop Spreading Rumors About Settlement and Litigation: A Comparative Study of Settlement and Litigation in Hawaii Courts&lt;/em&gt;&lt;/a&gt;, written by one my fellow commissioners, the &lt;a href=&quot;http://www.vestedinteresthawaii.com/&quot;&gt;multi-talented&lt;/a&gt; Elizabeth Kent and her co-author John Barkai.&lt;/p&gt;
 
 &lt;p&gt;Based on this article, I plan on writing three blog posts about judicial data and, hopefully, make the case for lawyers and the courts to think more critically about the need for good judicial data.&lt;/p&gt;
+
+&lt;!--break--&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;/assets/images/jurytrial.png&quot; alt=&quot;Trial by Jury - Chaos in the Courtroom&quot; width=&quot;100%&quot; /&gt;
@@ -39,8 +116,8 @@
 &lt;p&gt;In the courts, the data may cause courts to evaluate and calibrate the degree to which judicial settlement conferences and mandatory mediation should be used. Among the remarkable findings is this: “pretrial conferences” had a significantly greater impact on settlement in 2007 compared to 1996. Another is that cases were more likely to settle contemporaneously to a judicial proceeding in 2007 compared to 1996. It would be interesting to know if these trends are true throughout the states and, if so, why.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/assets/images/discovery-impact-on-settlement.png&quot; alt=&quot;Discovery&#39;s Impact on Settlement&quot; width=&quot;100%&quot; /&gt;
-&lt;figcaption&gt;Data on discovery&#39;s impact on settlement.&lt;/figcaption&gt;
+&lt;img src=&quot;/assets/images/discovery-impact-on-settlement.png&quot; alt=&quot;Discovery's Impact on Settlement&quot; width=&quot;100%&quot; /&gt;
+&lt;figcaption&gt;Data on discovery's impact on settlement.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The data also confirms that discovery played a bigger role in 2007 than it did in 1996. Courts should be looking closely at their rules to see whether discovery and scheduling practices are more or less likely to result in successful alternative dispute resolution.&lt;/p&gt;

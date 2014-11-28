@@ -4,7 +4,7 @@ posttitle: "Court Statistics: Part I"
 subtitle: 'Why we may need to open a "floodgate" of judicial data'
 date: 2014-11-15
 layout: post
-newest: true
+newest: fallse
 ---
 
 This weekend, I spent approximately 16 hours sitting in a windowless meeting room in a Chicago hotel discussing specific processes for [arbitrating family-law](http://uniformlaws.org/Committee.aspx?title=Family%20Law%20Arbitration) disputes. This is how [Uniform Law Commissioners](http://www.uniformlaws.org) like me get our kicks.
@@ -12,6 +12,8 @@ This weekend, I spent approximately 16 hours sitting in a windowless meeting roo
 During the weekend, I learned of a recent article entitled [*Let's Stop Spreading Rumors About Settlement and Litigation: A Comparative Study of Settlement and Litigation in Hawaii Courts*](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2398550), written by one my fellow commissioners, the [multi-talented](http://www.vestedinteresthawaii.com/) Elizabeth Kent and her co-author John Barkai.
 
 Based on this article, I plan on writing three blog posts about judicial data and, hopefully, make the case for lawyers and the courts to think more critically about the need for good judicial data.
+
+<!--break-->
 
 <figure>
 <img src="/assets/images/jurytrial.png" alt="Trial by Jury - Chaos in the Courtroom" width="100%">
