@@ -1,7 +1,12 @@
 <html>
 <head>
 {% include head.html %}
-<title>V. David Zvenyach's Blog</title>
+<title>V. David Zvenyach's Blog -- {{page.posttitle}}</title>
+<meta property="og:title" content="{{page.posttitle}}" />
+<meta name="description" content="{{ page.content | split:'<!--break-->' | first | strip_html }}">
+<meta property="og:description" content="{{ page.content | split:'<!--break-->' | first | strip_html }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://esq.io/assets/images/bronzefonze.jpg" /> 
 </head>
 <body>
 <div class="container">

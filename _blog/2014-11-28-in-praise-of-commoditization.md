@@ -9,12 +9,14 @@ newest: true
 
 Earlier this week, Dr. Robert Read and [Eric Mill](https://konklone.com) penned an article for the [18F blog](https://18f.gsa.gov), entitled [How to Use More Open Source in Your Next Federal IT Acquisition](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/). It's an important article for a variety of reasons. Most of it is a pitch-perfect explanation of why open-source tools are more important than ever, and why federal (and *ahem* local and state governments) should be looking for opportunities to use open-source tools.
 
+<!--break-->
+
 > "It's important that every Federal CIO, CTO, Architect, and Program Manager seeking to build or procure new IT projects understand that open source exists, that it can be of high quality and highly reusable, and how to use it securely."
 > - Dr. Robert Read & Eric Mill 
 
 Couldn't agree more.
 
-But there were two aspects of the post that jumped out at me: (1) the article's definition of commodity; and (2) the impression that the maturation of open-source tools is essentially teleological. Neither aspect is essential to their argument. And I imagine that the authors might even refine their points if the post were longer. That said, dwelling on the nuances of these two points can lead to an greater understanding of *why* open source matters.    
+But there were two aspects of the post that jumped out at me: (1) the article's definition of commodity; and (2) the impression that the maturation of open-source tools is essentially teleological. Neither aspect is essential to their argument. And I imagine that the authors might even refine their points if the post were longer. That said, dwelling on the nuances of these two points can lead to an greater understanding of *why* open source matters. 
 
 ## WAR(E): What is It Good For?
 
