@@ -2,12 +2,13 @@
 <head>
 {% include head.html %}
 <title>V. David Zvenyach's Blog -- {{page.posttitle}}</title>
+<meta property="og:site_name" content="esq.io" />
 <meta property="og:title" content="{{page.posttitle}}" />
 <meta name="description" content="{{ page.content | split:'<!--break-->' | first | strip_html }}">
 <meta property="og:description" content="{{ page.content | split:'<!--break-->' | first | strip_html }}" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@vdavez">
-<meta property="og:image" content="https://esq.io/assets/images/bronzefonze.jpg" /> 
+<meta property="og:image:secure_url" content="https://esq.io/assets/images/bronzefonze.jpg" /> 
 </head>
 <body>
 <div class="container">
