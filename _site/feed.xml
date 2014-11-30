@@ -8,6 +8,65 @@
     <atom:link href="https://esq.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Client Confidentiality on Trello?</title>
+      <description>&lt;p&gt;This weekend I signed up for &lt;a href=&quot;trello.com&quot;&gt;Trello&lt;/a&gt;. I started playing around with it, started liking it, and then I hit a snag. There’s no &lt;strong&gt;two-factor authentication&lt;/strong&gt; (“2FA”). &lt;/p&gt;
+
+&lt;p&gt;As a practicing lawyer obligated to protect client confidentiality, this is a major barrier to entry. Fortunately, Trello has &lt;a href=&quot;https://trello.com/c/O6DrHazq/1532-two-factor-authentication&quot;&gt;announced that 2FA is on the way&lt;/a&gt;. This is a great development. Read on for why this matters, especially for lawyers like me.
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-trello&quot;&gt;What is Trello?&lt;/h2&gt;
+
+&lt;p&gt;I’d heard about Trello, which all the kids seem to be using nowadays &lt;a href=&quot;http://www.tommasonervegna.com/blog/2014/1/9/10-effective-tips-for-using-trello-as-an-agile-scrum-project-management-tool&quot;&gt;for agile development&lt;/a&gt;, and I was intrigued by a particular public Trello board so I signed up. Then I read a recent post by &lt;a href=&quot;https://twitter.com/ghelleks&quot;&gt;@ghelleks&lt;/a&gt; about &lt;a href=&quot;https://atechnologyjobisnoexcuse.com/2014/11/getting-things-done-with-trello-and-remember-the-milk/&quot;&gt;using Trello and Remember the Milk&lt;/a&gt; and I figured I’d spend a little more time digging around.&lt;/p&gt;
+
+&lt;p&gt;It’s a neat, deceptively simple, system. I can see why folks use it, but then I realized that it lacked 2FA support…&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-2fa&quot;&gt;What is 2FA?&lt;/h2&gt;
+
+&lt;p&gt;At &lt;a href=&quot;http://transparencycamp.org/&quot;&gt;transparency camp&lt;/a&gt; last year, &lt;a href=&quot;https://twitter.com/paulschreiber&quot;&gt;Paul Schreiber&lt;/a&gt; led a session of security on the Internet. Among the important takeaways? &lt;strong&gt;Use multi-factor authentication&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Multi-factor authentication requires that, in order to gain access to information, you must prove to the system at least two of the following three things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;That you know something that only you can know (e.g., password);&lt;/li&gt;
+  &lt;li&gt;That you possess something that only you possess or have access to (e.g., phone or email); or &lt;/li&gt;
+  &lt;li&gt;That you &lt;em&gt;are&lt;/em&gt; something that only you can be (e.g., a fingerprint). &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The most common implementation of multi-factor authentication is 2FA, where you must provide a password and have access to your phone.&lt;/p&gt;
+
+&lt;p&gt;The reason this is important is that &lt;a href=&quot;http://www.cnn.com/2014/09/02/showbiz/hacked-nude-photos-five-things/&quot;&gt;guessing or stealing a password is not too hard&lt;/a&gt; through what’s called a “brute-force attack.” This is especially true if you use &lt;a href=&quot;http://www.wired.co.uk/news/archive/2013-05/28/password-cracking&quot;&gt;easy-to-guess passwords&lt;/a&gt;. But guessing or stealing a password &lt;em&gt;and&lt;/em&gt; having access to your phone at the same time &lt;em&gt;is&lt;/em&gt; hard. So the likelihood of hacking is dramatically reduced when you use 2FA.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-does-it-matter-that-trello-doesnt-support-2fa&quot;&gt;Why does it matter that Trello doesn’t support 2FA?&lt;/h2&gt;
+
+&lt;p&gt;For some folks, privacy and confidentiality is just a smart thing. But for &lt;em&gt;lawyers&lt;/em&gt;, we are &lt;a href=&quot;http://www.americanbar.org/publications/gpsolo_ereport/2012/september_2012/ethics_cloud_computing_lawyers.html&quot;&gt;ethically obligated to maintain client confidentiality&lt;/a&gt;. This means, for example, lawyers must consider the following information before putting client information in the cloud:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the sensitivity of the information, the likelihood of disclosure if additional safeguards are not employed, the cost of employing additional safeguards, the difficulty of implementing the safeguards, and the extent to which the safeguards adversely affect the lawyer’s ability to represent clients (e.g., by making a device or important piece of software excessively difficult to use).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words, using Trello is probably unwise for sensitive client information. It may not get you disbarred, but I personally won’t do it. Trello can only be a plaything for me unless 2FA is available. And after hunting through the help files to find 2FA, I came up broke. Bummer.&lt;/p&gt;
+
+&lt;h2 id=&quot;fa-on-the-way&quot;&gt;2FA on the way&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://joshldavis.com/&quot;&gt;One developer&lt;/a&gt; set up a site &lt;a href=&quot;https://twofactorauth.org&quot;&gt;https://twofactorauth.org&lt;/a&gt; (source code: &lt;a href=&quot;https://github.com/jdavis/twofactorauth&quot;&gt;https://github.com/jdavis/twofactorauth&lt;/a&gt;) that keeps track of important sites that support (or don’t support) 2FA:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;a href=&quot;https://twofactorauth.org&quot; target=&quot;blank&quot;&gt;&lt;img src=&quot;/assets/images/twofactorauthdotorg.png&quot; alt=&quot;Screenshot of twofactorauth.org&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;Screenshot of twofactorauth.org&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When I learned that Trello didn’t support 2FA, I sent in an email asking them to support it. Then I learned that the &lt;a href=&quot;https://trello.com/c/O6DrHazq/1532-two-factor-authentication&quot;&gt;feature is “In Progress”&lt;/a&gt;. This little feature will help lawyers have a little more assurance that their clients’ confidential information is protected.&lt;/p&gt;
+
+&lt;p&gt;I hope Trello moves quickly on implementing 2FA. When it does, I expect it will become an important part of my workflow. I’m excited to give it a go.&lt;/p&gt;
+
+&lt;p&gt;And, if you’re a Trello user, &lt;strong&gt;especially if you’re a lawyer&lt;/strong&gt;, &lt;a href=&quot;https://trello.com/c/O6DrHazq/1532-two-factor-authentication&quot;&gt;head over to Trello’s Development Board and give a thumb’s up to 2FA&lt;/a&gt;!&lt;/p&gt;
+</description>
+      <link>https://esq.io//blog/posts/client-confidentiality-on-trello/</link>
+      <guid>https://esq.io//blog/posts/client-confidentiality-on-trello/</guid>
+      <pubDate>Sat, 29 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>In Praise of Commoditization</title>
       <description>&lt;p&gt;Earlier this week, Dr. Robert Read and &lt;a href=&quot;https://konklone.com&quot;&gt;Eric Mill&lt;/a&gt; penned an article for the &lt;a href=&quot;https://18f.gsa.gov&quot;&gt;18F blog&lt;/a&gt;, entitled &lt;a href=&quot;https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/&quot;&gt;How to Use More Open Source in Your Next Federal IT Acquisition&lt;/a&gt;. It’s an important article for a variety of reasons. Most of it is a pitch-perfect explanation of why open-source tools are more important than ever, and why federal (and &lt;em&gt;ahem&lt;/em&gt; local and state governments) should be looking for opportunities to use open-source tools.&lt;/p&gt;
 

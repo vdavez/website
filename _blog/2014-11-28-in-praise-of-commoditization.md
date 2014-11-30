@@ -4,7 +4,7 @@ posttitle: "In Praise of Commoditization"
 subtitle: 'Open source takes a village'
 date: 2014-11-28
 layout: post
-newest: true
+newest: false
 ---
 
 Earlier this week, Dr. Robert Read and [Eric Mill](https://konklone.com) penned an article for the [18F blog](https://18f.gsa.gov), entitled [How to Use More Open Source in Your Next Federal IT Acquisition](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/). It's an important article for a variety of reasons. Most of it is a pitch-perfect explanation of why open-source tools are more important than ever, and why federal (and *ahem* local and state governments) should be looking for opportunities to use open-source tools.
