@@ -1,7 +1,7 @@
 ---
 title: client-confidentiality-on-trello
 posttitle: "Client Confidentiality on Trello?"
-subtitle: "Why Two-Factor Authentication matters for lawyers who want to use the agile tool"
+subtitle: "Why two-factor authentication matters for lawyers who want to use the agile tool"
 date: 2014-11-29
 layout: post
 newest: true
