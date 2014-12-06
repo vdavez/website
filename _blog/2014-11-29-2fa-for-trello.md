@@ -4,7 +4,7 @@ posttitle: "Client Confidentiality on Trello?"
 subtitle: "Why two-factor authentication matters for lawyers who want to use the agile tool"
 date: 2014-11-29
 layout: post
-newest: true
+newest: false
 ---
 
 This weekend I signed up for [Trello](trello.com). I started playing around with it, started liking it, and then I hit a snag. There's no **two-factor authentication** ("2FA"). 
