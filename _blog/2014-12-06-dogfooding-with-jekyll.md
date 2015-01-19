@@ -4,7 +4,7 @@ posttitle: "Dogfooding with Jekyll"
 subtitle: "Using the new `data_source` configuration to serve mankind"
 date: 2014-11-29
 layout: post
-newest: true
+newest: false
 image: "https://esq.io/assets/images/Dog_food_203365.jpg"
 ---
 

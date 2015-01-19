@@ -13,6 +13,10 @@ title: Projects
 
 [@SCOTUS_servo](https://twitter.com/scotus_servo) is a project to keep track of Supreme Court opinions and, specifically, to identify changes in them. Here is [a presentation about @SCOTUS_servo](https://esq.io/presentations/scotus-servo-presentation.html) and [here is the source code](https://github.com/vzvenyach/scotus-servo). It is built using Node.
 
+### HTMLDecks
+
+[HTMLDecks](https://htmldecks.com) lets users create simple presentations using free and open-source software, hosted for free on the web. It is built using Node and ExpressJS, and uses MongoDB as the database. Here is the [source code](https://github.com/vzvenyach/htmldecks). 
+
 ### Legal Markdown
 
 [LegalMarkdownJS](http://legalmarkdown.com) is an effort to build a browser-based editor for legal documents. It is built using Node, React, and Browserify. Here is [the source code](https://github.com/vzvenyach/legalmd).
