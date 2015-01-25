@@ -5,7 +5,7 @@ subtitle: "A neat trick for document automation"
 date: 2015-01-25
 layout: post
 newest: true
-image: ""
+image: "https://esq.io/assets/images/word_templates.png"
 ---
 
 I'm going to say something nice about Microsoft Word: there's a simple loophole to its impossibly [ornate OOXML schema](http://www.ecma-international.org/publications/standards/Ecma-376.htm) that allows for document templating. If you are trying to do some document automation for Word documents from Python (or other languages, I suppose), listen up.
