@@ -16,4 +16,6 @@ On the side, I am an ["accomplished armchair coder"](http://www.washingtonpost.c
 
 ## Contact
 
-You can follow my public thoughts in 140 characters or fewer on [Twitter](https://twitter.com/vdavez) or track my coding on [GitHub](https://github.com/vzvenyach). Or you can email me at [dave@esq.io](mailto:dave@esq.io).
+You can follow my public thoughts in 140 characters or fewer on [Twitter](https://twitter.com/vdavez) or track my coding on [GitHub](https://github.com/vzvenyach). Or you can email me at [dave@esq.io](mailto:dave@esq.io). 
+
+My PGP Fingerprint is `29B2 457A EA32 F18C 6F35  3193 10CD A186 4AA7 5D7C` and you can view my [PGP Key here](/vdavez_key.asc).
