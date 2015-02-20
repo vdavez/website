@@ -9,7 +9,7 @@ newest: false
 
 This weekend I signed up for [Trello](trello.com). I started playing around with it, started liking it, and then I hit a snag. There's no **two-factor authentication** ("2FA"). 
 
-As a practicing lawyer obligated to protect client confidentiality, this is a major barrier to entry. <del>Fortunately, Trello has [announced that 2FA is on the way](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This is a great development.</del> Unfortunately, on February 20, 2015, Trello indicated that [2FA is not a priority](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). Read on for why this matters, especially for lawyers like me. 
+As a practicing lawyer obligated to protect client confidentiality, this is a major barrier to entry. <del>Fortunately, Trello has [announced that 2FA is on the way](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This is a great development.</del> <del>Unfortunately, on February 20, 2015, Trello indicated that [2FA is not a priority](https://trello.com/c/O6DrHazq/1532-two-factor-authentication).</del> Trello has [announced that 2FA is In Progress](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). Read on for why this matters, especially for lawyers like me. 
 <!--break-->
 
 ## What is Trello?
@@ -49,7 +49,7 @@ In other words, using Trello is probably unwise for sensitive client information
 <figcaption>Screenshot of twofactorauth.org</figcaption>
 </figure>
 
-When I learned that Trello didn't support 2FA, I sent in an email asking them to support it. <del>Then I learned that the [feature is "In Progress"](https://trello.com/c/O6DrHazq/1532-two-factor-authentication).</del> This little feature will help lawyers have a little more assurance that their clients' confidential information is protected, but apparently (and I'm sorry that this is so) 2FA has been put on the backburner.
+When I learned that Trello didn't support 2FA, I sent in an email asking them to support it. <del>Then I learned that the [feature is "In Progress"](https://trello.com/c/O6DrHazq/1532-two-factor-authentication).</del> On February 20, 2015, Trello indicated that 2FA would be backburnered, but this appears to have been reversed and is back ["In Progress"](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This little feature will help lawyers have a little more assurance that their clients' confidential information is protected, but apparently (and I'm sorry that this is so) 2FA has been put on the backburner.
 
 I hope Trello moves quickly on implementing 2FA. When it does, I expect it will become an important part of my workflow. I'm excited to give it a go.
 
