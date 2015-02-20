@@ -9,7 +9,7 @@ newest: false
 
 This weekend I signed up for [Trello](trello.com). I started playing around with it, started liking it, and then I hit a snag. There's no **two-factor authentication** ("2FA"). 
 
-As a practicing lawyer obligated to protect client confidentiality, this is a major barrier to entry. Fortunately, Trello has [announced that 2FA is on the way](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This is a great development. Read on for why this matters, especially for lawyers like me.
+As a practicing lawyer obligated to protect client confidentiality, this is a major barrier to entry. <del>Fortunately, Trello has [announced that 2FA is on the way](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This is a great development.</del> Unfortunately, on February 20, 2015, Trello indicated that [2FA is not a priority](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). Read on for why this matters, especially for lawyers like me. 
 <!--break-->
 
 ## What is Trello?
