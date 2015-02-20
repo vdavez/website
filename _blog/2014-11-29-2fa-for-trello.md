@@ -49,7 +49,7 @@ In other words, using Trello is probably unwise for sensitive client information
 <figcaption>Screenshot of twofactorauth.org</figcaption>
 </figure>
 
-When I learned that Trello didn't support 2FA, I sent in an email asking them to support it. Then I learned that the [feature is "In Progress"](https://trello.com/c/O6DrHazq/1532-two-factor-authentication). This little feature will help lawyers have a little more assurance that their clients' confidential information is protected.
+When I learned that Trello didn't support 2FA, I sent in an email asking them to support it. <del>Then I learned that the [feature is "In Progress"](https://trello.com/c/O6DrHazq/1532-two-factor-authentication).</del> This little feature will help lawyers have a little more assurance that their clients' confidential information is protected, but apparently (and I'm sorry that this is so) 2FA has been put on the backburner.
 
 I hope Trello moves quickly on implementing 2FA. When it does, I expect it will become an important part of my workflow. I'm excited to give it a go.
 
