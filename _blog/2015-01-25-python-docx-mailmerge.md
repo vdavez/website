@@ -4,7 +4,7 @@ posttitle: "Mailmerge for Word Docs... in Python?"
 subtitle: "A neat trick for document automation"
 date: 2015-01-25
 layout: post
-newest: true
+newest: false
 image: "https://esq.io/assets/images/word_templates.png"
 ---
 
