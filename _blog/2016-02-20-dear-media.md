@@ -52,7 +52,7 @@ From the journalist's perspective, it should be a no-brainer. One of the standar
 
 From a legal perspective, there is no good reason _not_ to make a copy of the court filings and link to them. After all, *court filings enjoy no copyright protections.*
 
-Making a copy of court filings solves another problem, too: expanding legal access. Unfortunately, despite being in the public domain, many filings exist behind a paywall;; providing a publicly available copy of a file will increase public access (not to mention future discoverability) to the law. To the extent those case filings that are _not_ already on the internet behind a paywall, there's *even greater* reason to make a digital copy and share it.
+Making a copy of court filings solves another problem, too: expanding legal access. Unfortunately, despite being in the public domain or protected by fair use, many filings exist behind a paywall; providing a publicly available copy of a file will increase public access (not to mention future discoverability) to the law. To the extent those case filings that are _not_ already on the internet behind a paywall, there's *even greater* reason to make a digital copy and share it.
 
 Finally, making a publicly available copy helps to prevent [link rot](http://www.abajournal.com/magazine/article/link_rot_is_degrading_legal_research_and_case_cites/) of legal documents.
 
