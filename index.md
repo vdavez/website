@@ -13,5 +13,9 @@ layout: home
 ### Learn [about me](pages/about.html) and [what I'm doing](pages/projects.html).
 {: .text-center}
 
-### [Follow me on Twitter](http://twitter.com/vdavez).
+### Read my [blog posts](blog).
+{: .text-center}
+
+
+### Follow me on [Twitter](https://twitter.com/vdavez) and [GitHub](https://github.com/vzvenyach).
 {: .text-center}
