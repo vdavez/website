@@ -4,7 +4,7 @@ posttitle: "On links to court filings"
 subtitle: "Journalists should link to court filings by default"
 date: 2016-02-20
 layout: post
-newest: true
+newest: false
 ---
 
 Dear Media,
