@@ -4,12 +4,12 @@ posttitle: "Storytelling and federal procurement"
 subtitle: "A lesson in how to explain complicated things"
 date: 2016-06-05
 layout: post
-newest: true
+newest: false
 ---
 
 Last week, after chatting about challenges in federal procurement, a colleague suggested a book entitled the "Free Enterprise Patriot." The opening statement of the book sets the stage:
 
-<!-- break -->
+<!--break-->
 
 > Had the complexity of today's bureaucratic government existed when the War of Independence began, this is how it might have been, with one exception ... we probably wouldn’t have won.
 
