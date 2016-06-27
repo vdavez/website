@@ -2,7 +2,7 @@
 title: dc-code-in-beta
 posttitle: "The Code of the District of Columbia is now available online"
 subtitle: "And I couldn't be happier"
-date: 2016-06-24
+date: 2016-06-26
 layout: post
 newest: true
 ---
