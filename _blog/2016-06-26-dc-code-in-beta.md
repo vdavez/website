@@ -7,7 +7,7 @@ layout: post
 newest: true
 ---
 
-At long last, the [Code of the District of Columbia](https://beta.code.dccouncil.us/dc/council/code/) has a permanent URL, within the <dccouncil.us> domain. This may not seem like a big deal, but this simple event is the culmination of years of effort, and I couldn't possibly be happier.
+At long last, the [Code of the District of Columbia](https://beta.code.dccouncil.us/dc/council/code/) has a permanent URL, within the [dccouncil.us](http://dccouncil.us) domain. This may not seem like a big deal, but this simple event is the culmination of years of effort, and I couldn't possibly be happier.
 
 <!--break-->
 
