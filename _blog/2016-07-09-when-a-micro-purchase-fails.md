@@ -4,7 +4,7 @@ posttitle: "When a micro-purchase doesn’t work out, we try to learn from it"
 subtitle: "Lessons from the trenches"
 date: 2016-07-09
 layout: post
-newest: true
+newest: false
 ---
 
 This week, I co-authored a blog post for the 18F blog, entitled: [When a micro-purchase doesn’t work out, we try to learn from it](https://18f.gsa.gov/2016/07/07/when-a-micropurchase-doesnt-work-out-we-try-to-learn-from-it/
