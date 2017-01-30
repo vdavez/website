@@ -4,9 +4,7 @@
    Author's custom styles
    ========================================================================== */
 
-body {
-	background-image: url("/assets/images/tiles.png");
-}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -21,7 +19,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 200%;
-
+	background-image: url("/assets/images/tiles.png");
 }
 
 .post {
