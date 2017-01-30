@@ -5,17 +5,17 @@ layout: home
 ---
 
 # V. David Zvenyach
-{: .text-center}
+{: .text-center style="padding-top:40"}
 
-## _Lawyer. Web tinkerer._
-{: .text-center style="padding-top:0"}
+## _Lawyer. Web tinkerer. Bureaucracy Hacker._
+{: .text-center style="padding-top:40"}
 
 ### Learn [about me](pages/about.html) and [what I'm doing](pages/projects.html).
-{: .text-center}
+{: .text-center style="padding-top:40"}
 
 ### Read my [blog posts](blog).
 {: .text-center}
 
 
-### Follow me on [Twitter](https://twitter.com/vdavez) and [GitHub](https://github.com/vzvenyach).
+### Follow me on [Twitter](https://twitter.com/vdavez), [GitHub](https://github.com/vzvenyach), and [LinkedIn](https://linkedin.com/in/vdavez).
 {: .text-center}

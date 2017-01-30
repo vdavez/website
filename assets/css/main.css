@@ -5,7 +5,7 @@
    ========================================================================== */
 
 body {
-	background-color: #FEFDFC
+	background-image: url("/assets/images/tiles.png");
 }
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -23,6 +23,11 @@ body {
     font-size: 200%;
 
 }
+
+.post {
+	color: #111;
+}
+
 .footer {
   position: absolute;
   text-align: center;
@@ -39,9 +44,13 @@ body {
 /* Not required for template or sticky footer method. */
 
 .container {
+  background-color: #FEFDFC;
+  opacity: 0.95;
   width: auto;
+  min-height: 100%;
   max-width: 680px;
   padding: 0 15px;
+  font-family: 'Roboto Slab', serif;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -54,7 +63,7 @@ body {
 	text-align: center;
 }
 
-.navbar-inverse { background-color: #777777;}
+.navbar-inverse { background-color: #444;}
 .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #999999}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #111111}
 .dropdown-menu { background-color: #FFFFFF}
@@ -64,7 +73,7 @@ body {
 .navbar-inverse { border-color: #080808}
 .navbar-inverse .navbar-brand { color: #FFFFFF}
 .navbar-inverse .navbar-brand:hover { color: #999999}
-.navbar-inverse .navbar-nav>li>a { color: #EEEEEE}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
