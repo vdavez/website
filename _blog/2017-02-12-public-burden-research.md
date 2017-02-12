@@ -33,6 +33,7 @@ So, now that we have the data and it's parsed, where to begin? Let's see what th
 print(str(etree.tostring(root[0], pretty_print = True).decode('UTF-8')))
 ```
 
+```
     <InformationCollectionRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OMBControlNumber>0503-0007</OMBControlNumber>
             <ICRReferenceNumber>201405-0503-002</ICRReferenceNumber>
@@ -160,9 +161,7 @@ print(str(etree.tostring(root[0], pretty_print = True).decode('UTF-8')))
                 </ConcludedDate>
             </OIRAConclusion>
         </InformationCollectionRequest>
-
-
-
+```
 
 Well, would you look at that?! There's an `AvailableElectronically` element.
 
