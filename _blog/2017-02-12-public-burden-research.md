@@ -1,7 +1,7 @@
 ---
 title: public-burden-research
-posttitle: "Public Burden Research using OIRA data"
-subtitle: "Using data to calculate public burden"
+posttitle: "Calculating public burden using OIRA data"
+subtitle: "An experiment in using open data to make government better"
 date: 2017-02-12
 layout: post
 newest: true
