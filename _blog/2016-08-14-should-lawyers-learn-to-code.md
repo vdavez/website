@@ -4,7 +4,7 @@ posttitle: "Should lawyers learn to code?"
 subtitle: "Yes, but we should not strive to be coders"
 date: 2016-08-14
 layout: post
-newest: true
+newest: false
 ---
 
 For the past several years, I've been asked one question many times: "should lawyers learn to code?" Over those years, my view has been _mostly_ consistent... "yes, lawyers should learn to code." Probably unsurprising, given that I wrote [Coding for Lawyers](http://codingforlawyers.com) several years ago.
@@ -47,4 +47,4 @@ Whether lawyers will _choose_ to learn to code is a different question, and one 
 
 [^2]: For what it's worth, understanding a little bit of code can make lawyers much better consumers of technology and to allow lawyers to ask the right questions. If nothing else, basic understanding of coding can provide a sanity check on some of the more fantastic claims that lawyers will no doubt encounter in the #legaltech space.
 
-[^3]: It is necessary here to address the [critique by Eddie Hartman](https://twitter.com/EddieRHartman/status/764292230580310016), that lawyers equate "learning to code" with "working with coders." I can only speak from personal experience, but I have found that learning to code actually _did_ allow me to work better with coders. I don't expect that understanding how to use a `map` function will magically enable lawyers to communicate with engineers. But it certainly could help lawyers better understand how an engineer approaches her work, and through that understanding gain greater empathy for the beautiful complexity of production code. And, for what it's worth, coders don't get a pass here either; [building with](http://www.buildwith.org/) is still very much a work in progress... 
+[^3]: It is necessary here to address the [critique by Eddie Hartman](https://twitter.com/EddieRHartman/status/764292230580310016), that lawyers equate "learning to code" with "working with coders." I can only speak from personal experience, but I have found that learning to code actually _did_ allow me to work better with coders. I don't expect that understanding how to use a `map` function will magically enable lawyers to communicate with engineers. But it certainly could help lawyers better understand how an engineer approaches her work, and through that understanding gain greater empathy for the beautiful complexity of production code. And, for what it's worth, coders don't get a pass here either; [building with](http://www.buildwith.org/) is still very much a work in progress...
