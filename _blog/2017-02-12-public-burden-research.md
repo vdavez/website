@@ -210,7 +210,7 @@ newest: true
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Well, would you look at that?! There's an <code>AvailableElectronically</code> element.</p>
 <p>So, how about we try and find all the agencies that have some information collection requests that <em>are not</em> available electronically.</p>
-<p>To do this, we use <code>xpath</code> to find all the Information Collection Requests that has a "AvailableElectronically" element with "No". Then, we simply pick the fields we want to dump into a JSON dict.</p>
+<p>To do this, we use <code>xpath</code> to find all the Information Collection Requests that has a "AvailableElectronically" element with "No". Then, we simply pick the fields we want to dump into a Python dict.</p>
 
 </div>
 </div>
@@ -263,7 +263,7 @@ newest: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now that we have a JSON dict, time for the payoff. We sum the burden for each Information Collection Request and print the results.</p>
+<p>Now that we have a Python dict, time for the payoff. We sum the burden for each Information Collection Request and print the results.</p>
 
 </div>
 </div>
