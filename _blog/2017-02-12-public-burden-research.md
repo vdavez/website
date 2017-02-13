@@ -4,7 +4,7 @@ posttitle: "Calculating public burden using OIRA data"
 subtitle: "An experiment in using open data to make government better"
 date: 2017-02-12
 layout: post
-newest: true
+newest: false
 ---
 
 <div class="cell border-box-sizing text_cell rendered">
@@ -15,6 +15,9 @@ newest: true
 <p>Recently, the new Administration issued an <a href="https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling">Executive Order</a> aimed at Reducing Regulation and Controlling Regulatory Costs. As part of this effort, the Administration is supposed to offset regulated costs.</p>
 <p>So, that got me thinking. The Office of Information and Regulatory Affairs (OIRA) is charged with reviewing not only regulations, but also is charged with reviewing agency's information-collection requests under the Paperwork Reduction Act. And as part of that review, OIRA and the agencies are supposed to track the public burden associated with the information collection.</p>
 <p>As a thought experiment, I decided to see whether we could find some low-hanging fruit, namely paper-based information requests. And the results were interesting...</p>
+
+<!--break-->
+
 <h2 id="The-analysis">The analysis<a class="anchor-link" href="#The-analysis">&#182;</a></h2><p>First, we need to find the data. Fortunately, that data is already available in bulk <a href="https://www.reginfo.gov/public/do/PRAXML">from OIRA</a>. Well done, OIRA.</p>
 <p>From here, it's simple. First we use <a href="http://lxml.de/">lxml</a> to parse the XML file.</p>
 
