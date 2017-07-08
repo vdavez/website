@@ -6,9 +6,9 @@ title: About
 ## About Dave
 
 <img src="/assets/images/Zvenyach.jpg" class=".visible-sm img-circle pull-right" width="200" style="padding:10px" />
-I live in the District of Columbia with my incredibly talented spouse and two young children.
+I live in Madison, WI, with my incredibly talented spouse and two young children.
 
-For my day job, I am the Acting Deputy Commissioner for the General Services Administration Technology Transformation Service (TTS), Acting Executive Director of [18F](https://18f.gsa.gov), and the permanent Assistant Commissioner for the Office of Acquisition for TTS. Previously, I was the General Counsel to the [Council of the District of Columbia](http://dccouncil.us). This website is not, however, an official site and nothing in the site should be construed as either (1) legal advice or solicitation, or (2) an endorsement by the United States Government, or before that, the Council of any of the views, data, or information shared on this site.
+For my day job, I am the Acting [Executive Director of 18F](https://18f.gsa.gov), and Assistant Commissioner for the Office of Acquisition for the General Services Administration's Technology Tranformation Services. Previously, I was the General Counsel to the [Council of the District of Columbia](http://dccouncil.us). This website is not, however, an official site and nothing in the site should be construed as either (1) legal advice or solicitation, or (2) an endorsement by the United States Government, or before that, the Council of any of the views, data, or information shared on this site.
 
 If you're into it, you can read about [what's going on at work](https://18f.gsa.gov/blog/) and [some of the things I worked on while at the Council](http://www.govexec.com/state-local/2014/07/ultimate-open-government-unlocking-laws/87997/).
 
