@@ -10,7 +10,7 @@ layout: home
 ## _Lawyer. Web tinkerer. Bureaucracy Hacker._
 {: .text-center style="padding-top:40"}
 
-### Learn [about me](pages/about.html) and [what I'm doing](pages/projects.html).
+### Learn [about me](pages/about.html).
 {: .text-center style="padding-top:40"}
 
 ### Read my [blog posts](blog).
