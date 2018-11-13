@@ -1,23 +1,28 @@
 <html>
-<head>
-{% include head.html %}
-<meta property="og:site_name" content="esq.io" />
-<meta property="og:title" content="esq.io" />
-<meta name="description" content="A website created by V. David Zvenyach, a gov lawyer who dabbles on the internet.">
-<meta property="og:description" content="A website created by V. David Zvenyach, a gov lawyer who dabbles on the internet." />
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@vdavez">
-<meta property="og:image" content="https://esq.io/assets/images/bronzefonze.jpg" />
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-<title>V. David Zvenyach's Website</title>
-</head>
-<body>
-<div class="container">
-{% include nav.html %}
-<div class="post">
-{{ content | markdownify }}
-</div>
-</div>
-{% include footer.html %}
-</body>
+  <head>
+
+  {% include head.html %}
+
+  <meta property="og:site_name" content="esq.io" />
+  <meta property="og:title" content="esq.io" />
+  <meta name="description" content="A website created by V. David Zvenyach.">
+  <meta property="og:description" content="A website created by V. David Zvenyach." />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@vdavez">
+  <meta property="og:image" content="https://esq.io/assets/images/bronzefonze.jpg" />
+
+  <title>V. David Zvenyach's Website</title>
+  </head>
+  <body>
+    <div class="container">
+      {% include nav.html %}
+
+      <div class="post">
+        {{ content | markdownify }}
+      </div>
+
+    </div>
+  {% include footer.html %}
+
+  </body>
 </html>
