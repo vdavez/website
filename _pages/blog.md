@@ -2,6 +2,7 @@
 title: Home Page
 subtitle: V. David Zvenyach's Blog
 permalink: "/blog/"
+excerpt: none
 layout: home
 ---
 {% assign items = (site.blog | sort 'date') %}
