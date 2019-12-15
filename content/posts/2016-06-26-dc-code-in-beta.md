@@ -4,6 +4,8 @@ newest: false
 posttitle: The Code of the District of Columbia is now available online
 subtitle: And I couldn't be happier
 title: dc-code-in-beta
+aliases: ["/blog/posts/dc-code-in-beta/"]
+
 ---
 
 At long last, the [Code of the District of Columbia](https://beta.code.dccouncil.us/dc/council/code/) has a permanent URL, within the [dccouncil.us](http://dccouncil.us) domain. This may not seem like a big deal, but this simple event is the culmination of years of effort, and I couldn't possibly be happier.

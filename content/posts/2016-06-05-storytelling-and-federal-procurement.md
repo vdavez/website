@@ -4,6 +4,8 @@ newest: false
 posttitle: Storytelling and federal procurement
 subtitle: A lesson in how to explain complicated things
 title: storytelling-and-federal-procurement
+aliases: ["/blog/posts/storytelling-and-federal-procurement/"]
+
 ---
 
 Last week, after chatting about challenges in federal procurement, a colleague suggested a book entitled the "Free Enterprise Patriot." The opening statement of the book sets the stage:

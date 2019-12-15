@@ -7,6 +7,10 @@ enableInlineShortcodes = true
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vzvenyach"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]

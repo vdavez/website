@@ -4,6 +4,8 @@ newest: false
 posttitle: Should lawyers learn to code?
 subtitle: Yes, but we should not strive to be coders
 title: should-lawyers-learn-to-code
+aliases: ["/blog/posts/should-lawyers-learn-to-code/"]
+
 ---
 
 For the past several years, I've been asked one question many times: "should lawyers learn to code?" Over those years, my view has been _mostly_ consistent... "yes, lawyers should learn to code." Probably unsurprising, given that I wrote [Coding for Lawyers](http://codingforlawyers.com) several years ago.

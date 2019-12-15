@@ -4,6 +4,8 @@ newest: false
 posttitle: DC's Voter Rolls are on the Internet
 subtitle: Is this 'Shocking' or is it 'same old same old'?
 title: voter-data-as-public-data
+aliases: ["/blog/posts/voter-data-as-public-data/"]
+
 ---
 
 Earlier this week, the Washington Post [ran an article](https://www.washingtonpost.com/news/the-switch/wp/2016/06/14/d-c-s-board-of-elections-makes-it-shockingly-easy-to-snoop-on-your-fellow-voters/) with a headline destined to scare the crap out of DC's voters: "D.C. makes it shockingly easy to snoop on your fellow voters." But behind this hyperbole was a simple act; the DC Board of Elections posted the voter roll on the internet for public inspection. For those who might not know any better, this must have been quite a surprise. But for close observers of DC's elections, this was, well... a nothingburger. Here's why.

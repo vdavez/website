@@ -6,6 +6,7 @@ posttitle: Hello World
 slug: helloworld
 subtitle: 'Just what the world needs: another blog...'
 title: Hello World
+aliases: ["/blog/posts/helloworld/"]
 ---
 
 I've decided to start a blog. I'll explain more later.

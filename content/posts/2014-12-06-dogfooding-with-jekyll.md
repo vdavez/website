@@ -5,6 +5,8 @@ newest: false
 posttitle: Dogfooding with Jekyll
 subtitle: Using the new `data_source` configuration to serve mankind
 title: dogfooding-with-jekyll
+aliases: ["/blog/posts/dogfooding-with-jekyll/"]
+
 ---
 
 Yesterday, I learned that [Jekyll](http://jekyllrb.com/), the well-known powerful static-site generator, has a little-known feature that is kind of a big deal for open-data sites [hosted on Github](https://help.github.com/articles/using-jekyll-with-pages/).

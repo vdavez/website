@@ -4,6 +4,8 @@ newest: false
 posttitle: Calculating public burden using OIRA data
 subtitle: An experiment in using open data to make government better
 title: public-burden-research
+aliases: ["/blog/posts/public-burden-research/"]
+
 ---
 
 <div class="cell border-box-sizing text_cell rendered">

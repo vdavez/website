@@ -4,6 +4,8 @@ newest: false
 posttitle: My theory about The Americans
 subtitle: Prepare for your mind to be blown
 title: americans-theory
+aliases: ["/blog/posts/americans-theory/"]
+
 ---
 
 This week marked the finale of season 4 of [the Americans](http://www.fxnetworks.com/shows/the-americans/episodes). Like almost everyone else, I loved it. Already, I can barely wait until the next season starts. But as I prepared to watch the finale, I had a nagging thought. I just couldn't let it go. And now, I am absolutely convinced that ... [Warning, serious spoiler alert ahead!]

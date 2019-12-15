@@ -4,6 +4,8 @@ newest: false
 posttitle: On links to court filings
 subtitle: Journalists should link to court filings by default
 title: dear-media
+aliases: ["/blog/posts/dear-media/"]
+
 ---
 
 Dear Media,

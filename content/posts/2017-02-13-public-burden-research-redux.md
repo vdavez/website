@@ -5,6 +5,7 @@ posttitle: Calculating public burden using OIRA data -- Part Two
 subtitle: An experiment in using open data to make government better
 title: public-burden-research-redux
 unsafe: true
+aliases: ["/blog/posts/public-burden-research-redux/"]
 ---
 
 <div class="cell border-box-sizing text_cell rendered">

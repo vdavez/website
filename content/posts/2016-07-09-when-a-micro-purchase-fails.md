@@ -4,6 +4,8 @@ newest: false
 posttitle: When a micro-purchase doesn’t work out, we try to learn from it
 subtitle: Lessons from the trenches
 title: when-a-micro-purchase-fails
+aliases: ["/blog/posts/when-a-micro-purchase-fails/"]
+
 ---
 
 This week, I co-authored a blog post for the 18F blog, entitled: [When a micro-purchase doesn’t work out, we try to learn from it](https://18f.gsa.gov/2016/07/07/when-a-micropurchase-doesnt-work-out-we-try-to-learn-from-it/

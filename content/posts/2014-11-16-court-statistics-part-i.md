@@ -4,6 +4,8 @@ newest: fallse
 posttitle: 'Court Statistics: Part I'
 subtitle: Why we may need to open a "floodgate" of judicial data
 title: court-statistics-part-i
+aliases: ["/blog/posts/court-statistics-part-i/"]
+
 ---
 
 This weekend, I spent approximately 16 hours sitting in a windowless meeting room in a Chicago hotel discussing specific processes for [arbitrating family-law](http://uniformlaws.org/Committee.aspx?title=Family%20Law%20Arbitration) disputes. This is how [Uniform Law Commissioners](http://www.uniformlaws.org) like me get our kicks.

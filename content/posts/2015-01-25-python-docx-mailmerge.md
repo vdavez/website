@@ -5,6 +5,8 @@ newest: false
 posttitle: Mailmerge for Word Docs... in Python?
 subtitle: A neat trick for document automation
 title: python-docx-mailmerge
+aliases: ["/blog/posts/python-docx-mailmerge/"]
+
 ---
 
 I'm going to say something nice about Microsoft Word: there's a simple loophole to its impossibly [ornate OOXML schema](http://www.ecma-international.org/publications/standards/Ecma-376.htm) that allows for document templating. If you are trying to do some document automation for Word documents from Python (or other languages, I suppose), listen up.
