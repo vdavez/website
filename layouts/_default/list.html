@@ -1,0 +1,8 @@
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <h1 class="text-2xl font-black uppercase">{{.Title}}</h1>
+  {{ .Content | safeHTML}}
+{{ end }}

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+}
+
+a {
+  @apply underline;
+}
+
+p {
+  @apply my-4;
+}
+
+h2 {
+  @apply text-lg font-black uppercase mt-3;
+}
+
+h3 {
+  @apply font-bold uppercase mt-3;
+}
+
+li {
+  @apply list-disc ml-4;
+}
+
+blockquote {
+  @apply my-2 pl-8;
+  border-left: 3px solid #ccc;
+}
+
+code {
+  @apply bg-gray-900 text-green-500
+}
+
+@tailwind utilities;

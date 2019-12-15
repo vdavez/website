@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  {{ $css := resources.Get "main.css" }}
+  {{ $style := $css | resources.PostCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body>
+  <div class="flex flex-wrap">
+    <div class="w-full xs:w-full md:w-1/4 lg:pl-24">
+      <header>
+        <div class="py-3 xs:pt-3 md:pt-12 px-3 bg-gray-200 sm:bg-gray-200 md:bg-white">
+          <h1 class="text-4xl"><a class="no-underline" href="/">Dave Zvenyach</a></h1>
+          <p class="mx-4"><a href="/about" class="underline">/about</a></p>
+          <p class="mx-4"><a href="/now" class="underline">/now</a></p>
+        </div>
+      </header>
+    </div>
+    <div class="w-full xs:w-full md:w-3/4 lg:pr-24">
+      <main>
+        <div class="pt-3 xs:pt-3 md:pt-12 px-3 mx-auto md:mr-24 leading-normal">
+        {{ block "main" . }}
+        {{ end }}
+        </div>
+      </main>
+  </div>
+</div>
+  <footer class="">
+    <div class="absolute bottom-0 w-full bg-gray-200">
+      <p class="text-center">V. David Zvenyach. Source Code and Content available <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
