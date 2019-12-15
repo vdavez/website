@@ -1,12 +1,10 @@
 ---
-title: public-burden-research-redux
-posttitle: "Calculating public burden using OIRA data -- Part Two"
-subtitle: "An experiment in using open data to make government better"
-date: 2017-02-13
-layout: post
+date: "2017-02-13T00:00:00Z"
 newest: true
+posttitle: Calculating public burden using OIRA data -- Part Two
+subtitle: An experiment in using open data to make government better
+title: public-burden-research-redux
 unsafe: true
-
 ---
 
 <div class="cell border-box-sizing text_cell rendered">

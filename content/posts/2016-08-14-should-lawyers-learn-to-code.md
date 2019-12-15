@@ -1,10 +1,9 @@
 ---
-title: should-lawyers-learn-to-code
-posttitle: "Should lawyers learn to code?"
-subtitle: "Yes, but we should not strive to be coders"
-date: 2016-08-14
-layout: post
+date: "2016-08-14T00:00:00Z"
 newest: false
+posttitle: Should lawyers learn to code?
+subtitle: Yes, but we should not strive to be coders
+title: should-lawyers-learn-to-code
 ---
 
 For the past several years, I've been asked one question many times: "should lawyers learn to code?" Over those years, my view has been _mostly_ consistent... "yes, lawyers should learn to code." Probably unsurprising, given that I wrote [Coding for Lawyers](http://codingforlawyers.com) several years ago.
@@ -41,7 +40,6 @@ In that sense, I believe that it is _relatively easier_ for the legal community 
 
 Whether lawyers will _choose_ to learn to code is a different question, and one that will no doubt require substantially more discussion, and action. But if we value the idea that lawyers are supposed to be a force for good in the information age, then we need to stop debating whether lawyers should learn to code or not. We should. The sooner the better.
 
-===
 
 [^1]: Some have pointed out that the better analogy might be "should lawyers learn to write fiction." The answer to that question is facially obvious: there's not a person on the planet who thinks that a lawyer should not _learn_ to write fiction. The question of whether a lawyer needs to be a professional writer of fiction, well, I'll leave that to the late-night comics.
 
