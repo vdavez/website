@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 20px;
+}
+
+a {
+  @apply underline;
+}
+
+p {
+  @apply my-4;
+}
+
+@tailwind utilities;

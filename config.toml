@@ -1,0 +1,8 @@
+baseURL = "https://esq.io/"
+footnoteReturnLinkContents = "↩"
+title = "Dave Zvenyach's Website"
+enableInlineShortcodes = true
+
+[params]
+  AuthorName = "V. David Zvenyach"
+  GitHubUser = "vzvenyach"
