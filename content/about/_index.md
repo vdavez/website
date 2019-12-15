@@ -1,10 +1,15 @@
 ---
 title: About
 ---
+<figure class="ml-12 float-right">
+<img src="/images/Zvenyach.png" title="Me" alt="Photo of Dave Zvenyach" class="h-48">
+<figcaption class="text-center">That's me!</figcaption>
+</figure>
 
 Dave Zvenyach is an attorney, strategist, author, full-stack software developer, and innovative former government executive who helps businesses and government work smarter, together.
 
 Dave has unique expertise on all things public sector; he’s held positions in all three branches of government, as well as at the federal, state, and local levels. He served as a Senior Technical Advisor and Assistant Commissioner for the US General Service Administration’s Federal Acquisition Service Office of Systems Management; Executive Director of 18F; Deputy Commissioner for the GSA Technology Transformation Service (“TTS”); Assistant Commissioner for the TTS Office of Acquisition; General Counsel to the DC Council; Chief of Staff to Councilmember Mary Cheh; and judicial law clerk to United States District Judge Yvette Kane.
+
 
 Dave has written on diverse topics, including a book entitled Coding for Lawyers, a chapter on Political Law for the DC Bar Practice Manual, and about a variety of technical and legal topics on his blog. Dave is also a teacher, having served as an Adjunct Professor at the George Washington University Law School, a facilitator for the Digital Services IT Acquisition Professional program, and an instructor for a Continuing Legal Education course through the DC Bar on Legislative Drafting.
 
