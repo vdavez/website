@@ -3,10 +3,12 @@
 {{ end }}
 
 {{ define "main" }}
+  <div class="shadow-2xl p-3">
 
   {{ range where .Site.RegularPages "Section" "posts"}}
     <p>
       <a href="{{.Permalink}}">{{.Params.posttitle}}</a>
     </p>
   {{ end }}
+  </div>
 {{ end }}

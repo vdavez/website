@@ -3,7 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
+  <div class="shadow-2xl p-3">
   <h1 class="text-2xl uppercase font-black">{{ .Params.Posttitle }}</h1>
   <h2 class="font-normal">{{ .Params.Subtitle }}</h2>
   {{ .Content }}
+  </div>
 {{ end }}
