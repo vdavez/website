@@ -1,0 +1,35 @@
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <div class="shadow-2xl p-3">
+  <h1 class="text-2xl font-black uppercase">{{.Title}}</h1>
+  <table class="table-fixed w-full">
+    <thead>
+      <tr>
+        <th class="w-1/3 px-4 py-2 text-left">Title</th>
+        <th class="w-1/3 px-4 py-2 text-left">Author</th>
+        <th class="w-1/12 px-4 py-2 text-left">Rating</th>
+        <th class="w-3/12 px-4 py-2 text-left">Date reviewed</th>
+      </tr>
+    </thead>
+    <tbody>
+       {{ partial "books.html" $.Site.Data.books }}
+     </tbody>
+  </table>
+  </div>
+{{ end }}
+
+{{ define "javascript" }}
+<script>
+
+  function toggleReview(reviewIdx) {
+    let review = document.getElementById("review-" + reviewIdx);
+    (review.classList.contains("hidden")) ?
+      review.classList.remove("hidden") :
+      review.classList.add("hidden")
+  }
+
+</script>
+{{ end }}
