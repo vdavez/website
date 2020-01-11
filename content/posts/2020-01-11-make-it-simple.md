@@ -35,6 +35,6 @@ Now, when I run `make new TITLE="whatever-i-want"`, it just works.
 
 The key here is the use of the [Phony Target](https://www.gnu.org/software/make/manual/make.html#Phony-Targets), which allows you to write `.PHONY: serve new` and you can run the target as part of the make command.
 
-Additionally, though I am still early days in this flow, I imagine using this to simplify the common chores of installing an app and checking for dependencies (*make install*), deploying the app (*make deploy*), and more.
+Additionally, though I am still early days in this flow, I imagine using this to simplify the common chores of installing an app and checking for dependencies (*make install*), testing the app (*make test*), deploying the app (*make deploy*), and more.
 
 Is this something you've seen or used before? If not, I hope it's useful for you, too! Looking forward to feedback and making a simpler future.
