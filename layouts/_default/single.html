@@ -8,4 +8,7 @@
   <h2 class="font-normal">{{ .Params.Subtitle }}</h2>
   {{ .Content }}
   </div>
+  <div class="shadow-2xl p-3" id="commento"></div>
+  {{ $commento := resources.Get "js/commento.js" | minify | fingerprint }}
+  <script src="{{ $commento.Permalink }}"></script>
 {{ end }}
