@@ -1,12 +1,3 @@
 # [esq.io](esq.io).
 
-A static personal website, built using `node`, `swig`, and `marked`. The initial template provided by `initalizr`.
-
-# Usage
-
-```
-git clone https://github.com/vzvenyach/vzvenyach.github.io.git
-cd vzvenyach.github.io
-npm install
-npm start
-```
+A personal website, built using [hugo](https://gohugo.io/) and hosted on [netlify](https://netlify.com).

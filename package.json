@@ -1,7 +1,7 @@
 {
-  "name": "vzvenyach.github.io",
+  "name": "Esq.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal website of V. David Zvenyach",
   "main": "index.js",
   "scripts": {
     "start": "hugo serve",
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/vzvenyach/vzvenyach.github.io.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "V. David Zvenyach",
+  "license": "CC BY-SA 4.0",
   "bugs": {
     "url": "https://github.com/vzvenyach/vzvenyach.github.io/issues"
   },
