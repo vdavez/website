@@ -24,7 +24,7 @@ Now, all I have to do is `make serve`. What that does is run the [Hugo](https://
 
 But I can do more, too. Suppose I want to create blog posts that have a consistent file naming convention. Right now I could type in `hugo new posts/2020-01-11-make-it-simple.md` in the command line. But then I'd have to remember that command convention. Instead, in my `Makefile`, you can find the following:
 
-```
+``` sh
 new:
 	@hugo new posts/$$(date +%Y-%m-%d)-$(TITLE).md
 
