@@ -1,9 +1,9 @@
 ---
 date: "2014-11-28T00:00:00Z"
 newest: false
-posttitle: In Praise of Commoditization
+title: In Praise of Commoditization
 subtitle: Open source takes a village
-title: in-praise-of-commoditization
+slug-title: in-praise-of-commoditization
 aliases: ["/blog/posts/in-praise-of-commoditization/"]
 
 ---

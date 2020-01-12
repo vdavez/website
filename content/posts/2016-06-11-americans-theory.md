@@ -1,10 +1,10 @@
 ---
 date: "2016-06-11T00:00:00Z"
 newest: false
-posttitle: My theory about The Americans
+title: My theory about The Americans
 subtitle: Prepare for your mind to be blown
-title: americans-theory
-aliases: ["/blog/posts/americans-theory/"]
+slug-title: americans-theory
+aliases: ["/blog/posts/americans-theory/","/2016/06/americans-theory"]
 
 ---
 

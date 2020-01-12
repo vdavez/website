@@ -1,7 +1,7 @@
 ---
-title: {{ slicestr .Name 11 }}
+slug-title: {{ slicestr .Name 11 }}
 date: {{ .Date }}
 draft: true
-posttitle: "{{ replace (slicestr .Name 11) "-" " " | title }}"
+title: "{{ replace (slicestr .Name 11) "-" " " | title }}"
 subtitle:
 ---

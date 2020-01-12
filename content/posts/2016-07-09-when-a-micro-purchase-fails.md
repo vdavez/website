@@ -1,9 +1,9 @@
 ---
 date: "2016-07-09T00:00:00Z"
 newest: false
-posttitle: When a micro-purchase doesn’t work out, we try to learn from it
+title: When a micro-purchase doesn’t work out, we try to learn from it
 subtitle: Lessons from the trenches
-title: when-a-micro-purchase-fails
+slug-title: when-a-micro-purchase-fails
 aliases: ["/blog/posts/when-a-micro-purchase-fails/"]
 
 ---

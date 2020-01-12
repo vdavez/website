@@ -2,9 +2,9 @@
 date: "2015-01-25T00:00:00Z"
 image: https://esq.io/assets/images/word_templates.png
 newest: false
-posttitle: Mailmerge for Word Docs... in Python?
+title: Mailmerge for Word Docs... in Python?
 subtitle: A neat trick for document automation
-title: python-docx-mailmerge
+slug-title: python-docx-mailmerge
 aliases: ["/blog/posts/python-docx-mailmerge/"]
 
 ---

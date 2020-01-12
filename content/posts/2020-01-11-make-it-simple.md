@@ -1,7 +1,7 @@
 ---
-title: "make-it-simple"
+slug-title: "make-it-simple"
 date: 2020-01-11T11:02:33-06:00
-posttitle: '"Make" it simpler'
+title: '"Make" it simpler'
 subtitle: Using GNU make to standardize my dev flow
 ---
 

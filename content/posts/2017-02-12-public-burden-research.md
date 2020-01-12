@@ -1,9 +1,9 @@
 ---
 date: "2017-02-12T00:00:00Z"
 newest: false
-posttitle: Calculating public burden using OIRA data
+title: Calculating public burden using OIRA data
 subtitle: An experiment in using open data to make government better
-title: public-burden-research
+slug-title: public-burden-research
 aliases: ["/blog/posts/public-burden-research/"]
 
 ---

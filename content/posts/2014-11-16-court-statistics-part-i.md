@@ -1,9 +1,9 @@
 ---
 date: "2014-11-16T00:00:00Z"
 newest: fallse
-posttitle: 'Court Statistics: Part I'
+title: 'Court Statistics: Part I'
 subtitle: Why we may need to open a "floodgate" of judicial data
-title: court-statistics-part-i
+slug-title: court-statistics-part-i
 aliases: ["/blog/posts/court-statistics-part-i/"]
 
 ---

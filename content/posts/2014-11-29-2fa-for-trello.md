@@ -1,10 +1,10 @@
 ---
 date: "2014-11-29T00:00:00Z"
 newest: false
-posttitle: Client Confidentiality on Trello?
+title: Client Confidentiality on Trello?
 subtitle: Why two-factor authentication matters for lawyers who want to use the agile
   tool
-title: client-confidentiality-on-trello
+slug-title: client-confidentiality-on-trello
 aliases: ["/blog/posts/client-confidentiality-on-trello/"]
 
 ---

@@ -1,9 +1,9 @@
 ---
 date: "2016-06-05T00:00:00Z"
 newest: false
-posttitle: Storytelling and federal procurement
+title: Storytelling and federal procurement
 subtitle: A lesson in how to explain complicated things
-title: storytelling-and-federal-procurement
+slug-title: storytelling-and-federal-procurement
 aliases: ["/blog/posts/storytelling-and-federal-procurement/"]
 
 ---

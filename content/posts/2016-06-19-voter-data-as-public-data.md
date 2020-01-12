@@ -1,9 +1,9 @@
 ---
 date: "2016-06-19T00:00:00Z"
 newest: false
-posttitle: DC's Voter Rolls are on the Internet
+title: DC's Voter Rolls are on the Internet
 subtitle: Is this 'Shocking' or is it 'same old same old'?
-title: voter-data-as-public-data
+slug-title: voter-data-as-public-data
 aliases: ["/blog/posts/voter-data-as-public-data/"]
 
 ---

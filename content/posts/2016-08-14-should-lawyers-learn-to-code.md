@@ -1,9 +1,9 @@
 ---
 date: "2016-08-14T00:00:00Z"
 newest: false
-posttitle: Should lawyers learn to code?
+title: Should lawyers learn to code?
 subtitle: Yes, but we should not strive to be coders
-title: should-lawyers-learn-to-code
+slug-title: should-lawyers-learn-to-code
 aliases: ["/blog/posts/should-lawyers-learn-to-code/"]
 
 ---

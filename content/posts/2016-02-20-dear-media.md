@@ -1,9 +1,9 @@
 ---
 date: "2016-02-20T00:00:00Z"
 newest: false
-posttitle: On links to court filings
+title: On links to court filings
 subtitle: Journalists should link to court filings by default
-title: dear-media
+slug-title: dear-media
 aliases: ["/blog/posts/dear-media/"]
 
 ---

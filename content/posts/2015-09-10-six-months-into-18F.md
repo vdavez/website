@@ -2,9 +2,9 @@
 date: "2015-09-10T00:00:00Z"
 image: http://www.hq.nasa.gov/alsj/a16/a16det18339.jpg
 newest: false
-posttitle: 6 months into 18F
+title: 6 months into 18F
 subtitle: An update
-title: six-months-into-18F
+slug-title: six-months-into-18F
 aliases: ["/blog/posts/six-months-into-18F/"]
 
 ---

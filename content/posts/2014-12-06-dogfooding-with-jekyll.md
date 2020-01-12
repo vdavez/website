@@ -2,9 +2,9 @@
 date: "2014-12-06T00:00:00Z"
 image: https://esq.io/assets/images/Dog_food_203365.jpg
 newest: false
-posttitle: Dogfooding with Jekyll
+title: Dogfooding with Jekyll
 subtitle: Using the new `data_source` configuration to serve mankind
-title: dogfooding-with-jekyll
+slug-title: dogfooding-with-jekyll
 aliases: ["/blog/posts/dogfooding-with-jekyll/"]
 
 ---

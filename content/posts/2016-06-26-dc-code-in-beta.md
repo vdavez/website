@@ -1,9 +1,9 @@
 ---
 date: "2016-06-26T00:00:00Z"
 newest: false
-posttitle: The Code of the District of Columbia is now available online
+title: The Code of the District of Columbia is now available online
 subtitle: And I couldn't be happier
-title: dc-code-in-beta
+slug-title: dc-code-in-beta
 aliases: ["/blog/posts/dc-code-in-beta/"]
 
 ---

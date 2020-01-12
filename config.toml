@@ -10,7 +10,7 @@ enableInlineShortcodes = true
   title = "Dave Zvenyach's Website"
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:slug/"
 
 
 [markup]
