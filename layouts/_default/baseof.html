@@ -8,6 +8,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@vdavez">
 
+  <link rel="alternate" type="application/rss+xml" href="http://esq.io/posts/index.xml" />
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ template "_internal/opengraph.html" . }}
 
@@ -37,6 +38,10 @@
           <p class="mx-4"><a href="/about" class="underline">/about</a></p>
           <p class="mx-4"><a href="/books" class="underline">/books</a></p>
           <p class="mx-4"><a href="/now" class="underline">/now</a></p>
+          <div class="mx-4 flex">
+            {{ partial "social.html" }}
+          </div>
+
         </div>
       </header>
     </div>
