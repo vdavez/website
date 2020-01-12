@@ -1,6 +1,7 @@
 baseURL = "https://esq.io/"
 footnoteReturnLinkContents = "↩"
 enableInlineShortcodes = true
+title = "esq.io"
 
 [params]
   AuthorName = "V. David Zvenyach"
