@@ -1,7 +1,8 @@
 ---
 title: winners-or-losers
 date: 2020-01-12T07:00:17-06:00
-draft: true
+draft: false
+images: ["https://marianamazzucato.com/wp-content/uploads/2017/02/ES-US-cover.jpg"]
 posttitle: "Winners or Losers"
 subtitle: The Entrepreneurial State and conventional wisdom   
 ---

@@ -1,11 +1,13 @@
 baseURL = "https://esq.io/"
 footnoteReturnLinkContents = "↩"
-title = "Dave Zvenyach's Website"
 enableInlineShortcodes = true
 
 [params]
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vzvenyach"
+  description = "A website created by V. David Zvenyach"
+  images = ["images/bronzefonze.jpg"]
+  title = "Dave Zvenyach's Website"
 
 [permalinks]
   posts = "/:year/:month/:title/"

@@ -5,15 +5,11 @@
   {{ $css := resources.Get "main.css" }}
   {{ $style := $css | resources.PostCSS }}
 
-  <meta property="og:site_name" content="esq.io" />
-  <meta property="og:title" content="esq.io" />
-  <meta name="description" content="A website created by V. David Zvenyach.">
-  <meta property="og:description" content="A website created by V. David Zvenyach." />
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@vdavez">
-  <meta property="og:image" content="https://esq.io/images/bronzefonze.jpg" />
 
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{ template "_internal/opengraph.html" . }}
 
   <!-- Matomo -->
   <script type="text/javascript">
