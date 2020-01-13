@@ -1,7 +1,7 @@
 ---
 slug-title: winter-is-finally-here-regeneration
 date: 2020-01-13T06:33:41-06:00
-draft: true
+draft: false
 images: ["https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405478538l/22731005.jpg"]
 title: "Winter is finally here → Regeneration"
 subtitle: A meditation.
