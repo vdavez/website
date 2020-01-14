@@ -4,6 +4,7 @@ date: 2020-01-14T08:41:37-06:00
 draft: false
 title: "Cycle Times"
 subtitle: Little's Law in Real Life
+images: ["https://images.unsplash.com/photo-1431499012454-31a9601150c9"]
 ---
 Here's a Little formula:  
 
