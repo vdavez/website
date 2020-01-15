@@ -4,6 +4,7 @@ date: 2020-01-15T07:16:26-06:00
 draft: false
 title: "The Five Ts"
 subtitle: A lesson from local politics
+images: ["https://cdn.teachersprintables.net/samples/Letter_T-Filled-With_Label.png"]
 ---
 
 They say that all politics is local. Perhaps. But here's a secret I've learned: all local politics come down to the 5 Ts. Let me explain.
