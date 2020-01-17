@@ -4,6 +4,7 @@ date: 2020-01-17T06:30:58-06:00
 draft: false
 title: "Competing on cost or competing on value"
 subtitle: A decision on how to satisfice or optimize
+images: ["https://images.unsplash.com/photo-1485637701894-09ad422f6de6"]
 ---
 
 Suppose you want to buy a widget. You don't want to spend more than $100 on a widget. You go out to a store and you see a widget for $80, a widget for $99, and a widget for $120. What should you do?
