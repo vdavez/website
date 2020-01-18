@@ -3,18 +3,19 @@ slug-title: world-building-and-the-illusion-of-explanatory-depth
 date: 2020-01-18T13:38:53-06:00
 draft: false
 title: "World Building and the Illusion of Explanatory Depth"
-subtitle: N. K. Jemisin can help us all be better humans
+subtitle: N.K. Jemisin can help us all be better humans
+images: ["https://cdn.vox-cdn.com/uploads/chorus_image/image/60970967/Screen_Shot_2018_08_21_at_10.47.24_AM.0.png"]
 ---
 
-A friend recently pointed me to a podcast episode where the extraordinary science-fiction writer N. K. Jemisin teaches Ezra Klein to [build a world](https://megaphone.link/VMP3494072790). It's a truly delightful episode; Ezra Klein says that it "may be the most fun I've ever had on a podcast." World building seemed pretty neat, so I went deeper.
+A friend recently pointed me to a podcast episode where the extraordinary science-fiction writer [N.K. Jemisin](http://nkjemisin.com/) teaches Ezra Klein to [build a world](https://megaphone.link/VMP3494072790). It's a truly delightful episode; Ezra Klein says that it "may be the most fun I've ever had on a podcast." World building seemed pretty neat, so I went deeper.
 
-The process of world building, as I've come to understand, is a Thing in speculative science fiction. And, I've also learned that N.K. Jemisin teaches how to build worlds through an interactive workshop. During that workshop, Jemisin challenges our basic understandings of how our real-life world works, so that we can better understand how a fantasy world might work. Here's a quote:
+The process of world building, as I'm coming to understand, is a Thing in speculative science fiction. And, I've also learned that N.K. Jemisin teaches how to build worlds through an interactive workshop. During that workshop, Jemisin challenges our basic understandings of how our real-life world works, so that we can better understand how a fantasy world might work. Here's a quote:
 
 > Character is informed by culture, and culture is informed by environment. In a lot of cases, to understand the character I need to understand literally everything about their world.
 
 So knowing how _our_ world works is key to understanding how a fantasy world might work. Indeed, Jemisin opens the workshop (see below for the video) with a question about how the seasons work; and, the audience member gets it wrong. [Admission: turns out, I had it wrong, too! It has nothing to do with the distance to the sun, and everything to do with the [Earth's tilt](https://spaceplace.nasa.gov/seasons/en/). Bonus round: why is the Earth tilted? Bonus bonus round: *is* it tilted? Or do we just perceive it as tilted? Why or why not? You get the drift...]
 
-As I listened to Jemisin, I kept on reflecting on Jemisin's challenge that we, as individuals, don't really understand our world very well. Why do people behave the way that they do? For example, why does war exist? This is not a philosophical question; it's an epistemological one. Seriously, what explains the existence of war in our world? Often, we effectively accept—or even perpetuate—terrible things in our world as basic "facts of life," whereas they might not be if we critically examined their causes.
+As I listened to Jemisin, I kept on reflecting on her opening challenge that we, as individuals, don't really understand our world very well. Why do people behave the way that they do? For example, why does war exist? This is not a philosophical question; it's an epistemological one. Seriously, what explains the existence of war in our world? Often, we effectively accept—or even perpetuate—terrible things in our world as basic "facts of life," whereas they might not be if we critically examined their causes.
 
 Which turned me back to another concept I've been thinking about recently: the Illusion of Explanatory Depth (IOED). Originally coined in [2002 by Leonid Rozenblit & Frank Keil](https://cogdevlab.yale.edu/sites/default/files/files/rozenblit%20%26%20keil%20%202002.pdf), the IOED stems from the fact that "[m]ost people feel they understand the world with far greater detail, coherence, and depth than they really do." What's particularly interesting about the IOED is that, it turns out, "people are more overconfident about knowing explanations than they are about knowing other things."
 
