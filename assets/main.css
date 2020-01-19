@@ -40,4 +40,8 @@ code {
   @apply bg-gray-900 text-green-500
 }
 
+.footnotes li {
+  @apply list-decimal;
+}
+
 @tailwind utilities;
