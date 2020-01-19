@@ -7,7 +7,7 @@ subtitle: Why maximizing capacity may be counterproductive
 images: ["https://images.unsplash.com/photo-1482267521984-091e6f69ea29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"]
 ---
 
-As the Green Bay Packers take the field tonight, only some of them will play; most players will spend all 60 minutes "on the bench."[^1] As with sports, in the consulting business, "being on the bench" refers to the time that a consultant is not working on a billable project. As I think about the mental model of "the bench" in consulting, though, I realize that we often misunderstand the metaphor to our detriment. Here's why.
+As the Green Bay Packers take the field tonight, only some of them will play; a significant players will spend most (or all of) 60 minutes "on the bench."[^1] As with sports, in the consulting business, "being on the bench" refers to the time that a consultant is not working on a billable project. As I think about the mental model of "the bench" in consulting, though, I realize that we often misunderstand the metaphor to our detriment. Here's why.
 
 In consulting, from a managers' perspective, the bench is often considered a net negative. Time that consultants aren't working means less revenue and lower profit margins. Indeed, the euphemism that managers apply [n.b. been there] is around "capacity utilization." The idea is that, if every one is working "at capacity" (i.e., "with no bench"), the profit margins are highest, so maximizing capacity is the goal.
 
