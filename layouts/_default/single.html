@@ -9,6 +9,7 @@
   {{ .Content }}
   </div>
   <div class="shadow-2xl p-3" id="commento"></div>
-  {{ $commento := resources.Get "js/commento.js" | minify | fingerprint }}
-  <script src="{{ $commento.Permalink }}"></script>
+  <script defer
+    src="https://cdn.commento.io/js/commento.js">
+  </script>
 {{ end }}
