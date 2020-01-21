@@ -3,6 +3,7 @@ slug-title: defining-palt
 date: 2020-01-21T07:25:50-06:00
 draft: false
 title: "Defining PALT"
+images: ["/images/fedred.png"]
 subtitle: A modest proposal for improving federal procurement policy
 ---
 
