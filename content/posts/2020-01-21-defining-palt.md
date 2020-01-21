@@ -9,7 +9,7 @@ subtitle: A modest proposal for improving federal procurement policy
 
 Fair warning, severe procurement wonking ahead. I promise a shorter, less nerdy post tomorrow.
 
-In today's Federal Register, the Office of Federal Procurement Policy (OFPP) published a proposed definition of the term "Procurement Administrative Lead Time," also known by the acronym "PALT." Although their definition is an improvement over existing definitions, I think it could be further improved.
+In [today's Federal Register](https://www.federalregister.gov/documents/2020/01/21/2020-00783/procurement-administrative-lead-time-palt), the Office of Federal Procurement Policy (OFPP) published a proposed definition of the term "Procurement Administrative Lead Time," also known by the acronym "PALT." Although their definition is an improvement over existing definitions, I think it could be further improved.
 
 Here's the proposed definition of PALT:
 
