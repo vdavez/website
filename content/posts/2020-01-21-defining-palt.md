@@ -20,9 +20,7 @@ Why does this definition matter? Well, let's see what OFPP says about it:
 
 All good things, in theory. Understanding causes of procurement delay. Continuous improvement. Incentives in requirement-development process. These are good reasons to measure PALT, in theory.
 
-And yet, for those not familiar with federal-procurement policy, PALT is the sort of topic that drives procurement nerds to drink. *Traditionally*, PALT has been defined as the time between requirement identification and the contract-award date. But defining the initial moment of requirement identification is notoriously difficult. To see the sort of debate between acquisition professionals on PALT definitions, check out the comments here:
-
-{{< linkedin 6624716021796261888 >}}
+And yet, for those not familiar with federal-procurement policy, PALT is the sort of topic that drives procurement nerds to drink. *Traditionally*, PALT has been defined as the time between requirement identification and the contract-award date. But defining the initial moment of requirement identification is notoriously difficult. To see the sort of debate between acquisition professionals on PALT definitions, check out the [comments to this LinkedIn post](https://www.linkedin.com/posts/jaimegracia_procurement-administrative-lead-time-palt-activity-6624716021796261888-AC0w).
 
 Is the requirement identified when a the program office realizes it has a need? When it submits the "requisition" document? When funding has been identified and the funding document submitted? When the acquisition plan is finalized? Something else? The answer to this question varies from agency to agency (and, in practice, sometimes varies by contracting office by contracting officer). Perhaps because of these inconsistencies, and also because managers do not adapt PALT related to the "complexity" of procurements, PALT is widely seen as a dangerous, [vanity metric](https://managing-metrics.com/vanity-metrics/).
 
