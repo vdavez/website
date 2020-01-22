@@ -8,7 +8,7 @@
   <td class="px-4 py-2">{{ .review_date }}</td>
 </tr>
 <tr id="review-{{$elem_index}}" class="hidden">
-  <td colspan=4 class="px-4 py-2">{{.review }}</td>
+  <td colspan=4 class="px-4 py-2">{{.review | safeHTML}}</td>
 </tr>
 {{ $elem_index = (add $elem_index 1)}}
 {{ end }}
