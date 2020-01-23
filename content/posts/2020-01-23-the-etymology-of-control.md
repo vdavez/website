@@ -19,3 +19,5 @@ The word control, it seems, derives from the idea of counting against a list. Th
 Understanding the origin of "control" helps me think more clearly about metrics. In some contexts, metrics can be liberating. Metrics can enable creativity and growth. But, metrics can also be the basis for dominion, for making sure things or people are held to account, for the boxing in of the spirit.
 
 When we think about the relationship between control and metrics, it's helpful to remember that intent and context matter. But it's also important to appreciate that the very act of measurement can be an exercise in subordination.
+
+Perhaps through appreciation of this relationship, we can attempt to approach ourselves and others with more compassion. To reject those metrics that seek to demean the human spirit, and to better embrace situations when metrics can be empowering and promote respect.
