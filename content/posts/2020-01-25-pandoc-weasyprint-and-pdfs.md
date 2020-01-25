@@ -4,6 +4,7 @@ date: 2020-01-25T07:19:09-06:00
 draft: false
 title: "Pandoc, Weasyprint, and PDF generation"
 subtitle: From plain text to PDF
+images: ["https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
 ---
 
 I love writing in plain text. Given the choice between writing a document in Word, Google Docs, or my text editor (I primarily use [atom](https://atom.io/), don't @ me), I will choice my text editor every time. I prefer my text editor because I don't want to pay attention to layout / formatting when I'm writing, I just want to write.
