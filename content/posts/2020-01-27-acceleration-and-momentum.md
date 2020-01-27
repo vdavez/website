@@ -4,7 +4,7 @@ date: 2020-01-27T06:49:50-06:00
 draft: false
 title: "Acceleration and Momentum"
 subtitle: What's your vector?
-images: ["https://images.unsplash.com/photo-1527769929977-c341ee9f2033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"] 
+images: ["https://images.unsplash.com/photo-1527769929977-c341ee9f2033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"] 
 ---
 
 When thinking about organizational performance, I typically default to thinking about acceleration. If you're going to measure, it's often more useful to measure whether a team is getting faster or slower, than to simply measure a team's speed. Recently, though, I have started to include another concept in my thinking: momentum.
