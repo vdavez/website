@@ -1,7 +1,7 @@
 ---
 slug-title: risk-and-uncertainty
 date: 2020-01-29T06:13:57-06:00
-draft: true
+draft: false
 title: "Risk and Uncertainty"
 subtitle: Why lawyers get *half* of the risk equation right
 images: ["https://images.pexels.com/photos/961334/pexels-photo-961334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"]
