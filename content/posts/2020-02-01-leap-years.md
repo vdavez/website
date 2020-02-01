@@ -4,7 +4,7 @@ date: 2020-02-01T08:46:44-06:00
 draft: false
 title: "Leap Years"
 subtitle: The science of time is just absolutely bonkers.
-images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Armillary_sphere_with_astronomical_clock.jpg/1024px-Armillary_sphere_with_astronomical_clock.jpg"]
+images: ["https://commons.wikimedia.org/wiki/File:Armillary_sphere_with_astronomical_clock.jpg#/media/File:Armillary_sphere_with_astronomical_clock.jpg"]
 ---
 
 2020 is a Leap Year. As a practical matter, that means that -- for those who observe the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) -- we have 29 days this month, not 28. The reason we have a leap year is to correct for the fact that the year is slightly longer than the 365 days we normally have in a year. In the musical Rent, the question is posed: "how do you measure a year?" The proposed measure (525,600 minutes) is wrong if you are measuring a tropical year. As it turns out, answering the question is much much more complicated than it seems.
