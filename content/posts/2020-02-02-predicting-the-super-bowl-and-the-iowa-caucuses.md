@@ -4,7 +4,7 @@ date: 2020-02-02T08:00:43-06:00
 draft: false
 title: "Predicting the Super Bowl and the Iowa Caucuses"
 subtitle: Playing the odds
-images: ["https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Super_Bowl_logo.svg/1200px-Super_Bowl_logo.svg.png"]
+images: ["https://upload.wikimedia.org/wikipedia/commons/e/ea/SuperBowl_I_-_Los_Angeles_Coliseum.jpg"]
 ---
 
 I predict that, this evening, the Kansas City Chiefs will beat the San Francisco 49ers in the Superbowl. Tomorrow, Bernie Sanders will win the Iowa Caucuses.
