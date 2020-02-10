@@ -1,7 +1,7 @@
 ---
 slug-title: start-with-section-m
 date: 2020-02-10T07:08:01-06:00
-draft: true
+draft: false
 title: "Start with Section M"
 subtitle: A lesson in writing effective government-contract proposals
 images: ["https://images.pexels.com/photos/416322/pexels-photo-416322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"]
