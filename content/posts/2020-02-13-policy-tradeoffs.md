@@ -1,7 +1,7 @@
 ---
 slug-title: policy-tradeoffs
 date: 2020-02-13T07:13:00-06:00
-draft: true
+draft: false
 title: "Policy tradeoffs"
 subtitle: A subtle lesson in tech and policymaking
 images: ["https://fns-prod.azureedge.net/sites/default/files/styles/featured/public/media/image/WIClandingPageImages.jpg?itok=ZlfcafJ6"]
