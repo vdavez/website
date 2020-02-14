@@ -1,7 +1,7 @@
 ---
 slug-title: JEDI-and-the-death-star
 date: 2020-02-14T07:56:30-06:00
-draft: true
+draft: false
 title: "JEDI and the Death Star"
 subtitle:
 images: ["https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/DeathStar2.jpg/240px-DeathStar2.jpg"]
