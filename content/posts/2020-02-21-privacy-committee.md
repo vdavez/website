@@ -1,7 +1,7 @@
 ---
 slug-title: privacy-committee
 date: 2020-02-21T05:22:56-06:00
-draft: true
+draft: false
 title: "The ULC's data-privacy committee"
 subtitle: The work begins...
 images: ["https://higherlogicdownload.s3.amazonaws.com/UNIFORMLAWS/b7c515db-1895-4387-bb2d-ee99e58c0066/UploadedImages/ULC_BlueCircle_NoText_HiRes_3D.png"]
