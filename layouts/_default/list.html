@@ -4,7 +4,9 @@
 
 {{ define "main" }}
   <div class="shadow-2xl p-3">
-  <h1 class="text-2xl font-black uppercase">{{.Title}}</h1>
-  {{ .Content | safeHTML}}
+    <h1 class="text-2xl uppercase font-black lg:text-4xl">{{.Title}}</h1>
+    <div class="text-base lg:text-xl lg:tracking-wide font-serif">
+    {{ .Content | safeHTML}}
+    </div>
   </div>
 {{ end }}
