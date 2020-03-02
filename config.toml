@@ -24,6 +24,7 @@ title = "esq.io"
       table = true
       taskList = true
       typographer = true
+      mathjax = true
     [markup.goldmark.parser]
       attribute = true
       autoHeadingID = true
