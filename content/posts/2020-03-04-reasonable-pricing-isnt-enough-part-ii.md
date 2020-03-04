@@ -1,7 +1,7 @@
 ---
 slug-title: reasonable-pricing-isnt-enough-part-ii
 date: 2020-03-04T15:19:32-06:00
-draft: true
+draft: false
 title: "Reasonable Pricing Isn't Enough (Part II)"
 subtitle:
 images: ["https://images.unsplash.com/photo-1515182629504-727d7753751f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
