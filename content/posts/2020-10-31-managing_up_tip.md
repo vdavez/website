@@ -5,6 +5,7 @@ draft: false
 title: A trick for managing up without wasting time
 subtitle: Understand your boss's calendar
 description: An important trick to effectively managing up is to understand your boss's calendar. In this post, I give a tip on how you can better understand your boss's *real* priorities.
+images: ["https://source.unsplash.com/W4i2FOIdyXk/300x300"]
 ---
 
 To be effective in your job (unless you're the CEO, and often even then), you need to manage up. Sometimes, your manager will tell you what they need to keep them informed. Often, though, your job is to figure out what works for them. But, how can you find out what matters to them? And, how can you avoid wasting their time — and yours — on things that don't matter?
