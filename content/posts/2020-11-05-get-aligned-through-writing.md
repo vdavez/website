@@ -1,7 +1,7 @@
 ---
 slug-title: get-aligned-throught-writing
 date: 2020-11-05
-draft: true
+draft: false
 title: "Need to get aligned on a strategy?"
 subtitle: Start by writing it down
 description: |
