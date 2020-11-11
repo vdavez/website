@@ -17,7 +17,9 @@ Near the end of her book, [How to Make Sense of Any Mess](http://www.howtomakese
 
 Her central argument is that the role of an Information Architect is to make sense of things, to bring clarity. And although she wrote for the audience of Information Architects, this advice has broad application.
 
-Too often, leaders and managers are expected to "carry the vision" for their teams, to lead through attraction only after clarity has been obtained. Covert inverts the effort: let gravity do its work, and simply be the filter that clarifies. Allow the team to "be the grounds" and focus your effort at removing the grit and let the flavor emerge.
+Too often, leaders and managers are expected to "carry the vision" for their teams. They have to lead from the front, after choosing a vision, pulling the team along.
+
+Covert flips the script: let gravity do its work, and simply be the filter that clarifies. Allow the team to "be the grounds" and focus your effort at removing the grit and let the flavor emerge.
 
 If you find you or your team without the clarity they need, and you're unsure about the path forward, perhaps it's time to change your metaphor. Rather than lead from the front and push a vision, be a filter and let the water and grounds steep a bit.
 
