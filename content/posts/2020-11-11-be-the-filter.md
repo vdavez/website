@@ -11,7 +11,7 @@ images: ["https://source.unsplash.com/Lvon9Yylb3I/300x300"]
 
 How can you lead if you don't have a clear vision? How can you move forward if you don't know the direction to go? This can be a hard problem for many leaders, and can create a lot of frustration and self-doubt.
 
-Near the end of her book, [How to Make Sense of Any Mess](http://www.howtomakesenseofanymess.com/), Abby Covert offers advice that can help leaders, particularly those who must manage through uncertainty about the best path forward. The advice? **Be the filter, not the grounds.**:
+Near the end of her book, [How to Make Sense of Any Mess](http://www.howtomakesenseofanymess.com/), Abby Covert offers advice that can help leaders, particularly those who must manage through uncertainty about the best path forward. The advice? **Be the filter, not the grounds.**
 
 > When making a cup of coffee, the filter's job is to get the grit out before a user drinks the coffee. Sensemaking is like removing the grit from the ideas we're trying to give to users. \*\*\* Be the one _not_ bringing the ideas. Instead, be the filter that other people's ideas go through to become drinkable.
 
