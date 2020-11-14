@@ -5,7 +5,7 @@ title = "esq.io"
 
 [params]
   AuthorName = "V. David Zvenyach"
-  GitHubUser = "vzvenyach"
+  GitHubUser = "vdavez"
   description = "A website created by V. David Zvenyach"
   images = ["images/bronzefonze.jpg"]
   title = "Dave Zvenyach's Website"
