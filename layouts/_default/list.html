@@ -8,5 +8,10 @@
     <div class="text-base lg:text-xl lg:tracking-wide font-serif">
     {{ .Content | safeHTML}}
     </div>
+    {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        </li>
+    {{ end }}
   </div>
 {{ end }}
