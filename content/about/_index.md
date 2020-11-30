@@ -17,6 +17,7 @@ Dave has written on diverse topics, including a book entitled Coding for Lawyers
 Dave is a member of the Wisconsin delegation to the Uniform Law Commission and the Board of the Washington Council of Lawyers. He’s been named a Legal Rebel, a Legal Hacker of the Year, a Fed 100, a FastCase 50, and an Open Data Pioneer. He was recognized as “role model for public service and dedication to his craft” by the Council of the District of Columbia, received the Exceptional Service Award from the DC Bar for establishing the first Pro Bono Legal Volunteer Program in the DC government, and is an ABA Fellow.
 
 Dave is a graduate of the George Washington University Law School and has a bachelor’s degree in Mechanical Engineering from the University of Wisconsin. He lives with his family in Fitchburg, WI.
-Contact
+
+## Contact
 
 You can see more information on LinkedIn, follow my public thoughts in 140 characters or fewer on Twitter, or track my coding on GitHub. Or you can email me at dave@esq.io.
