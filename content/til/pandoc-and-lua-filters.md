@@ -2,7 +2,7 @@
 title: Pandoc and lua filters
 date: 2020-11-30
 description: "A TIL entry about using pandoc and lua filters to handle hugo shortcodes"
-images: ["https://giphy.com/embed/3og0IMJcSI8p6hYQXS"]
+images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
 draft: false
 ---
 
