@@ -18,4 +18,7 @@ A careful reader might observe that the act also references Smokey Bear in decid
 
 That said, looks like Smokey Bear ended up winning the popularity contest:
 
-{{< figure src="/images/smokey-woodsy-trends.png" alt="A screenshot of Google Trends output of Smokey Bear versus Woodsy Owl" link="https://trends.google.com/trends/explore?date=all&geo=US&q=smokey%20bear,woodsy%20owl" caption="A screenshot of Google Trends output of Smokey Bear versus Woodsy Owl" >}}
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2431_RC01/embed_loader.js"></script>
+<script type="text/javascript">
+trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"smokey bear","geo":"US","time":"2004-01-01 2020-12-07"},{"keyword":"woodsy owl","geo":"US","time":"2004-01-01 2020-12-07"}],"category":0,"property":""}, {"exploreQuery":"date=all&geo=US&q=smokey%20bear,woodsy%20owl","guestPath":"https://trends.google.com:443/trends/embed/"});
+</script>
