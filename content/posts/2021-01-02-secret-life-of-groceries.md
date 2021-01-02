@@ -1,7 +1,7 @@
 ---
 slug-title: secret-life-of-groceries
 date: 2021-01-02T05:48:21-06:00
-draft: true
+draft: false
 title: "The Secret Life of Groceries"
 subtitle: A review
 description: esq.io | A review of Benjamin Lorr's book, "The Secret Life of Groceries"
