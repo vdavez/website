@@ -4,8 +4,8 @@ date: 2021-01-07
 draft: false
 title: "Whatever we feed..."
 subtitle: "is what will flourish."
-description: esq.io |
-images: ["https://source.unsplash.com/-iOE0qBkioc/300x300"]
+description: esq.io | A post that discusses the quote "whatever we feed will flourish" and its resonance related to recent events
+images: ["https://source.unsplash.com/3_e8uJsnQtA/300x300"]
 ---
 
 I planned this morning to write about yesterday's events but wasn't sure what I'd say. It so happened, though, that I read a line in Amy Jen Su's "The Leader You Want to Be," that really resonated:
