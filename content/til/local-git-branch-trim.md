@@ -10,12 +10,18 @@ Every now and then I remember to clean local, and _merged_ git branches, and I a
 
 1. Get on the `main` branch.
 2. Run a script using the following procedure:
-   a. Check all of the branches
-   b. Look for the asterisk (\*) and _ignore it_ (make sure it's verbose)
-   c. Pass all of the other branches and run the git branch deletion command
+
+   1. List all of the branch names
+   2. Look for the asterisk (\*) and _ignore it_ (make sure it's verbose)
+   3. Pass all of the other branches and run the git branch deletion command
+
+Here's how it looks.
 
 ```sh
-git checkout main && git branch | grep -v '^*' | xargs git branch -d
+git checkout main && \
+   git branch | \
+   grep -v '^*' | \
+   xargs git branch -d
 ```
 
-I've created and alias in `.zshrc` for this command as `git-trim`.
+I've created and alias in `.zshrc` for this command as `git-trim`. Enjoy, future Dave!
