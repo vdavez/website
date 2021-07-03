@@ -11,11 +11,11 @@ Every now and then I remember to clean local unmerged git branches, and I always
 1. Get on the `main` branch.
 2. Run a script using the following procedure:
    a. Check all of the branches
-   b. Look for the asterisk (\*) and _ignore it_
+   b. Look for the asterisk (\*) and _ignore it_ (make sure it's verbose)
    c. Pass all of the other branches and run the git branch deletion command
 
 ```sh
-git checkout main && git branch | grep '^*' | xargs git branch -d
+git checkout main && git branch | grep -v '^*' | xargs git branch -d
 ```
 
 I've created and alias in `.zshrc` for this command as `git-trim`.
