@@ -7,3 +7,4 @@ HUGO_VERSION = "0.78.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 HUGO_BASEURL = "https://esq.io/"
+NODE_VERSION = 13.12.0
