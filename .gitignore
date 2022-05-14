@@ -5,3 +5,5 @@ dist
 resources/*
 public/
 .vscode/
+# Local Netlify folder
+.netlify
