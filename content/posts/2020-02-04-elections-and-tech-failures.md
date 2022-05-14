@@ -29,7 +29,7 @@ People who use software should not have problems like this. It is not the users'
 
 As Dana Chisnell, perhaps one of the most knowledgeable people about elections administration and technology, teaches:
 
-{{< tweet 1224664894244560896 >}}
+{{< tweet user="danachis" id="1224664894244560896" >}}
 
 And now, there already appears to [be scrutiny into Shadow](https://venturebeat.com/2020/02/04/mysterious-startup-shadow-under-scrutiny-after-iowa-caucus-meltdown/), the vendor who built the app. Fine and good. But not enough. Why? Because software fails all the time, and the only real way to build useful, resilient software is to test it, over and over and over again. In elections, you don't have that many repetitions, it's a much slower feedback cycle. It's intensely hard.
 

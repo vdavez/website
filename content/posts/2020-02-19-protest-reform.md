@@ -9,7 +9,7 @@ images: ["https://images.unsplash.com/photo-1444427169197-de497742b62d?ixlib=rb-
 
 Yesterday, Jen Pahlka offered a provocation:
 
-{{< twitter 1230176494602870786 >}}
+{{< tweet user="pahlkadot" id="1230176494602870786" >}}
 
 My initial reaction was that "protests are fine." And then Jen and I [traded](https://twitter.com/pahlkadot/status/1230183161042210816) [references](https://twitter.com/pahlkadot/status/1230183161042210816) to the Death Star. But, this morning I want to give a more considered answer. Fair warning, it's much longer than 140 characters.
 
@@ -39,7 +39,7 @@ Do protests affect decisionmaking by the COs? Nope. Not really. No. Sure, it cha
 
 And yet, protests really are just fine. As Professor Schooner, a scholar of public procurement law and policy, [observed in his writeup of the RAND report](https://scholarship.law.gwu.edu/cgi/viewcontent.cgi?article=2592&context=faculty_publications): "One significant take-away from the study is that, although disappointed offerors do not always win their bid protests, they appear to protest, by and large, for legitimate business reasons—including, as noted above, poor agency debriefings." True to form, Stan Soloway offered a view that tracks this perspective:
 
-{{< twitter 1230284869634314241 >}}
+{{< tweet user="stansoloway" id="1230284869634314241" >}}
 
 Where does that leave us? Government and industry don't trust each other, and the protest system we have in place both responds to this distrust and perpetuates it.
 
