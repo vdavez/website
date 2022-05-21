@@ -14,7 +14,7 @@ So, today, I really learned a few things:
 
 1. This program exists; and 
 2. The genus for maple trees is "Acer"
-3. In Fiscal Year 2021, the Acer Program made grant $5,428,208.66 in [grant awards](https://www.ams.usda.gov/sites/default/files/media/AcerFY21DescriptionofFundedProjects.pdf).
+3. In Fiscal Year 2021, the Acer Program made $5,428,208.66 in [grant awards](https://www.ams.usda.gov/sites/default/files/media/AcerFY21DescriptionofFundedProjects.pdf).
 4. According to [Wikipedia](https://en.wikipedia.org/wiki/Maple_syrup), Quebec accounts for 70% of the world's maple syrup production.
 5. According to the National Agricultural Statistics Service, the [United States produced](https://downloads.usda.library.cornell.edu/usda-esmis/files/tm70mv177/w3764d11b/6q183r18c/crop0522.pdf) 3.424 million gallons of syrup, which means there was almost 140 million gallons of sap collected! That's a lot of syrup!
 6. According to [one report](https://www.grandviewresearch.com/industry-analysis/maple-syrup-market-report), the global maple syrup market size was valued at $1.49 billion in 2021!
