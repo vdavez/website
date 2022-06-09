@@ -8,3 +8,9 @@
   {{ .Content | safeHTML}}
   </div>
 {{ end }}
+
+
+{{ define "javascript" }}
+  {{ $built := resources.Get "main.js" | js.Build "main.js" }}
+  <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
+{{ end }}

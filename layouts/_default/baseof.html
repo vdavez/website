@@ -6,7 +6,7 @@
   <meta name="author" content="V. David Zvenyach">
 
   {{ $css := resources.Get "main.css" }}
-  {{ $style := $css | resources.PostCSS }}
+  {{ $style := $css | resources.PostCSS | minify | resources.PostProcess }}
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@vdavez">

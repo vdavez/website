@@ -20,6 +20,13 @@ paginate = 20
   images = ["images/Zvenyach.jpg"]
   title = "Dave Zvenyach's website"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
+
+[build]
+  writeStats = true
+
 [permalinks]
   posts = "/:year/:month/:slug/"
 
