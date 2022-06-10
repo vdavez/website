@@ -2,7 +2,7 @@ const MiniSearch = require("minisearch")
 
 let miniSearch = new MiniSearch({
     fields: ['title', 'content'],
-    storeFields: ['title', 'permalink']
+    storeFields: ['title', 'permalink', 'type']
   })
 let allTitles = []
 
@@ -24,7 +24,9 @@ fetch("/index.json")
 
     let results = miniSearch.search(input)
     if (results == "") {
-      results = allTitles
+      results = allTitles.filter(d => {
+        return d.type == "posts"
+      })
     }
     else {
       const title = document.createElement("p")
