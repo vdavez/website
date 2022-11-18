@@ -23,7 +23,10 @@ There, I learned that you can set a "data-* attribute" to enable replies. It's p
 >
     Tweets by ${username}
 </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async charset="utf-8"
+    src="https://platform.twitter.com/widgets.js" 
+>
+</script>
 ```
 
 Just like that, with the addition of that highlighted line, your twitter replies show up in your timeline!
@@ -45,5 +48,8 @@ I could spill ink here about default rules, ethics, and user privacy, but instea
 >
     Tweets by ${username}
 </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async charset="utf-8"
+    src="https://platform.twitter.com/widgets.js" 
+>
+</script>
 ```

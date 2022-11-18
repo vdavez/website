@@ -39,5 +39,5 @@ title = "esq.io"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokai"
+    style = "solarized-light"
     tabWidth = 4
