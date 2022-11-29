@@ -3,11 +3,6 @@ title: About
 Description: V. David Zvenyach's biographical information
 ---
 
-<figure class="ml-12 float-right">
-<img src="/images/Zvenyach.png" title="Me" alt="Photo of Dave Zvenyach" class="h-48">
-<figcaption class="text-center">That's me!</figcaption>
-</figure>
-
 Dave Zvenyach is an attorney, strategist, author, full-stack software developer, and innovative former government executive who helps businesses and government work smarter, together.
 
 Dave has unique expertise on all things public sector; he’s held positions in all three branches of government, as well as at the federal, state, and local levels. Most recently, he served as the Director of the Technology Transformation Services ("TTS") at the United States General Services Administration ("GSA"). In between his time in government, Dave worked as an independent consultant and as Director of Product at Hangar. Dave also served as Senior Technical Advisor and Assistant Commissioner for the GSA's Federal Acquisition Service Office of Systems Management; Executive Director of 18F; Deputy Commissioner for TTS; Assistant Commissioner for the TTS Office of Acquisition; General Counsel to the DC Council; Chief of Staff to Councilmember Mary Cheh; and judicial law clerk to United States District Judge Yvette Kane.

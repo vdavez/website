@@ -22,8 +22,10 @@ body {
 }
 
 a {
-  @apply underline;
-  text-decoration-style: dotted;
+  @apply underline decoration-2 underline-offset-2 decoration-sky-500;
+  @apply hover:text-sky-500 hover:bg-gray-50;
+  /* text-decoration-thickness: 3px;
+  text-decoration-style: dotted; */
 }
 
 p {
@@ -43,7 +45,7 @@ li {
 }
 
 blockquote {
-  @apply my-2 pl-8;
+  @apply my-2 pl-8 bg-sky-50;
   border-left: 3px solid #ccc;
 }
 
