@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 html {
   position: relative;
   min-height: 100%;
@@ -16,7 +18,7 @@ body {
 
 .main-content {
   background-color: #ffffff;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro"
 }
 
 a {
@@ -29,11 +31,11 @@ p {
 }
 
 h2 {
-  @apply text-lg font-black uppercase mt-3;
+  @apply text-lg font-black;
 }
 
 h3 {
-  @apply font-bold uppercase mt-3;
+  @apply font-bold;
 }
 
 li {
