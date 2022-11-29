@@ -2,7 +2,7 @@
 slug-title: hugo-categories-and-tags
 date: 2022-11-29T12:08:17-06:00
 draft: false
-title: Hugo Tags
+title: Hugo Categories and Tags
 subtitle: A better way to organize this site
 description: zvenyach.com | How to use tags for hugo sites
 images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
