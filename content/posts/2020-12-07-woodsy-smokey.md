@@ -1,9 +1,11 @@
 ---
 title: The National Symbols Cache
+slug-title: woodsy-smokey
 date: 2020-12-07
 description: "A TIL entry about Smokey Bear and Woodsy Owl"
 images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
 draft: false
+categories: ["til"]
 ---
 
 The intersection of intellectual-property laws and government works is an interesting topic. But last night I happened across a delightfully random law entitled _An Act To prevent the unauthorized manufacture and use of the character 'Woodsy Owl', and for other purposes_, [Pub. L. No. 93-317, 88 Stat. 244](https://uscode.house.gov/statutes/pl/93/318.pdf).

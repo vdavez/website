@@ -1,9 +1,11 @@
 ---
 title: Pandoc and lua filters
+slug-title: pandoc-and-lua-filters
 date: 2020-11-30
 description: "A TIL entry about using pandoc and lua filters to handle hugo shortcodes"
 images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
 draft: false
+categories: ["til"]
 ---
 
 For my work on [techprocurement.org](https://techprocurement.org), I opted to use [hugo](https://gohugo.io) and the [hugo-book](https://themes.gohugo.io/hugo-book/) theme. Initially, this proved a super useful strategy. But it created a bit of a problem for generating PDFs, specifically when using some custom [shortcodes](https://gohugo.io/content-management/shortcodes/#readout). Specifically, I planned on using [pandoc](https://pandoc.org) to manage the PDF and EPUB creation, but when processing the markdown with shortcodes, pandoc didn't understand these shortcodes.

@@ -1,9 +1,11 @@
 ---
 title: Twitter timeline with embedded replies
+slug-title: twitter-timeline-with-embedded-replies
 date: 2022-11-17
 description: "A TIL entry about using how to update a twitter timeline to include replies"
 images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
 draft: false
+categories: ["til"]
 ---
 
 Today, one of my colleagues reached out because the [twitter embed](https://help.twitter.com/en/using-twitter/embed-twitter-feed) on their website only showed tweets, not replies. I helped build the website, so I offered to figure out how to fix that.

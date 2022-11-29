@@ -1,9 +1,11 @@
 ---
 title: Acer Access and Development Program
+slug-title: acer-access-and-development-program
 date: 2022-05-12
 description: "A TIL entry about the Acer Access and Development Program"
 images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
 draft: false
+categories: ["til"]
 ---
 
 While playing around with yet another random data set, I came across the Acer Access and Development Program. Here's the description on the [website](https://www.ams.usda.gov/services/grants/acer): 
