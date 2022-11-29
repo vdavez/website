@@ -1,23 +1,23 @@
 {
-  "name": "Esq.io",
+  "name": "zvenyach.com",
   "version": "1.0.0",
   "description": "Personal website of V. David Zvenyach",
   "main": "index.js",
   "scripts": {
-    "start": "hugo serve",
+    "serve": "hugo serve -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vzvenyach/vzvenyach.github.io.git"
+    "url": "git+https://github.com/vdavez/website.git"
   },
   "keywords": [],
   "author": "V. David Zvenyach",
   "license": "CC BY-SA 4.0",
   "bugs": {
-    "url": "https://github.com/vzvenyach/vzvenyach.github.io/issues"
+    "url": "https://github.com/vdavez/website/issues"
   },
-  "homepage": "https://github.com/vzvenyach/vzvenyach.github.io#readme",
+  "homepage": "https://github.com/vdavez/website#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",

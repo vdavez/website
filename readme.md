@@ -9,3 +9,9 @@ A personal website, built using [hugo](https://gohugo.io/) and hosted on [netlif
 ```bash
 make serve
 ```
+
+# Add a post
+
+```
+make new post TITLE="whatever you want it to be"
+```
