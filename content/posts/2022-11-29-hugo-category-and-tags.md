@@ -14,6 +14,8 @@ Most content-management systems allow for some kind of content tagging. Until re
 
 But, then I discovered hugo's [taxonomies](https://gohugo.io/content-management/taxonomies/). tl;dr — hugo ships "tags" and "categories" out of the box for posts.
 
+<!--more-->
+
 So, I moved all of my TILs into the `posts` folder, added `categories = ["til"]` to the front matter and :boom: I have the ability to just have my TILs in my blog posts. 
 
 Two observations: 
