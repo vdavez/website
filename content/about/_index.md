@@ -15,4 +15,4 @@ Dave is a graduate of the George Washington University Law School and has a bach
 
 ## Contact
 
-If you'd like to contact me, you may email me at dave@zvenyach.com. Or, if you'd like to grab some time on my calendar, you can do so at [https://cal.com/vdavez/chat](https://cal.com/vdavez/chat).
+If you'd like to contact me, you may email me at dave@zvenyach.com. Or, if you'd like to grab some time on my calendar, you can do so at [https://app.simplymeet.me/davez/chat](https://app.simplymeet.me/davez/chat).
