@@ -10,13 +10,13 @@ categories: ["til"]
 tags: ["blogging"]
 ---
 
+{{< giphy id="3og0IMJcSI8p6hYQXS" >}}
+
 I rely heavily on RSS feeds and I published my own content here using an [RSS feed](https://vdavez.com/posts/index.xml). But, I noticed that my RSS reader wasn't formatting my posts very well. 
 
 TIL how to fix that using Hugo's [content summaries](https://gohugo.io/content-management/summaries/).
 
 Bottom line: mark up your content with a "<\!\-\-more\-\->" tag.
-
-{{< giphy id="3og0IMJcSI8p6hYQXS" >}}
 
 <!--more-->
 ---
