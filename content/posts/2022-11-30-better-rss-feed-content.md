@@ -1,7 +1,7 @@
 ---
 slug-title: better-rss-feed-content
 date: 2022-11-30T10:27:25-06:00
-draft: true
+draft: false
 title: "Better RSS Feed Content"
 subtitle: Using `<!--more-->`
 description: A TIL entry about how to improve the look and feel of posts using Hugo's default RSS feed.
