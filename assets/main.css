@@ -49,6 +49,15 @@ blockquote {
   border-left: 3px solid #ccc;
 }
 
+.highlight {
+  max-width: 100%;
+}
+.highlight pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+
 .footnotes li {
   @apply list-decimal;
 }
