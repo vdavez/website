@@ -1,8 +1,8 @@
 ---
-slug-title: innovation-in-the-least-dangerous-branch
+slug-title: innovation-in-the-judiciary
 date: 2022-11-30T21:00:00-06:00
 draft: false
-title: "Innovation in the Least Dangerous Branch"
+title: "Innovation in the Judiciary"
 subtitle: I'm excited about the Judicial Innovation Fellowship Program 
 description: The Georgetown Law Tech Institute launched the Judicial Innovation Fellowship program and I think it's wonderful!
 images: ["https://www.law.georgetown.edu/tech-institute/wp-content/uploads/sites/42/2022/11/Judicial-Innovation-Fellowship-Logo-740x740.png"]
