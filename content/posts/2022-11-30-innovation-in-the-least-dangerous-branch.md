@@ -34,4 +34,4 @@ For example, over 50% of the Presidential Innovation Fellows end up staying in g
 
 I still believe that lawyers should put in effort to learn how technology works. In the mean time, though, we are fortunate that government and related institutions are stepping to create space for technologists to fill an access-to-justice gap.
 
-If you work in a SLTT trial court, or are a technologist who cares about justice and democracy, I highly recommend you check out the program.
+If you work in a SLTT trial court, or are a technologist who cares about justice and democracy, I highly recommend you [check out the program](https://www.law.georgetown.edu/tech-institute/programs/judicial-innovation/).
