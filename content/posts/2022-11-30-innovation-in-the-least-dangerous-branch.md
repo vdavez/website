@@ -28,10 +28,10 @@ As the program explains:
 
 On first blush, these goals may sound lofty. It's just a one-year fellowship, right? 
 
-Over the years, though, a pattern with government tech fellowship programs has emerged. And I, for one, am hopeful to see it repeat itself here. That pattern? People join these fellowships expecting to stay for a year or two and then returning to the private sector. But that expectation is quickly shattered when they realize the potential impact they can have and the level of professional satsifaction they can enjoy as public-servant technologists.
+Over the years, though, a pattern with government tech fellowship programs has emerged. And I, for one, am hopeful to see it repeat itself here. That pattern? People join these fellowships expecting to stay for a year or two and then return to the private sector. But that expectation is quickly shattered when they realize the potential impact they can have and the level of professional satsifaction they can enjoy as public-servant technologists.
 
 For example, over 50% of the Presidential Innovation Fellows end up staying in government roles after graduating from the program. By my read of the description, the PIF appears to be the closest analogue to the Judicial Innovation Fellowship program. If even a quarter of the technologists who join the courts as innovation fellows end up staying, our democracy will be better off.
 
-I still believe that lawyers putting in effort to learn how technology works but, in the mean time, we are fortunate that government and related institutions are stepping to create space for technologists to fill an access-to-justice gap.
+I still believe that lawyers should put in effort to learn how technology works. In the mean time, though, we are fortunate that government and related institutions are stepping to create space for technologists to fill an access-to-justice gap.
 
 If you work in a SLTT trial court, or are a technologist who cares about justice and democracy, I highly recommend you check out the program.
