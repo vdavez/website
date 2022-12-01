@@ -1,6 +1,6 @@
 ---
 slug-title: innovation-in-the-judiciary
-date: 2022-11-30T21:00:00-06:00
+date: 2022-11-30T22:00:00-06:00
 draft: false
 title: "Innovation in the Judiciary"
 subtitle: I'm excited about the Judicial Innovation Fellowship Program 
