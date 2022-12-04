@@ -36,10 +36,6 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ printf "<![CDATA[" | safeHTML }}
-        {{ if .Params.images }}
-          {{ $imgUrl := index .Params.images 0}}
-          {{- printf "<img src='%s' />" $imgUrl | safeHTML }}
-        {{end}}
         {{- printf "%s" .Summary | safeHTML }}
         {{- printf "<p><a href='%s'>Read more</a></p> ]]>" .Permalink | safeHTML }}
       </description>
