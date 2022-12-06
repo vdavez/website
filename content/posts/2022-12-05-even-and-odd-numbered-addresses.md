@@ -12,21 +12,23 @@ tags: []
 
 {{< figure src="/images/more_you_know.png">}}
 
-Chances are, if you live in the United States, that the buildings on the side of the street where you are reading this are all even or all odd, and the buildings on the _opposite_ side of the street are the opposite.
+Chances are, if you live in the United States, the buildings on one side of the street are all even or all odd, and the buildings on the opposite side of the street are the opposite.
 
 But *why* is this the case? How did this come to pass?
 
-As it turns out, you can trace this convention back to the [Article I, Section 2, Clause 3 (the "Enumeration Clause") of the US Constitution](https://www.law.cornell.edu/constitution-conan/article-1/section-2/clause-3/enumeration-clause), which established the United States Census, and to Philadelphia, which was the nation's capital during the first national census!
+As it turns out, you can trace this convention back to [Article I, Section 2, Clause 3 (the "Enumeration Clause") of the US Constitution](https://www.law.cornell.edu/constitution-conan/article-1/section-2/clause-3/enumeration-clause), which established the United States Census, and to Philadelphia, which was the nation's capital during the first national census!
 
-**That's right: modern cities use an odd/even house numbering convention, which draws its origin from the founding of the US constitution!**
+**That's right! The odd/even house numbering convention owes its origin to the founding of the US constitution!**
 
 <!--more-->
 
-While reading Dan Bouk's [Democracy's Data: The Hidden Stories in the U.S. Census and How to Read Them](https://bookshop.org/p/books/democracy-s-data-the-hidden-stories-in-the-u-s-census-and-how-to-read-them-dan-bouk/18721705), I came across this assertion and confirmed this citation. But then I went one step further to learn more. Here's the best source, [a doctoral thesis entitled "Governmentality, the Grid, and the Beginnings of a Critical Spatial History of the Geo-Coded World"](https://www.academia.edu/281406/Governmentality_the_Grid_and_the_Beginnings_of_a_Critical_Spatial_History_of_the_Geo_Coded_World):
+While reading Dan Bouk's [Democracy's Data: The Hidden Stories in the U.S. Census and How to Read Them](https://bookshop.org/p/books/democracy-s-data-the-hidden-stories-in-the-u-s-census-and-how-to-read-them-dan-bouk/18721705), I came across this assertion and checked out his citation and then I went one step further to learn more. Here's the source of that assertion, [a doctoral thesis entitled "Governmentality, the Grid, and the Beginnings of a Critical Spatial History of the Geo-Coded World"](https://www.academia.edu/281406/Governmentality_the_Grid_and_the_Beginnings_of_a_Critical_Spatial_History_of_the_Geo_Coded_World):
 
 > During the 1790s, the practice of placing odd and even numbers along
-opposite sides of the street became common. The U.S. Marshal who conducted the
-first federal census in Philadelphia (1790), Clement Biddle, renumbered the city’s houses and separated odd and even numbers on different sides of the street. Interestingly, Biddle (1791) then published his own city directory based upon this new numbering scheme.
+opposite sides of the street became common. **The U.S. Marshal who conducted the
+first federal census in Philadelphia (1790), Clement Biddle, renumbered the city's houses and separated odd and even numbers on different sides of the street.** Interestingly, Biddle (1791) then published his own city directory based upon this new numbering scheme.
+
+(emphasis added). Shortly after Philadelphia did it, other cities (like New York City) followed suit.
 
 The full thesis on "house numbering" is actually a super interesting read. He argues that "as a spatial practice, house numbering is a comparatively recent innovation, which did not become widespread until the second half of the eighteenth century, and in some cities the practice was not systematically adopted until well into the nineteenth century." 
 
