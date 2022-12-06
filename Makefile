@@ -9,4 +9,7 @@ serve:
 new:
 	@hugo new posts/$$(date +%Y-%m-%d)-$(SLUGTITLE).md
 
-.PHONY: serve new
+clean:
+	@git checkout main && git branch | grep -v '^*' | xargs git branch -d
+
+.PHONY: serve new clean
