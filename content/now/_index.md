@@ -2,15 +2,14 @@
 title: Now
 ---
 
-Living in Oregon, WI, enjoying the remaining weeks of fall. Spouse is consulting and teaching. Kids are 11 and 9 and busy with swimming, basketball, video games, causing trouble, etc.
+Living in Oregon, WI, trying to survive the first month of winter. Spouse is consulting and teaching. Kids are 11 and 9 and busy with swimming, basketball, orchestra, band, video games, causing trouble, etc.
 
-I am recovering from my most recent tour in federal service and doing very little formally productive work. But I am still keeping relatively busy:
+I am still recovering from my most recent tour in federal service and doing very little formally productive work. But I am still keeping relatively busy:
 
 - Getting on that Peloton
 - Chairing a special committee of the Uniform Law Commission related to automated technology liability
-- Some longform writing on topics of personal interest
-- Trying out this NaNoWriMo thing
-- Dabbling in learning about number theory
-- Playing around with Raspberry Pi Picos and my new 3D printer
+- Reading a *lot*
+- Learning to cook Indian food and perfecting my Masala Chai recipe
+- Blogging and writing
 
-Last updated November 2022.
+Last updated December 2022.
