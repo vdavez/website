@@ -3,6 +3,10 @@ footnoteReturnLinkContents = "↩"
 enableInlineShortcodes = true
 title = "esq.io"
 
+[build]
+  writeStats = true
+
+
 [params]
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vdavez"

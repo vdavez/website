@@ -24,8 +24,6 @@ body {
 a {
   @apply underline decoration-2 underline-offset-2 decoration-sky-500;
   @apply hover:text-sky-500 hover:bg-gray-50;
-  /* text-decoration-thickness: 3px;
-  text-decoration-style: dotted; */
 }
 
 p {
@@ -56,7 +54,6 @@ blockquote {
   white-space: pre-wrap;
   word-break: break-word;
 }
-
 
 .footnotes li {
   @apply list-decimal;
