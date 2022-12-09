@@ -4,7 +4,7 @@ date: 2021-01-07
 draft: false
 title: "Whatever we feed..."
 subtitle: "is what will flourish."
-description: esq.io | A post that discusses the quote "whatever we feed will flourish" and its resonance related to recent events
+description:  A post that discusses the quote "whatever we feed will flourish" and its resonance related to recent events
 images: ["https://source.unsplash.com/3_e8uJsnQtA/300x300"]
 ---
 

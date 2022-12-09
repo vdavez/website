@@ -9,4 +9,4 @@
 [context.production.environment]
     HUGO_ENV = "production"
     HUGO_ENABLEGITINFO = "true"
-    HUGO_BASEURL = "https://esq.io/"
+    HUGO_BASEURL = "https://vdavez.com/"

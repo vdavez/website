@@ -9,7 +9,7 @@ aliases: ["/blog/posts/six-months-into-18F/"]
 
 ---
 
-Several months ago, I described my intention to leave a happy job in the law and [join the emerging government technology office known as 18F](https://esq.io/blog/posts/joining-18f/). Today, 6 months after starting at 18F, I want to give an update about how it's going.
+Several months ago, I described my intention to leave a happy job in the law and [join the emerging government technology office known as 18F](https://vdavez.com/blog/posts/joining-18f/). Today, 6 months after starting at 18F, I want to give an update about how it's going.
 
 *tl;dr It's better than I could have ever imagined.*
 

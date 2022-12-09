@@ -4,7 +4,7 @@ date: 2021-01-06
 draft: false
 title: "Politics and Punctuated Equilibrium"
 subtitle: The Georgia elections and how change happens
-description: esq.io | A reflection on the results of the Georgia elections and the theory of punctuated equilibrium in politics.
+description:  A reflection on the results of the Georgia elections and the theory of punctuated equilibrium in politics.
 images: ["https://source.unsplash.com/-iOE0qBkioc/300x300"]
 ---
 

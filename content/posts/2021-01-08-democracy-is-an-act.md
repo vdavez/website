@@ -4,7 +4,7 @@ date: 2021-01-08
 draft: false
 title: "Democracy is an Act"
 subtitle: "A lesson from the late John Lewis"
-description: esq.io | A reflection on a quote from John Lewis's final essay.
+description: A reflection on a quote from John Lewis's final essay.
 images:
   [
     "https://static01.nyt.com/newsgraphics/2020/07/14/op-header/1568695572d518400524a8700d93a6140a602764/h_14047247.jpg",

@@ -1,6 +1,6 @@
 ---
 date: "2015-01-25T00:00:00Z"
-image: https://esq.io/assets/images/word_templates.png
+image: https://vdavez.com/assets/images/word_templates.png
 newest: false
 title: Mailmerge for Word Docs... in Python?
 subtitle: A neat trick for document automation

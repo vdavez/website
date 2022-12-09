@@ -27,7 +27,7 @@ The reason I bring up this history is that, 25 years ago (and before that even),
 
 In other words, how we *feel* about protests is largely driven by how much we *trust* contracting officers to do their jobs effectively. The reason I say *feel* and *trust* is that we still don't have very good *data* or *evidence* about whether protests affect purchasing behaviors or decisions. Anecdotally, protests affect acquisition strategy. But do we believe that the absence of protests would meaningfully affect evaluation decisions? Or would it simply change the means of documentation?
 
-By contrast, as I wrote recently, there is evidence to suggest that [greater autonomy in procurement](https://esq.io/2020/02/autonomy-in-procurement/) might lead to better outcomes. But even that experiment has limited explanatory weight.
+By contrast, as I wrote recently, there is evidence to suggest that [greater autonomy in procurement](https://vdavez.com/2020/02/autonomy-in-procurement/) might lead to better outcomes. But even that experiment has limited explanatory weight.
 
 The best we have is anecdotal evidence from 2018. In response to a sudden congressional interest in bid protests, the RAND Corporation issued a report entitled *[Assessing Bid Protests of U.S. Department of Defense Procurements](https://www.rand.org/pubs/research_reports/RR2356.html)*, which surveyed DOD contracting officers about their decisionmaking process. And its findings track my own experiences:
 

@@ -4,7 +4,7 @@ date: 2021-01-10
 draft: false
 title: "The etymology of mission"
 subtitle: ""
-description: esq.io |
+description: 
 images: ["https://source.unsplash.com/0GY8PGd17qw/300x300"]
 ---
 

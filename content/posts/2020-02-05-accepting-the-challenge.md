@@ -6,7 +6,7 @@ title: "Accepting the challenge"
 subtitle: The heavy responsibility of making decisions
 ---
 
-After the [Iowa caucuses dust up](https://esq.io/2020/02/elections-tech-and-usability/), a couple of colleagues pressed me on the ethical responsibilities of the vendor at issue. What obligation, they asked, did the vendor have in telling party officials that it was unreasonable to deliver an app in 2 months, and at a cost of $60,000? Should the vendor have refused? What are the obligations of those who accept the challenge to deliver?
+After the [Iowa caucuses dust up](https://vdavez.com/2020/02/elections-tech-and-usability/), a couple of colleagues pressed me on the ethical responsibilities of the vendor at issue. What obligation, they asked, did the vendor have in telling party officials that it was unreasonable to deliver an app in 2 months, and at a cost of $60,000? Should the vendor have refused? What are the obligations of those who accept the challenge to deliver?
 
 In hindsight, it seems clear that the vendor had some responsibility, and failed in it. But is that always the case? And when did that responsibility attach? During the "pitch" that inevitably led to the app's development? During the week before launch when it seemed like there might be a problem? On election night? And what about the counterfactual, what would have happened if the vendor had refused entirely?
 

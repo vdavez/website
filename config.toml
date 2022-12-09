@@ -1,7 +1,11 @@
-baseURL = "https://esq.io/"
+baseURL = "https://vdavez.com/"
 footnoteReturnLinkContents = "↩"
 enableInlineShortcodes = true
-title = "esq.io"
+title = "Dave Zvenyach's website"
+
+enableEmoji = true
+rssLimit = 10
+timeZone = "America/Chicago"
 
 paginate = 20
 
@@ -13,8 +17,8 @@ paginate = 20
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vdavez"
   description = "A website created by V. David Zvenyach"
-  images = ["images/bronzefonze.jpg"]
-  title = "Dave Zvenyach's Website"
+  images = ["images/Zvenyach.jpg"]
+  title = "Dave Zvenyach's website"
 
 [permalinks]
   posts = "/:year/:month/:slug/"

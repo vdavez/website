@@ -4,7 +4,7 @@ date: 2021-01-03
 draft: false
 title: "The Color of Law"
 subtitle: A review
-description: esq.io | A review of Richard Rothsteins's book, "The Color of Law"
+description:  A review of Richard Rothsteins's book, "The Color of Law"
 images:
   [
     "http://v.fastcdn.co/t/311737f5/74667977/1506347016-18847911-468x455x469x488x0x0-coloroflaw-3d.jpg",

@@ -4,7 +4,7 @@ date: 2021-01-04
 draft: false
 title: "Time boxing"
 subtitle: Using the clock with intention
-description: esq.io | How to use "timeboxing" as a strategy to be more creative.
+description:  How to use "timeboxing" as a strategy to be more creative.
 images: ["https://source.unsplash.com/5Hl5reICevY/300x300"]
 ---
 

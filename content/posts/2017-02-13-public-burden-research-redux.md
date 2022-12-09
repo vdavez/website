@@ -13,7 +13,7 @@ aliases: ["/blog/posts/public-burden-research-redux/","/2017/02/public-burden-re
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Yesterday, I published <a href="https://esq.io/blog/posts/public-burden-research/">an article</a> about using open government data to hunt for paper-based information requests by the government. Based on the data, it looked like there are still a <em>lot</em> of hours spent filling out paper-based forms. As I noted, though, I ran out of time to do careful analysis. So, today, let's explore deeper.</p>
+<p>Yesterday, I published <a href="https://vdavez.com/blog/posts/public-burden-research/">an article</a> about using open government data to hunt for paper-based information requests by the government. Based on the data, it looked like there are still a <em>lot</em> of hours spent filling out paper-based forms. As I noted, though, I ran out of time to do careful analysis. So, today, let's explore deeper.</p>
 <p>First, we'll create a histogram to look for the distributions of requests. To do so, we'll use <a href="http://pandas.pydata.org/">pandas</a> to examine the results data, and specifically the <a href="http://pandas.pydata.org/pandas-docs/stable/visualization.html#histograms">histogram</a> method.</p>
 
 </div>
