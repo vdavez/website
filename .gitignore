@@ -6,7 +6,7 @@ resources/*
 public/
 .vscode/
 
-hugo_stats.json
+# hugo_stats.json
 
 # Local Netlify folder
 .netlify
