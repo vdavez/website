@@ -10,7 +10,7 @@ categories: ["book review"]
 tags: ["data", "government"]
 ---
 
-{{< figure alt="The cover of Dan Bouk's book: Democracy's Data" src="https://mpd-biblio-covers.imgix.net/9780374602543.jpg?w=900" link="https://www.shroudedincloaksofboringness.com/democracysdata/" class="grid justify-center object-cover" width="300">}}
+{{< figure alt="The cover of Dan Bouk's book: Democracy's Data" src="https://mpd-biblio-covers.imgix.net/9780374602543.jpg?w=900" link="https://www.shroudedincloaksofboringness.com/democracysdata/" class="grid justify-center object-cover" width="300" height="460">}}
 
 > There are stories in the data. You just have to know how to read them.
 
