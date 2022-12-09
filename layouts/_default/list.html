@@ -8,11 +8,15 @@
     <div class="text-base lg:text-xl lg:tracking-wide">
     {{ .Content | safeHTML}}
     <br>
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
         <li>
             <a href="{{.Permalink}}">{{.Title}}</a> ({{.Date.Format "2006-01-02"}})
         </li>
     {{ end }}
+    <div class="py-8">
+      More posts...
+      {{ template "_internal/pagination.html" (dict "page" . "format" "terse") }}
+    </div>
     </div>
   </div>
 {{ end }}

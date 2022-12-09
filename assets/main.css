@@ -42,6 +42,14 @@ li {
   @apply list-disc ml-4;
 }
 
+ul.pagination {
+  @apply flex;
+}
+
+ul.pagination li {
+  @apply list-none
+}
+
 blockquote {
   @apply my-2 pl-8 bg-sky-50;
   border-left: 3px solid #ccc;

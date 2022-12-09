@@ -3,6 +3,8 @@ footnoteReturnLinkContents = "↩"
 enableInlineShortcodes = true
 title = "esq.io"
 
+paginate = 20
+
 [build]
   writeStats = true
 
