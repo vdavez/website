@@ -2,7 +2,12 @@ const MiniSearch = require("minisearch")
 
 const miniSearch = new MiniSearch({
     fields: ['title', 'content'],
-    storeFields: ['title', 'permalink']
+    storeFields: ['title', 'permalink'],
+    searchOptions: {
+      boost: { title: 2 },
+      processTerm: (term) => term.toLowerCase()
+    //   fuzzy: 0.2
+    }
   })
 
 fetch("/index.json")
@@ -10,6 +15,24 @@ fetch("/index.json")
   .then(docs => {
       miniSearch.addAll(docs)
   })
+
+  /**
+   * debounce function for search ... credit entirely to
+   * https://www.joshwcomeau.com/snippets/javascript/debounce/
+   * @param {*} callback 
+   * @param {*} wait 
+   * @returns 
+   */
+  const debounce = (callback, wait) => {
+    let timeoutId = null;
+    return (...args) => {
+      window.clearTimeout(timeoutId);
+      timeoutId = window.setTimeout(() => {
+        callback.apply(null, args);
+      }, wait);
+    };
+  }
+
 
 /**
  * Removes all the children elements of the parent node
@@ -27,7 +50,7 @@ const removeChildren = (parent) => {
  * 
  * @param {event} event 
  */
-const formChange = (event) => {
+const formChange = debounce((event) => {
   const input = document.getElementById('site-search').value;
   const optionsList = document.getElementById("search-results-list-select")
 
@@ -37,10 +60,9 @@ const formChange = (event) => {
   optionsList.style.display = "none"
   
   // Check to make sure that there's enough input text to bother with
-  // Could be better as a debounce...
   if (input.length > 2) {
 
-      const results = miniSearch.search(input)
+      const results = miniSearch.search(input, { prefix: true })
       
       if (results.length > 0) {
         
@@ -58,7 +80,8 @@ const formChange = (event) => {
         optionsList.focus()
       }
     }
-  }
+  }, 250);
+
   const input = document.getElementById('site-search');
   input.addEventListener('input', formChange);
 
