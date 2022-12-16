@@ -12,7 +12,6 @@ paginate = 20
 [build]
   writeStats = true
 
-
 [params]
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vdavez"
@@ -23,9 +22,6 @@ paginate = 20
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "RSS"]
-
-[build]
-  writeStats = true
 
 [permalinks]
   posts = "/:year/:month/:slug/"

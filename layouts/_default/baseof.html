@@ -68,6 +68,9 @@
       <p class="text-center">V. David Zvenyach. Source Code and Content available <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The cool background is courtesy of <a href="https://www.svgbackgrounds.com/#pattern-randomized">SVGBackgrounds.com</a>.</p>
     </div>
   </footer>
-  {{ block "javascript" .}}{{ end }}
+  {{ block "javascript" .}}
+  {{ end }}
+  {{ $built := resources.Get "main.js" | js.Build "main.js" }}
+  <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 </body>
 </html>
