@@ -12,7 +12,7 @@ tags: []
 
 {{< figure src="/images/more_you_know.png">}}
 
-Here's a fun experiment. Suppose you have a CSV and want to export it into JSON. Obviously, one way you could do it is through a purpose-built tool. But did you know you can use SQLite directly? Let's try an experiment.
+Here's a fun experiment. Suppose you have a CSV and want to export it into JSON. Obviously, one way you could do it is through a purpose-built tool. But did you know you can use SQLite directly? Let's try it.
 
 Suppose you have the following CSV saved (cleverly) as "in.csv":
 
