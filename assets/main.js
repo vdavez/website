@@ -50,19 +50,17 @@ const removeChildren = (parent) => {
  * 
  * @param {event} event 
  */
-const formChange = debounce((event) => {
-  const input = document.getElementById('site-search').value;
-  const optionsList = document.getElementById("search-results-list-select")
-
+const formChange = debounce((event,inputElem,optionsList) => {
+  const inputText = inputElem.value;
   removeChildren(optionsList)
 
   // Hide the select element initially
   optionsList.style.display = "none"
   
   // Check to make sure that there's enough input text to bother with
-  if (input.length > 2) {
-
-      const results = miniSearch.search(input, { prefix: true })
+  if (inputText.length > 2) {
+    
+      const results = miniSearch.search(inputText, { prefix: true })
       
       if (results.length > 0) {
         
@@ -82,8 +80,21 @@ const formChange = debounce((event) => {
     }
   }, 250);
 
-  const input = document.getElementById('site-search');
-  input.addEventListener('input', formChange);
+  const inputSidebar = document.getElementById('site-search-sidebar');
+  const inputFooter = document.getElementById('site-search-footer');
+  const optionsListSidebar = document.getElementById("search-results-list-select-sidebar")
+  const optionsListFooter = document.getElementById("search-results-list-select-footer")
+  optionsListSidebar.style.display = "none"
+  optionsListFooter.style.display = "none"
+
+  document.body.addEventListener('input', (ev) => {
+    if (ev.target.id == "site-search-sidebar") {
+      formChange(ev,inputSidebar,optionsListSidebar)
+    }
+    if (ev.target.id == "site-search-footer") {
+      formChange(ev,inputFooter, optionsListFooter)
+    }
+  })
 
   /**
    * When you click on the option, go to the URL
@@ -93,12 +104,11 @@ const formChange = debounce((event) => {
       event.key == " " ||
       event.type == "click"
       ) {
-        window.location.assign(`${optionsList.value}?q=${input.value}`);
+        window.location.assign(`${event.target.value}`);
       }
   }
-
-  const optionsList = document.getElementById("search-results-list-select")
-  optionsList.style.display = "none"
   
-  optionsList.addEventListener('click',selectItem);
-  optionsList.addEventListener('keydown',selectItem)
+  optionsListSidebar.addEventListener('click',selectItem);
+  optionsListSidebar.addEventListener('keydown',selectItem)
+  optionsListFooter.addEventListener('click',selectItem);
+  optionsListFooter.addEventListener('keydown',selectItem)
