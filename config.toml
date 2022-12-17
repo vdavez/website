@@ -12,13 +12,16 @@ paginate = 20
 [build]
   writeStats = true
 
-
 [params]
   AuthorName = "V. David Zvenyach"
   GitHubUser = "vdavez"
   description = "A website created by V. David Zvenyach"
   images = ["images/Zvenyach.jpg"]
   title = "Dave Zvenyach's website"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
 
 [permalinks]
   posts = "/:year/:month/:slug/"
