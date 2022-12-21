@@ -24,4 +24,4 @@ Relatedly, this month helped reinforce a separate insight into habits, which is 
 
 All of which is to say: in more ways than one, habits like company.
 
-Have you found ways to make habits sticker? Have you tried to pair your habits? How might you make your habits a part of your environment?
+Have you found ways to make habits stickier? Have you tried to pair your habits? How might you make your habits a part of your environment?
