@@ -7,9 +7,9 @@ Dave Zvenyach is an attorney, strategist, author, full-stack software developer,
 
 {{< figure src="/images/Zvenyach.png" caption="A picture of me" class="grid place-items-center figure-max-h-8 float-right" >}}
 
-Dave has unique expertise on all things public sector; he’s held positions in all three branches of government, as well as at the federal, state, and local levels. 
+Dave has unique expertise on all things public sector; he’s held positions in all three branches of government, as well as at the federal, state, and local levels.
 
-Most recently, he served as the Director of the Technology Transformation Services ("TTS") at the United States General Services Administration ("GSA"). 
+Most recently, he served as the Director of the Technology Transformation Services ("TTS") at the United States General Services Administration ("GSA").
 
 In between his time in government, Dave worked as an independent consultant and as Director of Product at Hangar. Dave also served as Senior Technical Advisor and Assistant Commissioner for the GSA's Federal Acquisition Service Office of Systems Management; Executive Director of 18F; Deputy Commissioner for TTS; Assistant Commissioner for the TTS Office of Acquisition; General Counsel to the DC Council; Chief of Staff to Councilmember Mary Cheh; and judicial law clerk to United States District Judge Yvette Kane.
 
@@ -21,4 +21,4 @@ Dave is a graduate of the George Washington University Law School and has a bach
 
 ## Contact
 
-If you'd like to contact me, you may email me at dave@zvenyach.com. Or, if you'd like to grab some time on my calendar, you can do so at [https://app.simplymeet.me/davez/chat](https://app.simplymeet.me/davez/chat).
+If you'd like to contact me, you may email me at dave@zvenyach.com. Or, if you'd like to grab some time on my calendar, you can do so at [https://fantastical.app/vdavez/virtual-coffee](https://fantastical.app/vdavez/virtual-coffee).

@@ -2,14 +2,13 @@
 title: Now
 ---
 
-Living in Oregon, WI, trying to survive the first month of winter. Spouse is consulting and teaching. Kids are 11 and 9 and busy with swimming, basketball, orchestra, band, video games, causing trouble, etc.
+Living in Oregon, WI, enjoying the start of summer. Spouse is elevating and empowering those affected by obesity through education, advocacy and support. Kids are 11 and 9 and busy with swimming, basketball, softball, causing trouble, etc.
 
-I am still recovering from my most recent tour in federal service and doing very little formally productive work. But I am still keeping relatively busy:
+I've been keeping my head down a lot this year. Here's what I'm working on:
 
-- Getting on that Peloton
 - Chairing a special committee of the Uniform Law Commission related to automated technology liability
-- Reading a *lot*
-- Learning to cook Indian food and perfecting my Masala Chai recipe
-- Blogging and writing
+- Writing at [GovContrActually](https://govcontractually.com/)
+- Doing some consulting work, largely focused on tech and GTM strategy.
+- Founding a tech startup! (More on that later...)
 
-Last updated December 2022.
+Last updated May 2023.

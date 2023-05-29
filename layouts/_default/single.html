@@ -3,11 +3,12 @@
 {{ end }}
 
 {{ define "main" }}
-  <div class="shadow-2xl p-3 lg:px-36">
-  <h1 class="text-2xl font-black lg:text-4xl leading-tight text-center">{{ .Params.Title }}</h1>
-  <h2 class="text-center">{{ .Params.Subtitle }}</h2>
-  <br>
-  <div class="text-base lg:text-xl lg:tracking-wide">
-  {{ .Content }}
+  <div class="main-text shadow-2xl p-3 lg:px-36">
+    <h1 class="text-2xl font-black lg:text-4xl leading-tight text-center">{{ .Params.Title }}</h1>
+    <h2 class="text-center">{{ .Params.Subtitle }}</h2>
+    <br>
+    <div class="text-base lg:text-xl lg:tracking-normal">
+    {{ .Content }}
+    </div>
   </div>
 {{ end }}

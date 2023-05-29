@@ -17,9 +17,15 @@ body {
 }
 
 .main-content {
-  background-color: #ffffff;
+  @apply bg-white;
   font-family: "Source Sans Pro"
 }
+
+.main-text {
+  @apply bg-orange-50/40;
+  font-family: "Source Sans Pro"
+}
+
 
 a {
   @apply underline decoration-2 underline-offset-2 decoration-sky-500;
@@ -27,7 +33,7 @@ a {
 }
 
 p {
-  @apply my-4;
+  @apply my-4 tracking-wide;
 }
 
 h2 {
@@ -55,7 +61,7 @@ ul.pagination li {
 }
 
 blockquote {
-  @apply my-2 pl-8 bg-sky-50;
+  @apply mt-2 pl-8 bg-sky-50 tracking-tight pr-16 mb-8 leading-tight;
   border-left: 3px solid #ccc;
 }
 
