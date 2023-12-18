@@ -11,28 +11,14 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@vdavez">
 
-  <link rel="shortcut icon" href="/images/favicon.ico"> 
+  <link rel="shortcut icon" href="/images/favicon.ico">
 
   <link href="https://vdavez.com/posts/index.xml" rel="alternate" type="application/rss+xml" title="Dave Z's blog"/>
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ template "_internal/opengraph.html" . }}
 
-  <!-- Matomo -->
-  <script defer type="text/javascript">
-    var _paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["setDoNotTrack", true]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="https://managingmetrics.matomo.cloud/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '2']);
-      _paq.push(['enableHeartBeatTimer']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.matomo.cloud/managingmetrics.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
+  <!-- Metrics -->
+  <script async src="https://metrics.vdavez.com/script.js" data-website-id="9339d91b-8707-46c0-8017-3b874b36850a" data-do-not-track="true" data-cache="true"></script>
   <!-- End Matomo Code -->
   <meta name="google-site-verification" content="xpyfrmWPJNxqthy19MWKByMvQEctzXqYLO150By8pXc" />
 </head>
