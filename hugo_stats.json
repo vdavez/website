@@ -195,6 +195,7 @@
       "95-of-all-cases-settle--false",
       "The-analysis",
       "a-modest-proposal-governments-should-publish-dumb-data",
+      "adding-multiprocessing-is-trivial-with-this-pattern",
       "best-value-source-selection",
       "bonus-do-not-track-parameter",
       "building-lims-rss",
@@ -256,7 +257,8 @@
       "why-does-it-matter-that-trello-doesnt-support-2fa",
       "why-dumb-data-may-matter-the-most",
       "why-write",
-      "working-with-_data"
+      "working-with-_data",
+      "you-get-a-performance-boost-without-any-multiprocessing"
     ]
   }
 }
