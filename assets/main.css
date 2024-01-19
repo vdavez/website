@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-
 html {
   position: relative;
   min-height: 100%;
@@ -18,14 +16,13 @@ body {
 
 .main-content {
   @apply bg-white;
-  font-family: "Source Sans Pro"
+  font-family: "Fira Sans"
 }
 
 .main-text {
   @apply bg-orange-50/40;
-  font-family: "Source Sans Pro"
+  font-family: "Fira Sans"
 }
-
 
 a {
   @apply underline decoration-2 underline-offset-2 decoration-sky-500;
@@ -69,6 +66,8 @@ blockquote {
   max-width: 100%;
 }
 .highlight pre {
+  @apply text-sm;
+  font-family: "Fira Code";
   white-space: pre-wrap;
   word-break: break-word;
 }

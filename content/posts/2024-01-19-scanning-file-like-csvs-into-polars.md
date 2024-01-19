@@ -21,11 +21,7 @@ But, there's a problem. Because the CSVs are in a zipfile, you hit a snag pretty
 import polars as pl
 
 with zip_file.open("csv_in_zipfolder.csv") as csv_file:
-  pl.scan_csv(
-	csv_file
-  ).sink_parquet(
-	"my_new_file.parquet"
-  )
+  pl.scan_csv(csv_file).sink_parquet("my_new_file.parquet")
 ```
 
 That's because `csv_file` is actually a `ZipExtFile`, and the `scan_csv` function can't accept that! According to the [pola.rs API documentation](https://docs.pola.rs/py-polars/html/reference/api/polars.scan_csv.html), `scan_csv` only accepts a path to a file. Unlike the `read_csv` function, which accepts a path _or_ a file-like objects, `scan_csv` does not allow file-like objects.
@@ -36,16 +32,13 @@ But, there's a hack if your csv file will fit in memory\*: write it to a tempora
 
 ```python
 import polars as pl
+
 with zip_file.open("csv_in_zipfolder.csv") as csv_file:
 	# Create the temporary file
 	with tempfile.NamedTemporaryFile() as tf:
 		tf.write(fp.read()) # Write the csv file to the temporary file
 		tf.seek(0)          # Start at the beginning of the temporary file
-		pl.scan_csv(
-			tf.name
-		).sink_parquet(
-			"my_new_file.parquet"
-		)
+		pl.scan_csv(tf.name).sink_parquet("my_new_file.parquet")
 ```
 
 By saving the file-like object into the temporary file system as a temporary file, you can happily pass the path to that file to polars and scan to your heart's content.
