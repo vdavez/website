@@ -41,7 +41,7 @@ What I _want_ in this example here is to keep both lettuces but discard the olde
 | banana  | fruit     | 2024-01-28 |
 | salmon  | seafood   | 2024-01-28 |
 
-See how there is two fewer rows? The second banana and the second salmon entries drop off, but the second lettuce entry stays.
+See how there are two fewer rows? The second banana and the second salmon entries drop off, but the second lettuce entry stays.
 
 ## How can you do that?
 
