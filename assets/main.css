@@ -33,6 +33,12 @@ p {
   @apply my-4 tracking-wide;
 }
 
+code {
+  @apply text-sm;
+  font-family: "Fira Code";
+  background-color:#eee8d5;
+}
+
 h2 {
   @apply text-lg font-black;
 }
