@@ -2,12 +2,16 @@ baseURL = "https://vdavez.com/"
 footnoteReturnLinkContents = "↩"
 enableInlineShortcodes = true
 title = "Dave Zvenyach's website"
+theme = "PaperMod"
 
 enableEmoji = true
-rssLimit = 10
+rssLimit = 20
 timeZone = "America/Chicago"
+enableRobotsTXT = true
+enableGitInfo = true
 
-paginate = 20
+[pagination]
+  pagerSize = 20
 
 [build]
   writeStats = true
@@ -18,14 +22,29 @@ paginate = 20
   description = "A website created by V. David Zvenyach"
   images = ["images/Zvenyach.jpg"]
   title = "Dave Zvenyach's website"
-
+  
+  # SEO enhancements
+  keywords = ["law", "technology", "government", "procurement", "writing"]
+  author = "V. David Zvenyach"
+  
+  # Social metadata
+  linkedin = "vdavez"
+  
+  # Performance settings
+  env = "production"
+  
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
 
 [permalinks]
   posts = "/:year/:month/:slug/"
 
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
 [markup]
   [markup.goldmark]
@@ -37,20 +56,64 @@ paginate = 20
       table = true
       taskList = true
       typographer = true
-      mathjax = true
     [markup.goldmark.parser]
       attribute = true
       autoHeadingID = true
+      autoHeadingIdType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
       xHTML = false
   [markup.highlight]
     codeFences = true
+    guessSyntax = true
     hl_Lines = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    noClasses = true
-    style = "solarized-light"
+    noClasses = false
+    style = "github"
     tabWidth = 4
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+    [minify.tdewolff.json]
+      precision = 0
+    [minify.tdewolff.svg]
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false
+
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"

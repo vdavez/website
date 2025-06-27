@@ -1,0 +1,122 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
+  
+  <!-- SEO Meta Tags -->
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  {{ if .Params.images }}
+    {{ range first 1 .Params.images }}
+      <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+  {{ else if .Site.Params.images }}
+    {{ range first 1 .Site.Params.images }}
+      <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+  {{ end }}
+  {{ if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:author" content="{{ .Site.Params.author }}">
+    {{ range .Params.tags }}
+      <meta property="article:tag" content="{{ . }}">
+    {{ end }}
+    {{ range .Params.categories }}
+      <meta property="article:section" content="{{ . }}">
+    {{ end }}
+  {{ end }}
+  
+  <!-- Twitter Card Meta Tags (for social sharing) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ if .Params.images }}
+    {{ range first 1 .Params.images }}
+      <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ end }}
+  {{ else if .Site.Params.images }}
+    {{ range first 1 .Site.Params.images }}
+      <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ end }}
+  {{ end }}
+  
+  <!-- Modern Favicon Setup -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ea580c">
+  
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ "/index.xml" | absURL }}">
+  <link rel="alternate" type="application/json" title="{{ .Site.Title }} JSON Feed" href="{{ "/index.json" | absURL }}">
+  
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Stylesheets -->
+  {{ $css := resources.Get "main.css" | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}"{{ end }}>
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{{ if .IsPage }}BlogPosting{{ else }}WebSite{{ end }}",
+    "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}",
+    "headline": "{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}",
+    {{ if .IsPage }}
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+    {{ end }}
+    "description": "{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "url": "{{ .Permalink }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}"
+    }
+    {{ if .Params.images }}
+      {{ range first 1 .Params.images }}
+        ,"image": "{{ . | absURL }}"
+      {{ end }}
+    {{ else if .Site.Params.images }}
+      {{ range first 1 .Site.Params.images }}
+        ,"image": "{{ . | absURL }}"
+      {{ end }}
+    {{ end }}
+  }
+  </script>
+  
+  <!-- Performance hints -->
+  {{ if hugo.IsProduction }}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https:; frame-src 'self'">
+  {{ end }}
+  
+  <!-- Theme color for mobile browsers -->
+  <meta name="theme-color" content="#0ea5e9">
+  <meta name="msapplication-TileColor" content="#0ea5e9">
+</head> 
