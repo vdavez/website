@@ -9,7 +9,7 @@
     "dev": "hugo serve -D --disableFastRender",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "pre-commit run --all-files",
-    "prepare": "pre-commit install"
+    "prepare": "command -v pre-commit >/dev/null 2>&1 && pre-commit install || echo 'pre-commit not available, skipping hook installation'"
   },
   "repository": {
     "type": "git",
