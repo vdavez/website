@@ -2,9 +2,10 @@
 slug-title: predicting-the-super-bowl-and-the-iowa-caucuses
 date: 2020-02-02T08:00:43-06:00
 draft: false
-title: "Predicting the Super Bowl and the Iowa Caucuses"
+title: 'Predicting the Super Bowl and the Iowa Caucuses'
 subtitle: Playing the odds
-images: ["https://upload.wikimedia.org/wikipedia/commons/e/ea/SuperBowl_I_-_Los_Angeles_Coliseum.jpg"]
+images:
+  ['https://upload.wikimedia.org/wikipedia/commons/e/ea/SuperBowl_I_-_Los_Angeles_Coliseum.jpg']
 ---
 
 I predict that, this evening, the Kansas City Chiefs will beat the San Francisco 49ers in the Superbowl. Tomorrow, Bernie Sanders will win the Iowa Caucuses.
@@ -13,7 +14,7 @@ Before I go further, I haven't studied either of these things closely. I watched
 
 I do know how to read a betting line, however. And the sportsbooks have Kansas City as pre-game favorites. And Bernie Sanders is the odds-on favorite. As a gut check, it looks like FiveThirtyEight has [Sanders winning](https://projects.fivethirtyeight.com/2020-primary-forecast/iowa/), too.
 
-Why do I choose predict these outcomes based solely on the odds? In a sense, it's because relying on expert judgment is the most effective way for me to reduce my own uncertainty about the future. I could spend a lot of time studying tape, or looking through the rosters, or calling friends in Iowa, or whatever. But that all would take a ton of energy and time, and I'd *still* probably do worse than the experts.
+Why do I choose predict these outcomes based solely on the odds? In a sense, it's because relying on expert judgment is the most effective way for me to reduce my own uncertainty about the future. I could spend a lot of time studying tape, or looking through the rosters, or calling friends in Iowa, or whatever. But that all would take a ton of energy and time, and I'd _still_ probably do worse than the experts.
 
 Do I have a lot of confidence in those predictions? Not even close. Because, in both cases, the outcomes are dependent on things that experts have difficulty forecasting with precision. Things like mental miscues or injuries, or voter turnout. Experts are often wrong. The good ones will warn you. Which is why I love this [paragraph by Nate Silver](https://fivethirtyeight.com/features/the-iowa-caucuses-are-in-4-days-almost-anything-could-still-happen/):
 

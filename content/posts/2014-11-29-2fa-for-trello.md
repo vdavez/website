@@ -1,12 +1,11 @@
 ---
-date: "2014-11-29T00:00:00Z"
+date: '2014-11-29T00:00:00Z'
 newest: false
 title: Client Confidentiality on Trello?
 subtitle: Why two-factor authentication matters for lawyers who want to use the agile
   tool
 slug-title: client-confidentiality-on-trello
-aliases: ["/blog/posts/client-confidentiality-on-trello/"]
-
+aliases: ['/blog/posts/client-confidentiality-on-trello/']
 ---
 
 This weekend I signed up for [Trello](trello.com). I started playing around with it, started liking it, and then I hit a snag. There's no **two-factor authentication** ("2FA").
@@ -27,15 +26,15 @@ Multi-factor authentication requires that, in order to gain access to informatio
 
 1. That you know something that only you can know (e.g., password);
 2. That you possess something that only you possess or have access to (e.g., phone or email); or
-3. That you *are* something that only you can be (e.g., a fingerprint).
+3. That you _are_ something that only you can be (e.g., a fingerprint).
 
 The most common implementation of multi-factor authentication is 2FA, where you must provide a password and have access to your phone.
 
-The reason this is important is that [guessing or stealing a password is not too hard](http://www.cnn.com/2014/09/02/showbiz/hacked-nude-photos-five-things/) through what's called a "brute-force attack." This is especially true if you use [easy-to-guess passwords](http://www.wired.co.uk/news/archive/2013-05/28/password-cracking). But guessing or stealing a password *and* having access to your phone at the same time *is* hard. So the likelihood of hacking is dramatically reduced when you use 2FA.
+The reason this is important is that [guessing or stealing a password is not too hard](http://www.cnn.com/2014/09/02/showbiz/hacked-nude-photos-five-things/) through what's called a "brute-force attack." This is especially true if you use [easy-to-guess passwords](http://www.wired.co.uk/news/archive/2013-05/28/password-cracking). But guessing or stealing a password _and_ having access to your phone at the same time _is_ hard. So the likelihood of hacking is dramatically reduced when you use 2FA.
 
 ## Why does it matter that Trello doesn't support 2FA?
 
-For some folks, privacy and confidentiality is just a smart thing. But for *lawyers*, we are [ethically obligated to maintain client confidentiality](http://www.americanbar.org/publications/gpsolo_ereport/2012/september_2012/ethics_cloud_computing_lawyers.html). This means, for example, lawyers must consider the following information before putting client information in the cloud:
+For some folks, privacy and confidentiality is just a smart thing. But for _lawyers_, we are [ethically obligated to maintain client confidentiality](http://www.americanbar.org/publications/gpsolo_ereport/2012/september_2012/ethics_cloud_computing_lawyers.html). This means, for example, lawyers must consider the following information before putting client information in the cloud:
 
 > the sensitivity of the information, the likelihood of disclosure if additional safeguards are not employed, the cost of employing additional safeguards, the difficulty of implementing the safeguards, and the extent to which the safeguards adversely affect the lawyer’s ability to represent clients (e.g., by making a device or important piece of software excessively difficult to use).
 

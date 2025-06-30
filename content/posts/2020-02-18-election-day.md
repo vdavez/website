@@ -2,9 +2,9 @@
 slug-title: election-day
 date: 2020-02-18T07:25:22-06:00
 draft: false
-title: "Election Day"
+title: 'Election Day'
 subtitle:
-images: ["https://pbs.twimg.com/media/EQIBpgXXkAEVl_p?format=jpg&name=small"]
+images: ['https://pbs.twimg.com/media/EQIBpgXXkAEVl_p?format=jpg&name=small']
 ---
 
 It's election day here in Wisconsin. On the ballot is the Wisconsin Supreme Court and nonpartisan municipal races.

@@ -10,3 +10,6 @@ public/
 
 # Local Netlify folder
 .netlify
+
+# Pre-commit cache
+.pre-commit-cache/

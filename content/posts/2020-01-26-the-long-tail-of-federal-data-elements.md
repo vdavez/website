@@ -2,12 +2,12 @@
 slug-title: the-long-tail-of-federal-data-elements
 date: 2020-01-26T10:16:25-06:00
 draft: false
-images: ["/images/longtail.png"]
-title: "The long tail of federal data elements"
+images: ['/images/longtail.png']
+title: 'The long tail of federal data elements'
 subtitle: The challenge of data standardization
 ---
 
-Longtime readers of the blog may know that I enjoy datasets about federal forms. Today, I wanted to use a new dataset to share an observation about the extent to which federal forms *share* data elements.
+Longtime readers of the blog may know that I enjoy datasets about federal forms. Today, I wanted to use a new dataset to share an observation about the extent to which federal forms _share_ data elements.
 
 By way of backstory, a few years ago, Congress passed the [DATA Act](https://en.wikipedia.org/wiki/Digital_Accountability_and_Transparency_Act_of_2014). As part of the DATA Act implementation, the Department of Health and Human Services started on an effort to create a database of "common data elements," in an effort to improve the standardization of federal data. Today, the project has resulted in the [Common Data Element Repository (CDER) Library](https://repository.usaspending.gov/cder_library/), which lists an astonishing **34,550** data elements across 444 forms. If you're wonky, you could likely spend months looking through the elements.
 

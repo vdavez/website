@@ -22,17 +22,17 @@ enableGitInfo = true
   description = "A website created by V. David Zvenyach"
   images = ["images/Zvenyach.jpg"]
   title = "Dave Zvenyach's website"
-  
+
   # SEO enhancements
   keywords = ["law", "technology", "government", "procurement", "writing"]
   author = "V. David Zvenyach"
-  
+
   # Social metadata
   linkedin = "vdavez"
-  
+
   # Performance settings
   env = "production"
-  
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "RSS"]
@@ -83,7 +83,7 @@ enableGitInfo = true
   disableSVG = false
   disableXML = false
   minifyOutput = true
-  
+
   [minify.tdewolff]
     [minify.tdewolff.css]
       keepCSS2 = true

@@ -32,4 +32,18 @@ deploy: build
 
 # Show recent posts
 recent:
-    ls -la content/posts/ | tail -10 
+    ls -la content/posts/ | tail -10
+
+# Install and setup pre-commit hooks
+setup-precommit:
+    uv tool install pre-commit
+    pre-commit install
+    pre-commit install --hook-type commit-msg
+
+# Run all pre-commit hooks on all files
+check:
+    pre-commit run --all-files
+
+# Update pre-commit hook versions
+update-hooks:
+    pre-commit autoupdate

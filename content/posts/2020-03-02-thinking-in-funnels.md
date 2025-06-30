@@ -2,9 +2,12 @@
 slug-title: thinking-in-funnels
 date: 2020-03-02T05:45:05-06:00
 draft: false
-title: "Thinking in Funnels"
+title: 'Thinking in Funnels'
 subtitle: Some musings on airport security
-images: ["https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+images:
+  [
+    'https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 As I went through security at the airport yesterday, I thought about [Little's Law](/2020/01/cycle-times/). Assuming there were 60 people in line, and it takes 20 seconds to process each person, the average wait time would be 20 minutes for the queue.

@@ -7,7 +7,7 @@ Dave Zvenyach is an expert in how the federal government works and brings a rare
 
 ## What I'm Working On
 
-Dave is a founder and principal at [TandemGov](https://tandemgov.com/), a consultancy that supports organizations navigate government procurement through the full procurement lifecycle, including product development, go-to-market strategy, pricing, proposal development, compliance, and more. He is also CEO of [MakeGov](https://makegov.com), which is building software and data products focused on helping companies get better data on procurement and grants.  Dave is also the author of [GovContrActually](https://govcontractually.com/), a newsletter that offers irreverent takes on procurement policy and bid protests.
+Dave is a founder and principal at [TandemGov](https://tandemgov.com/), a consultancy that supports organizations navigate government procurement through the full procurement lifecycle, including product development, go-to-market strategy, pricing, proposal development, compliance, and more. He is also CEO of [MakeGov](https://makegov.com), which is building software and data products focused on helping companies get better data on procurement and grants. Dave is also the author of [GovContrActually](https://govcontractually.com/), a newsletter that offers irreverent takes on procurement policy and bid protests.
 
 Dave also serves on Wisconsin's delegation to the Uniform Law Commission, where he sits on the Technology Committee and chairs a study committee on State Government Use of Artificial Intelligence.
 
@@ -23,7 +23,7 @@ Between his government roles, Dave worked as a partner and Director of Product a
 
 ## Writing & Teaching
 
-Dave has written extensively on diverse topics, including a book entitled *Coding for Lawyers*, a chapter on Political Law for the DC Bar Practice Manual, and about a variety of technical and legal topics on his blog. He's also a dedicated teacher, having served as an Adjunct Professor at George Washington University Law School, a facilitator for the Digital Services IT Acquisition Professional program, and an instructor for a Continuing Legal Education course through the DC Bar on Legislative Drafting.
+Dave has written extensively on diverse topics, including a book entitled _Coding for Lawyers_, a chapter on Political Law for the DC Bar Practice Manual, and about a variety of technical and legal topics on his blog. He's also a dedicated teacher, having served as an Adjunct Professor at George Washington University Law School, a facilitator for the Digital Services IT Acquisition Professional program, and an instructor for a Continuing Legal Education course through the DC Bar on Legislative Drafting.
 
 ## Recognition & Awards
 
@@ -35,4 +35,4 @@ Dave is a graduate of George Washington University Law School and has a bachelor
 
 ## Let's Connect
 
-Dave is always interested in conversations about technology, law, and building better government systems. Email him at dave@zvenyach.com or [schedule time to chat](https://savvycal.com/vdavez/chat).
+Dave is always interested in conversations about technology, law, and building better government systems. Email him at <dave@zvenyach.com> or [schedule time to chat](https://savvycal.com/vdavez/chat).

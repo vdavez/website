@@ -1,12 +1,16 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @layer base {
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-  
+
   html {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family:
+      'Inter',
+      system-ui,
+      -apple-system,
+      sans-serif;
     scroll-behavior: smooth;
   }
 
@@ -37,22 +41,28 @@
   }
 
   /* Better text rendering */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold tracking-tight;
     text-rendering: optimizeLegibility;
   }
 
   /* Smooth transitions for interactive elements */
-  a, button {
+  a,
+  button {
     @apply transition-all duration-200;
   }
 
   /* Ensure all interactive elements are large enough for touch */
-  button, 
-  a[role="button"],
-  input[type="button"],
-  input[type="submit"],
-  input[type="reset"] {
+  button,
+  a[role='button'],
+  input[type='button'],
+  input[type='submit'],
+  input[type='reset'] {
     min-height: 44px;
     min-width: 44px;
   }
@@ -114,7 +124,8 @@
     @apply italic text-gray-700;
   }
 
-  .prose ul, .prose ol {
+  .prose ul,
+  .prose ol {
     @apply my-6 pl-6;
   }
 
@@ -277,8 +288,14 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .slide-up {
@@ -286,8 +303,14 @@
   }
 
   @keyframes slideUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   /* Reduce motion for users who prefer it */
@@ -307,7 +330,7 @@
     .prose a {
       @apply underline decoration-2;
     }
-    
+
     .btn {
       @apply border-2;
     }
@@ -342,15 +365,15 @@
     .no-print {
       display: none !important;
     }
-    
+
     body {
       @apply text-black bg-white;
     }
-    
+
     a {
       @apply text-black underline;
     }
-    
+
     .skip-link {
       display: none !important;
     }

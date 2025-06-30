@@ -1,0 +1,35 @@
+[default]
+# Extend the default identifier and word lists
+extend-identifiers = { }
+
+[default.extend-words]
+# Technical terms commonly used in this blog
+"Zvenyach" = "Zvenyach"
+"vdavez" = "vdavez"
+"hugo" = "hugo"
+"netlify" = "netlify"
+"tailwindcss" = "tailwindcss"
+"postcss" = "postcss"
+"webapp" = "webapp"
+"repo" = "repo"
+"repos" = "repos"
+"config" = "config"
+"configs" = "configs"
+
+[files]
+# Extend the default list of files to check
+extend-exclude = [
+  "themes/",
+  "public/",
+  "resources/",
+  "*.min.js",
+  "*.min.css",
+  "package-lock.json",
+  "hugo_stats.json",
+  "assets/js/commento.js",
+  "**/2017-02-13-public-burden-research-redux.md"
+]
+
+[type.markdown]
+# Be more lenient with markdown files as they contain blog content
+extend-glob = ["*.md"]

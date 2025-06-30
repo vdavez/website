@@ -4,7 +4,10 @@ date: 2020-02-21T05:22:56-06:00
 draft: false
 title: "The ULC's data-privacy committee"
 subtitle: The work begins...
-images: ["https://higherlogicdownload.s3.amazonaws.com/UNIFORMLAWS/b7c515db-1895-4387-bb2d-ee99e58c0066/UploadedImages/ULC_BlueCircle_NoText_HiRes_3D.png"]
+images:
+  [
+    'https://higherlogicdownload.s3.amazonaws.com/UNIFORMLAWS/b7c515db-1895-4387-bb2d-ee99e58c0066/UploadedImages/ULC_BlueCircle_NoText_HiRes_3D.png',
+  ]
 ---
 
 Today is the first in-person meeting of the drafting committee of the Uniform Collection and Use of Personally Identifiable Data Act, which will focus on data-privacy issues. Although there is a [discussion draft of the proposal](https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3df15b85-a9a2-0eda-8162-36b955465c09&forceDialog=0), the work is just beginning. Over the next two years, the committee will meet several times and go line-by-line, debating (and redebating) language and concepts. Additionally, the measure will be considered at two Annual Meetings of the [Uniform Law Commission](https://uniformlaws.org) where, again, it will be debated line-by-line.

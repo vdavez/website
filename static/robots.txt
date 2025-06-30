@@ -26,4 +26,4 @@ User-agent: MJ12bot
 Disallow: /
 
 # Crawl delay for general bots
-Crawl-delay: 1 
+Crawl-delay: 1

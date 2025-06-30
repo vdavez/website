@@ -35,9 +35,9 @@
         </div>
 
         <!-- Mobile Menu Button -->
-        <button class="md:hidden min-h-[44px] min-w-[44px] flex items-center justify-center" 
-                id="mobile-menu-button" 
-                aria-expanded="false" 
+        <button class="md:hidden min-h-[44px] min-w-[44px] flex items-center justify-center"
+                id="mobile-menu-button"
+                aria-expanded="false"
                 aria-controls="mobile-menu"
                 aria-label="Toggle navigation menu">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -73,8 +73,8 @@
         <div class="text-sm text-gray-600">
           <p>&copy; {{ now.Year }} V. David Zvenyach</p>
           <p class="mt-1">
-            Content available under 
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" 
+            Content available under
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/"
                class="text-orange-600 hover:text-orange-700 underline decoration-orange-200 decoration-2 underline-offset-2 hover:decoration-orange-400"
                rel="license"
                aria-label="Creative Commons Attribution-ShareAlike 4.0 License">
@@ -85,17 +85,17 @@
 
         <!-- Social Links -->
         <div class="flex space-x-6" role="list">
-          <a href="{{ .Site.BaseURL }}index.xml" 
-             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center" 
+          <a href="{{ .Site.BaseURL }}index.xml"
+             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center"
              title="RSS Feed"
              aria-label="RSS Feed">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
               <path d="M3.429 2.571v2.286C12 4.857 16 8.857 16 17.428h2.286c0-9.714-5.143-14.857-14.857-14.857zm0 4.572v2.286c4.571 0 6.857 2.286 6.857 6.857h2.286c0-6.286-4-9.143-9.143-9.143zm3.428 7.714c0 1.143-.857 2-2 2s-2-.857-2-2 .857-2 2-2 2 .857 2 2z"/>
             </svg>
           </a>
-          
-          <a href="https://linkedin.com/in/vdavez" 
-             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center" 
+
+          <a href="https://linkedin.com/in/vdavez"
+             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center"
              title="LinkedIn"
              aria-label="Connect on LinkedIn"
              rel="me">
@@ -103,9 +103,9 @@
               <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"/>
             </svg>
           </a>
-          
-          <a href="https://github.com/vdavez" 
-             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center" 
+
+          <a href="https://github.com/vdavez"
+             class="text-gray-600 hover:text-orange-600 transition-colors duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center"
              title="GitHub"
              aria-label="View GitHub profile"
              rel="me">
@@ -123,18 +123,18 @@
     // Mobile menu toggle with accessibility
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
-    
+
     if (mobileMenuButton && mobileMenu) {
       mobileMenuButton.addEventListener('click', function() {
         const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-        
+
         // Toggle visibility
         mobileMenu.classList.toggle('hidden');
-        
+
         // Update ARIA state
         mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
       });
-      
+
       // Close mobile menu when clicking outside
       document.addEventListener('click', function(event) {
         if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
@@ -142,7 +142,7 @@
           mobileMenuButton.setAttribute('aria-expanded', 'false');
         }
       });
-      
+
       // Close mobile menu on escape key
       document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {

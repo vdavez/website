@@ -2,10 +2,10 @@
 slug-title: timeboxing
 date: 2021-01-04
 draft: false
-title: "Time boxing"
+title: 'Time boxing'
 subtitle: Using the clock with intention
-description:  How to use "timeboxing" as a strategy to be more creative.
-images: ["https://source.unsplash.com/5Hl5reICevY/300x300"]
+description: How to use "timeboxing" as a strategy to be more creative.
+images: ['https://source.unsplash.com/5Hl5reICevY/300x300']
 ---
 
 "Timeboxing," or setting a time limit for a given task, is an incredibly useful strategy. The amount of time you need for a timebox on a given task--1 minute, 10 minutes, 30 minutes, 6 weeks--is not that important. But it's key to make sure that you actually _feel constrained_. Why?

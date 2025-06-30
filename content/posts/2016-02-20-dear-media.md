@@ -1,11 +1,10 @@
 ---
-date: "2016-02-20T00:00:00Z"
+date: '2016-02-20T00:00:00Z'
 newest: false
 title: On links to court filings
 subtitle: Journalists should link to court filings by default
 slug-title: dear-media
-aliases: ["/blog/posts/dear-media/"]
-
+aliases: ['/blog/posts/dear-media/']
 ---
 
 Dear Media,
@@ -27,19 +26,19 @@ Yesterday, over lunch, I had a lovely conversation with some colleagues about th
 
 As such, I did what I typically do. `Google: "judge order apple".` There were many links to news articles about the controversy. For example:
 
-* [Apple Opposes Judge's Order To Help FBI Unlock San Bernardino Shooter's Phone](http://www.npr.org/sections/thetwo-way/2016/02/17/467035863/judge-orders-apple-to-help-investigators-unlock-california-shooters-phone), NPR (Feb. 17, 2016)
-* [Apple vows to resist FBI demand to crack iPhone linked to San Bernardino attacks](https://www.washingtonpost.com/world/national-security/us-wants-apple-to-help-unlock-iphone-used-by-san-bernardino-shooter/2016/02/16/69b903ee-d4d9-11e5-9823-02b905009f99_story.html), Washington Post (Feb. 17, 2016)
-* [Judge Tells Apple to Help Unlock iPhone Used by San Bernardino Gunman](http://www.nytimes.com/2016/02/17/us/judge-tells-apple-to-help-unlock-san-bernardino-gunmans-iphone.html), NY Times (Feb. 16, 2016)
+- [Apple Opposes Judge's Order To Help FBI Unlock San Bernardino Shooter's Phone](http://www.npr.org/sections/thetwo-way/2016/02/17/467035863/judge-orders-apple-to-help-investigators-unlock-california-shooters-phone), NPR (Feb. 17, 2016)
+- [Apple vows to resist FBI demand to crack iPhone linked to San Bernardino attacks](https://www.washingtonpost.com/world/national-security/us-wants-apple-to-help-unlock-iphone-used-by-san-bernardino-shooter/2016/02/16/69b903ee-d4d9-11e5-9823-02b905009f99_story.html), Washington Post (Feb. 17, 2016)
+- [Judge Tells Apple to Help Unlock iPhone Used by San Bernardino Gunman](http://www.nytimes.com/2016/02/17/us/judge-tells-apple-to-help-unlock-san-bernardino-gunmans-iphone.html), NY Times (Feb. 16, 2016)
 
 To a certain extent, much of the news I read and hear comes from these three outlets. I listen to NPR in the morning. I have a subscription to the NY Times. I live in Washington, DC. These are also large, sophisticated organizations, with commitments to journalistic integrity. They also are hip to the Internet, taking their digital platforms seriously.
 
-Here's the thing, though. Although these news articles were about a federal judge's order, *none of the articles had a link to that order*.
+Here's the thing, though. Although these news articles were about a federal judge's order, _none of the articles had a link to that order_.
 
 Perhaps you could chalk this up to a selection bias. Maybe I'm just reading the wrong sites? As it turns out, they are not alone. Here are three other TV media outlets with the same problem:
 
-* [Apple opposes judge's order to hack San Bernardino shooter's iPhone](http://www.cnn.com/2016/02/16/us/san-bernardino-shooter-phone-apple/), CNN (Feb. 18, 2016)
-* [Apple to fight order to help hack San Bernardino shooter's phone](http://www.foxnews.com/us/2016/02/17/apple-must-help-fbi-hack-san-bernardino-killers-phone-judge-says.html), Fox News (Feb. 17, 2016)
-* [Judge Orders Apple to Help Unlock San Bernardino Shooter's Phone](http://abcnews.go.com/US/judge-orders-apple-unlock-san-bernardino-shooters-phone/story?id=36989123), ABC News (Feb. 16, 2016)
+- [Apple opposes judge's order to hack San Bernardino shooter's iPhone](http://www.cnn.com/2016/02/16/us/san-bernardino-shooter-phone-apple/), CNN (Feb. 18, 2016)
+- [Apple to fight order to help hack San Bernardino shooter's phone](http://www.foxnews.com/us/2016/02/17/apple-must-help-fbi-hack-san-bernardino-killers-phone-judge-says.html), Fox News (Feb. 17, 2016)
+- [Judge Orders Apple to Help Unlock San Bernardino Shooter's Phone](http://abcnews.go.com/US/judge-orders-apple-unlock-san-bernardino-shooters-phone/story?id=36989123), ABC News (Feb. 16, 2016)
 
 Even a [legal media outlet couldn't be bothered](http://www.therecorder.com/id=1202749961080/Raising-Stakes-in-Encryption-Debate-Apple-Vows-to-Fight-Order-to-Unlock-iPhone?mcode=1202615741070&curindex=0&curpage=ALL).
 
@@ -51,12 +50,12 @@ This norm should be flipped. When court filing is the subject of a news article,
 
 From the journalist's perspective, it should be a no-brainer. One of the standards of the Society of Professional Journalists Code of Ethics is to "Seek Truth and Report It" and to carry out this standard, the SPJ recommends that journalists "Provide access to source material when it is relevant and appropriate." It would seem _wise_—if not obligatory—to link to the underlying court filings when they are the subject of an article.
 
-From a legal perspective, there is no good reason _not_ to make a copy of the court filings and link to them. After all, *court filings enjoy no copyright protections.*
+From a legal perspective, there is no good reason _not_ to make a copy of the court filings and link to them. After all, _court filings enjoy no copyright protections._
 
-Making a copy of court filings solves another problem, too: expanding legal access. Unfortunately, despite being in the public domain or protected by fair use, many filings exist behind a paywall; providing a publicly available copy of a file will increase public access (not to mention future discoverability) to the law. To the extent those case filings that are _not_ already on the internet behind a paywall, there's *even greater* reason to make a digital copy and share it.
+Making a copy of court filings solves another problem, too: expanding legal access. Unfortunately, despite being in the public domain or protected by fair use, many filings exist behind a paywall; providing a publicly available copy of a file will increase public access (not to mention future discoverability) to the law. To the extent those case filings that are _not_ already on the internet behind a paywall, there's _even greater_ reason to make a digital copy and share it.
 
 Finally, making a publicly available copy helps to prevent [link rot](http://www.abajournal.com/magazine/article/link_rot_is_degrading_legal_research_and_case_cites/) of legal documents.
 
-From the public interest's perspective, the failure to include links harms democracy in the long run. There are many conversations about the [politicization of the judiciary](https://www.washingtonpost.com/politics/scalia-battle-reflects-politicization-of-courts-role/2016/02/15/fbdca6e2-d3f6-11e5-be55-2cc3c1e4b76b_story.html). One of the most incredible features of the American judiciary is its commitment to the written word. And one of the *reasons* for emphasis on writing is ensuring the [legitimacy of those decisions](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1669&context=faculty_scholarship). If those decisions are not published or readily accessible when they are the subject of public attention, the institution of the courts — and by extension, American democracy — is harmed.
+From the public interest's perspective, the failure to include links harms democracy in the long run. There are many conversations about the [politicization of the judiciary](https://www.washingtonpost.com/politics/scalia-battle-reflects-politicization-of-courts-role/2016/02/15/fbdca6e2-d3f6-11e5-be55-2cc3c1e4b76b_story.html). One of the most incredible features of the American judiciary is its commitment to the written word. And one of the _reasons_ for emphasis on writing is ensuring the [legitimacy of those decisions](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1669&context=faculty_scholarship). If those decisions are not published or readily accessible when they are the subject of public attention, the institution of the courts — and by extension, American democracy — is harmed.
 
 Which is to say, in addition to harming the journalists' and lawyers' professional interests, the failure to cite case filings in news articles harms democracy itself. And providing a link to a copy of a court filing is so easy. If you're a journalist, for democracy's sake, just drop that link into your article. Thank you for your attention to the matter.

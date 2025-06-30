@@ -1,11 +1,10 @@
 ---
-date: "2017-02-12T00:00:00Z"
+date: '2017-02-12T00:00:00Z'
 newest: false
 title: Calculating public burden using OIRA data
 subtitle: An experiment in using open data to make government better
 slug-title: public-burden-research
-aliases: ["/blog/posts/public-burden-research/"]
-
+aliases: ['/blog/posts/public-burden-research/']
 ---
 
 <div class="cell border-box-sizing text_cell rendered">
@@ -64,7 +63,6 @@ aliases: ["/blog/posts/public-burden-research/"]
 
 <div class="output_wrapper">
 <div class="output">
-
 
 <div class="output_area">
 <div class="prompt"></div>
@@ -198,7 +196,6 @@ aliases: ["/blog/posts/public-burden-research/"]
         &lt;/OIRAConclusion&gt;
     &lt;/InformationCollectionRequest&gt;
 
-
 </pre>
 </div>
 </div>
@@ -227,9 +224,9 @@ aliases: ["/blog/posts/public-burden-research/"]
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
 
 <span class="k">def</span> <span class="nf">getInfoRequests</span><span class="p">(</span><span class="n">element</span><span class="p">):</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">collections</span> <span class="o">=</span> <span class="n">element</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./InformationCollections/InformationCollection&#39;</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">collection</span> <span class="ow">in</span> <span class="n">collections</span><span class="p">:</span>
+<span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">collections</span> <span class="o">=</span> <span class="n">element</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./InformationCollections/InformationCollection&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">collection</span> <span class="ow">in</span> <span class="n">collections</span><span class="p">:</span>
 
         <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
             <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">collection</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Title/text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
@@ -244,17 +241,18 @@ aliases: ["/blog/posts/public-burden-research/"]
 <span class="n">requests</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;//InformationCollectionRequest[.//AvailableElectronically/text()[. = &quot;No&quot;]]&#39;</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">request</span> <span class="ow">in</span> <span class="n">requests</span><span class="p">:</span>
-    <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-        <span class="s2">&quot;agency_code&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./AgencyCode//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
-        <span class="s2">&quot;omb_control_number&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./OMBControlNumber//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
-        <span class="s2">&quot;icr_reference_number&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./ICRReferenceNumber//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
-        <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Title//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
-        <span class="s2">&quot;abstract&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Abstract//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
-        <span class="s2">&quot;expiration_date&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Expiration/ExpirationDate//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
-        <span class="s2">&quot;burden&quot;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Burden/BurdenHour/TotalQuantity/text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]),</span>
-        <span class="s2">&quot;requests&quot;</span><span class="p">:</span> <span class="n">getInfoRequests</span><span class="p">(</span><span class="n">request</span><span class="p">),</span>
-        <span class="s2">&quot;cost&quot;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Burden/BurdenCost/TotalAmount/text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]),</span>
-    <span class="p">})</span>
+<span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+<span class="s2">&quot;agency_code&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./AgencyCode//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
+<span class="s2">&quot;omb_control_number&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./OMBControlNumber//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
+<span class="s2">&quot;icr_reference_number&quot;</span><span class="p">:</span> <span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./ICRReferenceNumber//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
+<span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Title//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
+<span class="s2">&quot;abstract&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Abstract//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
+<span class="s2">&quot;expiration_date&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Expiration/ExpirationDate//text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span>
+<span class="s2">&quot;burden&quot;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Burden/BurdenHour/TotalQuantity/text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]),</span>
+<span class="s2">&quot;requests&quot;</span><span class="p">:</span> <span class="n">getInfoRequests</span><span class="p">(</span><span class="n">request</span><span class="p">),</span>
+<span class="s2">&quot;cost&quot;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;./Burden/BurdenCost/TotalAmount/text()&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]),</span>
+<span class="p">})</span>
+
 </pre></div>
 
 </div>
@@ -281,6 +279,7 @@ aliases: ["/blog/posts/public-burden-research/"]
 <span class="n">agencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="n">result</span><span class="p">[</span><span class="s2">&quot;agency_code&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="p">])</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are </span><span class="si">%s</span><span class="s2"> information requests that cannot be filed electronically from </span><span class="si">%s</span><span class="s2"> different agencies with a total public burden of </span><span class="si">%s</span><span class="s2"> hours.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">agencies</span><span class="p">),</span> <span class="s2">&quot;</span><span class="si">{:,}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">burden</span><span class="p">)))</span>
+
 </pre></div>
 
 </div>
@@ -289,7 +288,6 @@ aliases: ["/blog/posts/public-burden-research/"]
 
 <div class="output_wrapper">
 <div class="output">
-
 
 <div class="output_area">
 <div class="prompt"></div>

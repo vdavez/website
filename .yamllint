@@ -1,0 +1,31 @@
+extends: default
+
+rules:
+  # Allow longer lines in YAML files (common in Hugo config)
+  line-length:
+    max: 120
+    level: warning
+
+  # Allow truthy values like 'yes', 'no', 'on', 'off'
+  truthy:
+    allowed-values: ['true', 'false', 'yes', 'no', 'on', 'off']
+
+  # Allow document start marker to be optional
+  document-start: disable
+
+  # Relax indentation rules slightly
+  indentation:
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false
+
+  # Allow empty values
+  empty-values:
+    forbid-in-block-mappings: false
+    forbid-in-flow-mappings: false
+
+ignore: |
+  themes/
+  public/
+  resources/
+  .git/

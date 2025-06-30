@@ -2,9 +2,9 @@
 slug-title: budget-value-pricing-cost
 date: 2020-01-17T06:30:58-06:00
 draft: false
-title: "Competing on cost or competing on value"
+title: 'Competing on cost or competing on value'
 subtitle: A decision on how to satisfice or optimize
-images: ["https://images.unsplash.com/photo-1485637701894-09ad422f6de6"]
+images: ['https://images.unsplash.com/photo-1485637701894-09ad422f6de6']
 ---
 
 Suppose you want to buy a widget. You don't want to spend more than $100 on a widget. You go out to a store and you see a widget for $80, a widget for $99, and a widget for $120. What should you do?
@@ -13,9 +13,9 @@ In general, you really have two frameworks within which to answer this question.
 
 In procurement parlance, the first framework is called "lowest-price, technically acceptable" or "LPTA." The second framework is called "best value procurement." You might imagine that there are plenty of situations where it's advantageous to use LPTA, and you might imagine situations where choosing based on price alone would be disastrous.
 
-In decision-theory parlance, you might describe the first framework as [satisficing](https://en.wikipedia.org/wiki/Satisficing) and the second framework as [optimizing](https://en.wikipedia.org/wiki/Optimization_(mathematics)). There are numerous examples that describe -- both objectively and normatively -- when satisficing is a superior decision strategy over optimization.
+In decision-theory parlance, you might describe the first framework as [satisficing](https://en.wikipedia.org/wiki/Satisficing) and the second framework as [optimizing](<https://en.wikipedia.org/wiki/Optimization_(mathematics)>). There are numerous examples that describe -- both objectively and normatively -- when satisficing is a superior decision strategy over optimization.
 
-Critically, though, there's a strand of economics research that argues that satisficing is just a form of an optimization problem. When you're satisficing, you're actually engaged in a form of optimization under specific constraints. In other words, the difference between satificing and optimization as a strategy is only a question about certainty of which constraints should be applied at the beginning of the exercise. If you know your hard constraints, then all of the remaining factors are effectively equivalent. Knowing your *hard constraints*, therefore, can simplify an optimization problem into a satisficing problem.
+Critically, though, there's a strand of economics research that argues that satisficing is just a form of an optimization problem. When you're satisficing, you're actually engaged in a form of optimization under specific constraints. In other words, the difference between satificing and optimization as a strategy is only a question about certainty of which constraints should be applied at the beginning of the exercise. If you know your hard constraints, then all of the remaining factors are effectively equivalent. Knowing your _hard constraints_, therefore, can simplify an optimization problem into a satisficing problem.
 
 What's important to realize, then, is that the simple question of "what thing to buy" ultimately requires a second, much harder, consideration: "what do I really value in the transaction"? And the harder question of "what do I really value" can, in principle, be reduced to "what am I unwilling to negotiate on" if you know your hard constraints.
 

@@ -1,21 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./layouts/**/*.html",
-    "./content/**/*.{md,html}",
-    "./static/**/*.js",
-    "./themes/PaperMod/layouts/**/*.html",
-    "./themes/PaperMod/assets/**/*.js",
-    "./assets/**/*.{js,css}"
+    './layouts/**/*.html',
+    './content/**/*.{md,html}',
+    './static/**/*.js',
+    './themes/PaperMod/layouts/**/*.html',
+    './themes/PaperMod/assets/**/*.js',
+    './assets/**/*.{js,css}',
   ],
   darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        'fira': ['Fira Sans', 'system-ui', 'sans-serif'],
+        fira: ['Fira Sans', 'system-ui', 'sans-serif'],
         'fira-code': ['Fira Code', 'Monaco', 'monospace'],
       },
-      typography: (theme) => ({
+      typography: theme => ({
         DEFAULT: {
           css: {
             maxWidth: '65ch',
@@ -121,7 +121,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
+  plugins: [require('@tailwindcss/typography')],
+};

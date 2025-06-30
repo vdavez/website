@@ -2,14 +2,14 @@
 slug-title: conditional-deduping-in-a-dataframe
 date: 2024-01-28
 draft: false
-title: "How to remove *some* duplicates from a dataframe"
-subtitle: "A TIL about how to partially de-dupe"
-description: "zvenyach.com | How to remove *some* duplicates from a dataframe"
+title: 'How to remove *some* duplicates from a dataframe'
+subtitle: 'A TIL about how to partially de-dupe'
+description: 'zvenyach.com | How to remove *some* duplicates from a dataframe'
 images:
   [
-    "https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars_github_logo_rect_dark_name.svg",
+    'https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars_github_logo_rect_dark_name.svg',
   ]
-categories: ["til"]
+categories: ['til']
 tags: []
 ---
 

@@ -1,12 +1,11 @@
 ---
-date: "2015-01-25T00:00:00Z"
+date: '2015-01-25T00:00:00Z'
 image: https://vdavez.com/assets/images/word_templates.png
 newest: false
 title: Mailmerge for Word Docs... in Python?
 subtitle: A neat trick for document automation
 slug-title: python-docx-mailmerge
-aliases: ["/blog/posts/python-docx-mailmerge/"]
-
+aliases: ['/blog/posts/python-docx-mailmerge/']
 ---
 
 I'm going to say something nice about Microsoft Word: there's a simple loophole to its impossibly [ornate OOXML schema](http://www.ecma-international.org/publications/standards/Ecma-376.htm) that allows for document templating. If you are trying to do some document automation for Word documents from Python (or other languages, I suppose), listen up.
@@ -22,11 +21,11 @@ I'm going to say something nice about Microsoft Word: there's a simple loophole 
 
 Last fall, I found myself working on a project that would let a legal-service provider input data into a web form and inject that data into a Word document. When I took on the project, it seemed like a simple problem and surely one that had been perfected. After all, it was 2014. There are dozens of templating tools out there, from Mustache to Jade to Jinja to ERB and many more...
 
-Word has been [around *since 1983*](https://en.wikipedia.org/wiki/Microsoft_Word) and Python has been [around *since 1991*](https://en.wikipedia.org/wiki/Python_(programming_language)). Surely, *someone* figured out a way to seamlessly inject some text into a Word document.
+Word has been [around _since 1983_](https://en.wikipedia.org/wiki/Microsoft_Word) and Python has been [around _since 1991_](<https://en.wikipedia.org/wiki/Python_(programming_language)>). Surely, _someone_ figured out a way to seamlessly inject some text into a Word document.
 
 ### The state of the art is... meh
 
-As it turned out, although there are a number of handy tools to *create* and even to *manipulate* Word documents, there is not a reliable library that I found to simply inject text at a predefined location into a Word document.
+As it turned out, although there are a number of handy tools to _create_ and even to _manipulate_ Word documents, there is not a reliable library that I found to simply inject text at a predefined location into a Word document.
 
 For example, [python-docx](http://python-docx.readthedocs.org/en/latest/) is very handy at creating a Word document. But because of the way that Word arbitrarily structures the XML, you could not be sure whether syntax like \{\{text\}\} would be preserved. In practice, about 25% of the time, Word would split the group into three parts, making templating unreliable.
 

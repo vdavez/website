@@ -2,10 +2,10 @@
 title: The herald and the call to adventure
 slug-title: the-call-to-adventure
 date: 2020-12-01
-description: "A TIL entry about the monomyth and the call to adventure"
-images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
+description: 'A TIL entry about the monomyth and the call to adventure'
+images: ['https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif']
 draft: false
-categories: ["til"]
+categories: ['til']
 ---
 
 I'm currently reading [Joseph Campbell's The Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces), which documents the concept of "the monomyth" referred to as "the Hero's Journey."

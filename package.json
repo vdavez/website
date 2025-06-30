@@ -7,13 +7,20 @@
     "serve": "hugo serve -D",
     "build": "hugo --gc --minify",
     "dev": "hugo serve -D --disableFastRender",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pre-commit run --all-files",
+    "prepare": "pre-commit install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vdavez/website.git"
   },
-  "keywords": ["hugo", "blog", "tailwindcss", "netlify"],
+  "keywords": [
+    "hugo",
+    "blog",
+    "tailwindcss",
+    "netlify"
+  ],
   "author": "V. David Zvenyach",
   "license": "CC BY-SA 4.0",
   "bugs": {
@@ -28,6 +35,9 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
   },
   "engines": {
     "node": ">=20.0.0"

@@ -1,17 +1,16 @@
 ---
-date: "2015-09-10T00:00:00Z"
+date: '2015-09-10T00:00:00Z'
 image: http://www.hq.nasa.gov/alsj/a16/a16det18339.jpg
 newest: false
 title: 6 months into 18F
 subtitle: An update
 slug-title: six-months-into-18F
-aliases: ["/blog/posts/six-months-into-18F/"]
-
+aliases: ['/blog/posts/six-months-into-18F/']
 ---
 
 Several months ago, I described my intention to leave a happy job in the law and [join the emerging government technology office known as 18F](https://vdavez.com/blog/posts/joining-18f/). Today, 6 months after starting at 18F, I want to give an update about how it's going.
 
-*tl;dr It's better than I could have ever imagined.*
+_tl;dr It's better than I could have ever imagined._
 
 <!--break-->
 
@@ -23,23 +22,23 @@ Ok. So, I'm going to group this post into three categories: the Amazing, the Meh
 
 ## 1. The Amazing
 
-### The people.
+### The people
 
 I've never been to an internal 18F meeting where someone was less than brilliant. That doesn't mean every meeting is great--many meetings still stink. But in every... single... meeting... the people are brilliant.
 
-This is sometimes hard to convey, and it's led to some unfortunate assumptions and branding problems with 18F. It is undeniable, though, that the people at 18F *are* incredibly accomplished and driven. They're also pretty fun to hang out with.
+This is sometimes hard to convey, and it's led to some unfortunate assumptions and branding problems with 18F. It is undeniable, though, that the people at 18F _are_ incredibly accomplished and driven. They're also pretty fun to hang out with.
 
 Let me give three examples:
 
-* [Ozzy Johnson](https://18f.gsa.gov/team/ozzy/). According to his bio: "Ozzy has spent the past 18 years in systems administration and engineering for non-profit, private, and public companies, as well as for local government entities." Let me say this, the bio does not *begin* to describe the vast knowledge and wisdom that Ozzy brings to bear. He has thoughtful opinions on just about any topic you can imagine. He's also exceptionally humble and eager to help out. Although he's soft spoken, there's a phenomenom on our team slack: when Ozzy is typing, I stop.
+- [Ozzy Johnson](https://18f.gsa.gov/team/ozzy/). According to his bio: "Ozzy has spent the past 18 years in systems administration and engineering for non-profit, private, and public companies, as well as for local government entities." Let me say this, the bio does not _begin_ to describe the vast knowledge and wisdom that Ozzy brings to bear. He has thoughtful opinions on just about any topic you can imagine. He's also exceptionally humble and eager to help out. Although he's soft spoken, there's a phenomenon on our team slack: when Ozzy is typing, I stop.
 
-* [Jesse Taggert](https://18f.gsa.gov/team/jtag/). Jesse comes from Silicon Valley, where she most recently "led a design team at Pivotal Labs." Jesse is a fearless design thinker who challenges folks (including, _cough_, me) to think differently about how we approach our problems. She's capable of digging deeper than just about anyone I know to gain empathy for our customers and to help them identify solutions. To illustrate, Jesse flew across the country from San Francisco to DC and led a room of initially skeptical government employees through an amazing design/dev charette... while fighting through a stomach virus. If there were TV cameras in the workplace, Jesse would have had her [Michael Jordan moment](http://sports.espn.go.com/espn/espn25/story?page=moments/79).
+- [Jesse Taggert](https://18f.gsa.gov/team/jtag/). Jesse comes from Silicon Valley, where she most recently "led a design team at Pivotal Labs." Jesse is a fearless design thinker who challenges folks (including, _cough_, me) to think differently about how we approach our problems. She's capable of digging deeper than just about anyone I know to gain empathy for our customers and to help them identify solutions. To illustrate, Jesse flew across the country from San Francisco to DC and led a room of initially skeptical government employees through an amazing design/dev charette... while fighting through a stomach virus. If there were TV cameras in the workplace, Jesse would have had her [Michael Jordan moment](http://sports.espn.go.com/espn/espn25/story?page=moments/79).
 
-* [Jay Finch](https://18f.gsa.gov/team/jfinch/). Jay's so damn busy amazing clients and bringing out the absolute best in people that he hasn't even put together a bio. That's ok. Forbes already [did that for us](http://www.forbes.com/sites/kathryndill/2015/07/29/government-workers-digital-democracy-from-the-forbes-30-under-30/). I also found this [little nugget](http://www.soapboxmedia.com/features/091112jayfinch.aspx) after some googling. This guy --> "While still in college, he worked at the World Bank and in the United States Congress. Goldman Sachs hired him out of college, where he worked as an investment banker helping to grow two new businesses, each with an average of $2.5 billion under management." Did I mention the fact that, before joining 18F, Jay started his own company and then served as a Senior Advisor at the US Treasury Department? Oh yeah, did I mention that he's under 30? There's a reason he's been so successful, no one can match Jay's ability to ask difficult questions, internalize the response, and make sure that everyone in the room is aligned.
+- [Jay Finch](https://18f.gsa.gov/team/jfinch/). Jay's so damn busy amazing clients and bringing out the absolute best in people that he hasn't even put together a bio. That's ok. Forbes already [did that for us](http://www.forbes.com/sites/kathryndill/2015/07/29/government-workers-digital-democracy-from-the-forbes-30-under-30/). I also found this [little nugget](http://www.soapboxmedia.com/features/091112jayfinch.aspx) after some googling. This guy --> "While still in college, he worked at the World Bank and in the United States Congress. Goldman Sachs hired him out of college, where he worked as an investment banker helping to grow two new businesses, each with an average of $2.5 billion under management." Did I mention the fact that, before joining 18F, Jay started his own company and then served as a Senior Advisor at the US Treasury Department? Oh yeah, did I mention that he's under 30? There's a reason he's been so successful, no one can match Jay's ability to ask difficult questions, internalize the response, and make sure that everyone in the room is aligned.
 
 These are just three examples. There are so many, many more. The people. Full stop.
 
-### The awareness of culture.
+### The awareness of culture
 
 On my second day of the job, I showed up at our mandatory Tuesday all-hands meeting. There were two things that hit me pretty hard: (1) the fact that we really are a distributed team with offices across the US, and (2) that people felt absolutely comfortable openly challenging leadership on difficult topics, and that the leadership did not view this as hostile, but as constructive.
 
@@ -49,7 +48,7 @@ Now, on the second point. I don't know what the question was, or what the answer
 
 All too often in government (and outside of government, too), we let titles or hierarchy dictate our behavior. Lord knows, I've done it. But, at 18F, this is simply not how we do business. We realize that we don't have all of the answers, but we do have methods of work. Our methods require honest dialogue, introspection, and naming problems. Again, this is not accomplished through fiat. It is the product of significant effort, and continuous improvement.
 
-Another vignette. A few weeks ago, we were in a staff meeting. It was weird; every one could tell that something was off. About 20 minutes into the meeting, an amazing thing happened: the meeting leader (i.e., management) stopped and acknowledged that the meeting was weird, quickly pivoted the meeting to try and unpack why we were off course, and helped keep us generally on track. But what happened *after* the meeting is the key. There was a continued discussion about what was wrong, and a frank realization that the meetings were no longer productive in their current form. Most incredibly, one of the team members stepped up to lead the staff meetings under a different format. And since that day, he's been leading the staff meetings. This may not be the stuff of Profiles in Courage, but it is the sort of quotidien iterative process improvement that our leadership embraces and the rest of government could do well to learn from.
+Another vignette. A few weeks ago, we were in a staff meeting. It was weird; every one could tell that something was off. About 20 minutes into the meeting, an amazing thing happened: the meeting leader (i.e., management) stopped and acknowledged that the meeting was weird, quickly pivoted the meeting to try and unpack why we were off course, and helped keep us generally on track. But what happened _after_ the meeting is the key. There was a continued discussion about what was wrong, and a frank realization that the meetings were no longer productive in their current form. Most incredibly, one of the team members stepped up to lead the staff meetings under a different format. And since that day, he's been leading the staff meetings. This may not be the stuff of Profiles in Courage, but it is the sort of quotidien iterative process improvement that our leadership embraces and the rest of government could do well to learn from.
 
 ## 2. The Meh
 

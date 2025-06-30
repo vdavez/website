@@ -1,0 +1,129 @@
+repos:
+  # Basic file checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '\.md$'
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+        exclude: 'layouts/.*\.json'
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: ["--maxkb=1000"]
+      - id: detect-private-key
+      - id: check-case-conflict
+      - id: mixed-line-ending
+
+  # JavaScript/CSS formatting and linting
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        files: \.(js|ts|css|scss|json|md|yaml|yml)$
+        exclude: |
+          (?x)^(
+            hugo_stats\.json|
+            package-lock\.json|
+            layouts/.*\.json|
+            themes/.*|
+            public/.*|
+            resources/.*
+          )$
+
+  # Markdown linting
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.41.0
+    hooks:
+      - id: markdownlint
+        args: ["--fix"]
+        exclude: |
+          (?x)^(
+            themes/.*|
+            public/.*|
+            README\.md
+          )$
+
+  # YAML linting
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        args: [-c=.yamllint]
+
+  # Security scanning
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        exclude: |
+          (?x)^(
+            package-lock\.json|
+            \.git/.*|
+            themes/.*
+          )$
+
+  # Hugo specific checks
+  - repo: local
+    hooks:
+      - id: hugo-build-check
+        name: Hugo Build Check
+        entry: hugo
+        args: ["--buildDrafts", "--buildFuture", "--quiet"]
+        language: system
+        pass_filenames: false
+        files: \.(md|toml|yaml|yml|html|js|css)$
+        exclude: |
+          (?x)^(
+            themes/.*|
+            public/.*|
+            resources/.*
+          )$
+
+      # - id: tailwind-check
+      #   name: Tailwind CSS Check
+      #   entry: bash
+      #   args:
+      #     - -c
+      #     - |
+      #       if command -v npx >/dev/null 2>&1; then
+      #         npx tailwindcss --input ./assets/main.css --output ./static/css/styles.css --dry-run >/dev/null 2>&1
+      #       fi
+      #   language: system
+      #   files: \.(css|html|md|js)$
+      #   exclude: |
+      #     (?x)^(
+      #       themes/.*|
+      #       public/.*|
+      #       resources/.*|
+      #       static/css/styles\.css
+      #     )$
+
+      - id: no-todo-fixme
+        name: Check for TODO/FIXME comments
+        entry: bash
+        args:
+          - -c
+          - |
+            if grep -rn --include="*.md" --include="*.html" --include="*.js" --include="*.css" --exclude-dir="themes" --exclude-dir="public" --exclude-dir="resources" --exclude-dir="node_modules" -E "(#|//|/\*|\*)?\s*(TODO|FIXME|HACK)\b" content/ layouts/ assets/ static/ *.md *.js *.css 2>/dev/null; then
+              echo "Found TODO/FIXME comments in source files. Please resolve them before committing."
+              exit 1
+            fi
+        language: system
+        pass_filenames: false
+
+  # Spelling check for content
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.24.6
+    hooks:
+      - id: typos
+        exclude: |
+          (?x)^(
+            themes/.*|
+            public/.*|
+            resources/.*|
+            package-lock\.json|
+            \.git/.*
+          )$

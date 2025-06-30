@@ -2,9 +2,12 @@
 slug-title: executive-sponsors-and-internal-politics
 date: 2020-01-24T06:29:11-06:00
 draft: false
-title: "Executive sponsors and internal politics"
-subtitle: There are no shortcuts  
-images: ["https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+title: 'Executive sponsors and internal politics'
+subtitle: There are no shortcuts
+images:
+  [
+    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 To make change in bureaucracies, it is widely accepted that you need an "executive sponsor." To pass legislation, you need a "champion." The argument goes that, if any change is going to happen, there will be friction, outright blockers, and various forces that arise to counteract the change. So, you need an empowered insider who can smooth the process, remove the blockers, and combat the "antibodies to change."

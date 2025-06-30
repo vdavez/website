@@ -2,14 +2,14 @@
 slug-title: scanning-file-like-csvs-into-polars
 date: 2024-01-19
 draft: false
-title: "How to use `scan_csv` with a file-like object in Polars"
-subtitle: "One small trick to handle memory-intensive CSVs"
-description: "zvenyach.com | How to use `scan_csv` with a file-like object in Polars"
+title: 'How to use `scan_csv` with a file-like object in Polars'
+subtitle: 'One small trick to handle memory-intensive CSVs'
+description: 'zvenyach.com | How to use `scan_csv` with a file-like object in Polars'
 images:
   [
-    "https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars_github_logo_rect_dark_name.svg",
+    'https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars_github_logo_rect_dark_name.svg',
   ]
-categories: ["til"]
+categories: ['til']
 tags: []
 ---
 
@@ -34,11 +34,11 @@ But, there's a hack if your csv file will fit in memory\*: write it to a tempora
 import polars as pl
 
 with zip_file.open("csv_in_zipfolder.csv") as csv_file:
-	# Create the temporary file
-	with tempfile.NamedTemporaryFile() as tf:
-		tf.write(fp.read()) # Write the csv file to the temporary file
-		tf.seek(0)          # Start at the beginning of the temporary file
-		pl.scan_csv(tf.name).sink_parquet("my_new_file.parquet")
+ # Create the temporary file
+ with tempfile.NamedTemporaryFile() as tf:
+  tf.write(fp.read()) # Write the csv file to the temporary file
+  tf.seek(0)          # Start at the beginning of the temporary file
+  pl.scan_csv(tf.name).sink_parquet("my_new_file.parquet")
 ```
 
 By saving the file-like object into the temporary file system as a temporary file, you can happily pass the path to that file to polars and scan to your heart's content.
