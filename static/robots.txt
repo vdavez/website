@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://vdavez.com/sitemap.xml
+
+# Block access to search and admin endpoints (if any)
+Disallow: /search
+Disallow: /admin
+
+# Allow common crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block problematic crawlers (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Crawl delay for general bots
+Crawl-delay: 1

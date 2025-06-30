@@ -2,9 +2,12 @@
 slug-title: a-psa-for-PTACs
 date: 2020-03-10T05:17:01-05:00
 draft: false
-title: "A PSA for PTACs"
+title: 'A PSA for PTACs'
 subtitle: A Pro Tip for those who want to do business with government
-images: ["https://images.unsplash.com/photo-1523568114750-b593de7df18f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+images:
+  [
+    'https://images.unsplash.com/photo-1523568114750-b593de7df18f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 I frequently interact with companies that are curious about how to do business with the government but don't really know where to begin. When that happens, I offer a piece of advice that is surprisingly helpful: go to your local Procurement Technical Assistance Center, also known as a "PTAC".

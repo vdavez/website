@@ -2,11 +2,11 @@
 slug-title: be-the-filter
 date: 2020-11-11T10:00:41-06:00
 draft: false
-title: "Be the filter, not the grounds"
+title: 'Be the filter, not the grounds'
 subtitle: Advice for those who must manage through uncertainty
 description: |
   Most advice seems to be that, to lead, you must start with a vision. In this post, I draw inspiration from Information Architect Abby Covert on how to lead through clarification.
-images: ["https://source.unsplash.com/Lvon9Yylb3I/300x300"]
+images: ['https://source.unsplash.com/Lvon9Yylb3I/300x300']
 ---
 
 How can you lead if you don't have a clear vision? How can you move forward if you don't know the direction to go? This can be a hard problem for many leaders, and can create a lot of frustration and self-doubt.

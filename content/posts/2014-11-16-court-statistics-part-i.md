@@ -1,16 +1,15 @@
 ---
-date: "2014-11-16T00:00:00Z"
+date: '2014-11-16T00:00:00Z'
 newest: fallse
 title: 'Court Statistics: Part I'
 subtitle: Why we may need to open a "floodgate" of judicial data
 slug-title: court-statistics-part-i
-aliases: ["/blog/posts/court-statistics-part-i/"]
-
+aliases: ['/blog/posts/court-statistics-part-i/']
 ---
 
 This weekend, I spent approximately 16 hours sitting in a windowless meeting room in a Chicago hotel discussing specific processes for [arbitrating family-law](http://uniformlaws.org/Committee.aspx?title=Family%20Law%20Arbitration) disputes. This is how [Uniform Law Commissioners](http://www.uniformlaws.org) like me get our kicks.
 
-During the weekend, I learned of a recent article entitled [*Let's Stop Spreading Rumors About Settlement and Litigation: A Comparative Study of Settlement and Litigation in Hawaii Courts*](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2398550), written by one my fellow commissioners, the [multi-talented](http://www.vestedinteresthawaii.com/) Elizabeth Kent and her co-author John Barkai.
+During the weekend, I learned of a recent article entitled [_Let's Stop Spreading Rumors About Settlement and Litigation: A Comparative Study of Settlement and Litigation in Hawaii Courts_](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2398550), written by one my fellow commissioners, the [multi-talented](http://www.vestedinteresthawaii.com/) Elizabeth Kent and her co-author John Barkai.
 
 Based on this article, I plan on writing three blog posts about judicial data and, hopefully, make the case for lawyers and the courts to think more critically about the need for good judicial data.
 
@@ -36,7 +35,7 @@ In the courts, the data may cause courts to evaluate and calibrate the degree to
 
 The data also confirms that discovery played a bigger role in 2007 than it did in 1996. Courts should be looking closely at their rules to see whether discovery and scheduling practices are more or less likely to result in successful alternative dispute resolution.
 
-Importantly, the data should cause practicing lawyers to confront certain realities about litigation: resolution through alternative-dispute resolution is not as frequent as we might think. A phone call is *more than twice as likely* to lead to settlement compared to any other "settlement event." Having the parties present during a face-to-face settlement negotiation appears to be far more effective than having a settlement negotiation without the parties in the room.
+Importantly, the data should cause practicing lawyers to confront certain realities about litigation: resolution through alternative-dispute resolution is not as frequent as we might think. A phone call is _more than twice as likely_ to lead to settlement compared to any other "settlement event." Having the parties present during a face-to-face settlement negotiation appears to be far more effective than having a settlement negotiation without the parties in the room.
 
 True, this is just one article, with unique characteristics for the jurisdiction. But the findings are nonetheless important and rigorous discussions about data in the legal profession can get better results for clients.
 

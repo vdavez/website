@@ -1,11 +1,11 @@
 ---
-date: "2017-02-13T00:00:00Z"
+date: '2017-02-13T00:00:00Z'
 newest: true
 title: Calculating public burden using OIRA data -- Part Two
 subtitle: An experiment in using open data to make government better
 slug-title: public-burden-research-redux
 unsafe: true
-aliases: ["/blog/posts/public-burden-research-redux/","/2017/02/public-burden-research-redux"]
+aliases: ['/blog/posts/public-burden-research-redux/', '/2017/02/public-burden-research-redux']
 ---
 
 <div class="cell border-box-sizing text_cell rendered">
@@ -53,11 +53,8 @@ aliases: ["/blog/posts/public-burden-research-redux/","/2017/02/public-burden-re
 <div class="output_wrapper">
 <div class="output">
 
-
 <div class="output_area">
 <div class="prompt output_prompt">Out[2]:</div>
-
-
 
 <div class="output_text output_subarea output_execute_result">
 <pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fca4799d358&gt;</pre>
@@ -67,8 +64,6 @@ aliases: ["/blog/posts/public-burden-research-redux/","/2017/02/public-burden-re
 
 <div class="output_area">
 <div class="prompt"></div>
-
-
 
 <div class="output_png output_subarea ">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZEAAAEJCAYAAABVFBp5AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
@@ -234,10 +229,8 @@ phEiAADTCBEAgGmECADANEIEAGAaIQIAMO3/ALOzZIa1SfHyAAAAAElFTkSuQmCC
 <div class="output_wrapper">
 <div class="output">
 
-
 <div class="output_area">
 <div class="prompt output_prompt">Out[3]:</div>
-
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -338,11 +331,8 @@ phEiAADTCBEAgGmECADANEIEAGAaIQIAMO3/ALOzZIa1SfHyAAAAAElFTkSuQmCC
 <div class="output_wrapper">
 <div class="output">
 
-
 <div class="output_area">
 <div class="prompt output_prompt">Out[4]:</div>
-
-
 
 <div class="output_text output_subarea output_execute_result">
 <pre>&#39;5,589,316 hours&#39;</pre>
@@ -381,11 +371,8 @@ phEiAADTCBEAgGmECADANEIEAGAaIQIAMO3/ALOzZIa1SfHyAAAAAElFTkSuQmCC
 <div class="output_wrapper">
 <div class="output">
 
-
 <div class="output_area">
 <div class="prompt output_prompt">Out[5]:</div>
-
-
 
 <div class="output_text output_subarea output_execute_result">
 <pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fca467f8080&gt;</pre>
@@ -395,8 +382,6 @@ phEiAADTCBEAgGmECADANEIEAGAaIQIAMO3/ALOzZIa1SfHyAAAAAElFTkSuQmCC
 
 <div class="output_area">
 <div class="prompt"></div>
-
-
 
 <div class="output_png output_subarea ">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYsAAAD8CAYAAACGsIhGAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
@@ -478,7 +463,7 @@ T1cBAEZGREYW5eXlOnnypPx+v374wx9q1apVWrlypcrKylRdXR2+dVaSFi5cqPr6eq1bt07jx49X
 QUFBJEoEAFyFyxhjRrqIodLS0jKo/YI/uHOIK5Hit/91yI85nGJ5GC7RP/3Hbv9RPw0FABg9CAsA
 gBVhAQCwIiwAAFaEBQDAirAAAFgRFgAAK8ICAGBFWAAArAgLAIAVYQEAsCIsAABWhAUAwIqwAABY
 RcXXqo5FTl97PtpeZQ4gNjGyAABYERYAACvCAgBgxTWLEca1DQCjASMLAIAVYQEAsCIsAABWhAUA
-wIqwAABYERYAACvCAgBgRVgAAKwICwCAFU9wjxI86Q1gJDGyAABYMbIYYxiBABgOjCwAAFaMLGLU
+wIqwAABYERYAACvCAgBgRVgAAKwICwCAFU9wjxI86Q1gJDGyAABYMbITYxiBABgOjCwAAFaMLGLU
 50cg579kO6cjEKcjmoEcE0D0YGQBALBiZIGrGsiIAcDYRVgg4ob6IjwX9YHhR1ggao3UqIbwAa5E
 WACDRKgglkRtWBw9elS7du1SKBTSsmXLtHLlypEuCaPc1f5x/7K7wYb7cwdryO9S23f4K1SDWBCV
 YREKhbRz50796le/Ulpamp566illZ2fruuuuG+nSgJg2UtebBiLaR3KjteeoDIv3339f1157raZN
@@ -487,7 +472,7 @@ WBGAgRjJW66j/caI0Soqw8KpqqoqVVVVSZJKSko0ffr0wR3ob3VDWBUAjD1R+QS3x+NRR0dHeLmj
 o0Mej+eK7fLz81VSUqKSkpKv9HnFxcVfaf+xINbPAf3TP64uKsNi1qxZ+vDDD9XW1qZLly7p8OHD
 ys7OHumyACBmReU0VHx8vNasWaP169crFArptttu09e//vWRLgsAYlZUhoUk3Xjjjbrxxhsj8ln5
 +fkR+ZxoFuvngP7pH1fnMsaYkS4CABDdovKaBQAgukTtNFSkjKXXimzevFn19fVKSUlRaWmpJKm7
-u1tlZWW6cOGCpkyZoscff1xJSUkyxmjXrl1qaGjQhAkTVFBQoIyMDEnSgQMHtHfvXknSPffco7y8
+u1tlZWW6cOGCpkyZoscff1xJSUkyxmjXrl1qaGjQhAkTVFBQoItMDEnSgQMHtHfvXknSPffco7y8
 PEnSmTNnVFlZqUAgoIULF2r16tVyuVwj0usXaW9vV2VlpT766CO5XC7l5+dr+fLlMXMOAoGAnnnm
 GV26dEnBYFA5OTlatWqV2traVF5eLr/fr4yMDBUWFiohIUF9fX2qqKjQmTNnlJycrKKiIk2dOlWS
 tG/fPlVXVysuLk6rV6/WggULJI2O35dQKKTi4mJ5PB4VFxfHXP/DxsSwYDBo1q5da1pbW01fX595

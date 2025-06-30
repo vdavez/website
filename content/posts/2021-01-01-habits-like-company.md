@@ -2,10 +2,10 @@
 slug-title: habits-like-company
 date: 2021-01-01T18:14:00-06:00
 draft: false
-title: "Habits like company"
+title: 'Habits like company'
 subtitle:
 description: Making habits stickier can be easier if you think about how to take advantage of your environment, or preexisting habits, when developing new habits.
-images: ["https://source.unsplash.com/WI30grRfBnE/300x300"]
+images: ['https://source.unsplash.com/WI30grRfBnE/300x300']
 ---
 
 For the past few years, I have been a regular attendee of, and evangelist for, Orange Theory Fitness. The instructors are excellent and motivating, the routine worked well for my schedule, and it was nice to feel like part of a club of people who all struggled with burpees at the same time.

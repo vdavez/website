@@ -1,114 +1,394 @@
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-html {
-  position: relative;
-  min-height: 100%;
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+  html {
+    font-family:
+      'Inter',
+      system-ui,
+      -apple-system,
+      sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-gray-900 bg-white;
+    line-height: 1.7;
+  }
+
+  /* Enhanced focus styles for accessibility */
+  *:focus {
+    @apply outline-none ring-2 ring-orange-500 ring-opacity-75 ring-offset-2;
+  }
+
+  /* Ensure focus is visible for keyboard users */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-orange-500 ring-opacity-75 ring-offset-2;
+  }
+
+  /* Skip link for screen readers and keyboard users */
+  .skip-link {
+    @apply absolute -top-10 left-6 bg-orange-600 text-white px-4 py-2 rounded-md z-50 font-medium;
+    transform: translateY(-100%);
+  }
+
+  .skip-link:focus {
+    @apply top-6;
+    transform: translateY(0%);
+  }
+
+  /* Better text rendering */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold tracking-tight;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Smooth transitions for interactive elements */
+  a,
+  button {
+    @apply transition-all duration-200;
+  }
+
+  /* Ensure all interactive elements are large enough for touch */
+  button,
+  a[role='button'],
+  input[type='button'],
+  input[type='submit'],
+  input[type='reset'] {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }
 
-body {
-  margin-bottom: 80px;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='.5' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover;
+@layer components {
+  /* Typography improvements */
+  .prose {
+    @apply max-w-none;
+  }
+
+  .prose h1 {
+    @apply text-3xl font-bold text-gray-900 mb-6;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold text-gray-900 mb-4 mt-8;
+  }
+
+  .prose h3 {
+    @apply text-xl font-semibold text-gray-900 mb-3 mt-6;
+  }
+
+  .prose h4 {
+    @apply text-lg font-semibold text-gray-900 mb-2 mt-4;
+  }
+
+  .prose p {
+    @apply mb-6 leading-relaxed text-gray-700;
+  }
+
+  /* Accessible link styles with underlines */
+  .prose a {
+    @apply text-orange-600 font-medium underline decoration-orange-200 decoration-2 underline-offset-2 hover:text-orange-700 hover:decoration-orange-400 transition-all duration-200;
+  }
+
+  .prose a:hover {
+    @apply bg-orange-50 decoration-orange-500;
+  }
+
+  /* Navigation links - different style for better UX */
+  .nav-link {
+    @apply text-gray-700 hover:text-orange-600 font-medium transition-colors duration-200 no-underline hover:underline hover:decoration-orange-400 hover:decoration-2 hover:underline-offset-4;
+  }
+
+  .nav-link:focus {
+    @apply underline decoration-orange-500 decoration-2 underline-offset-4;
+  }
+
+  .nav-link.active {
+    @apply text-orange-600 underline decoration-orange-400 decoration-2 underline-offset-4;
+  }
+
+  .prose strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  .prose em {
+    @apply italic text-gray-700;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply my-6 pl-6;
+  }
+
+  .prose ul li {
+    @apply mb-2 text-gray-700;
+    list-style-type: disc;
+  }
+
+  .prose ol li {
+    @apply mb-2 text-gray-700;
+    list-style-type: decimal;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-orange-200 bg-orange-50 py-4 px-6 my-6 italic;
+  }
+
+  .prose blockquote p {
+    @apply text-gray-700 mb-0;
+  }
+
+  .prose code {
+    @apply bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono;
+  }
+
+  .prose pre {
+    @apply bg-gray-50 border border-gray-200 rounded-lg p-4 overflow-x-auto my-6;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0 text-sm;
+  }
+
+  .prose img {
+    @apply rounded-lg shadow-md my-8;
+  }
+
+  .prose hr {
+    @apply border-gray-200 my-8;
+  }
+
+  .prose table {
+    @apply w-full border-collapse my-6;
+  }
+
+  .prose th {
+    @apply bg-gray-50 border border-gray-200 px-4 py-2 text-left font-semibold text-gray-900;
+  }
+
+  .prose td {
+    @apply border border-gray-200 px-4 py-2 text-gray-700;
+  }
+
+  /* Enhanced button styles with better accessibility */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg transition-all duration-200 min-h-[44px] focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-orange-600 text-white hover:bg-orange-700 focus:ring-orange-500;
+  }
+
+  .btn-primary:disabled {
+    @apply bg-gray-400 cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply border-orange-600 text-orange-600 hover:bg-orange-50 focus:ring-orange-500;
+  }
+
+  .btn-secondary:disabled {
+    @apply border-gray-400 text-gray-400 cursor-not-allowed;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+
+  .card-body {
+    @apply p-6;
+  }
+
+  /* Enhanced form styles for accessibility */
+  .form-input {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 min-h-[44px];
+  }
+
+  .form-input:invalid {
+    @apply border-red-500 focus:ring-red-500 focus:border-red-500;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  .form-error {
+    @apply text-red-600 text-sm mt-1;
+  }
+
+  .form-help {
+    @apply text-gray-500 text-sm mt-1;
+  }
+
+  /* Tag styles */
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .tag-orange {
+    @apply bg-orange-100 text-orange-700;
+  }
+
+  .tag-gray {
+    @apply bg-gray-100 text-gray-700;
+  }
+
+  /* Utility classes */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Loading states */
+  .loading {
+    @apply opacity-50 pointer-events-none;
+  }
+
+  /* Screen reader only text */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* Show on focus for skip links */
+  .sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  /* Animation utilities */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .prose a {
+      @apply underline decoration-2;
+    }
+
+    .btn {
+      @apply border-2;
+    }
+  }
 }
 
-.main-content {
-  @apply bg-white;
-  font-family: "Fira Sans"
+@layer utilities {
+  /* Custom scrollbar */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(251 146 60) rgb(249 250 251);
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-gray-50;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-orange-300 rounded-full;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-400;
+  }
+
+  /* Print styles */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    body {
+      @apply text-black bg-white;
+    }
+
+    a {
+      @apply text-black underline;
+    }
+
+    .skip-link {
+      display: none !important;
+    }
+  }
 }
 
-.main-text {
-  @apply bg-orange-50/40;
-  font-family: "Fira Sans"
-}
-
-a {
-  @apply underline decoration-2 underline-offset-2 decoration-sky-500;
-  @apply hover:text-sky-500 hover:bg-gray-50;
-}
-
-p {
-  @apply my-4 tracking-wide;
-}
-
-code {
-  @apply text-sm;
-  font-family: "Fira Code";
-  background-color:#eee8d5;
-}
-
-h2 {
-  @apply text-lg font-black;
-}
-
-h3 {
-  @apply font-bold;
-}
-
-ul li {
-  @apply list-disc ml-4;
-}
-
-ol li {
-  @apply list-decimal ml-4;
-}
-
-ul.pagination {
-  @apply flex;
-}
-
-ul.pagination li {
-  @apply list-none
-}
-
-blockquote {
-  @apply mt-2 pl-8 bg-sky-50 tracking-tight pr-16 mb-8 leading-tight;
-  border-left: 3px solid #ccc;
-}
-
-.highlight {
-  max-width: 100%;
-}
+/* Legacy support - keeping these for any content that might reference them */
 .highlight pre {
-  @apply text-sm;
-  font-family: "Fira Code";
-  white-space: pre-wrap;
-  word-break: break-word;
+  @apply bg-gray-50 border border-gray-200 rounded-lg p-4 overflow-x-auto text-sm font-mono;
 }
 
-.footnotes li {
-  @apply list-decimal;
+.footnotes {
+  @apply border-t border-gray-200 mt-12 pt-8;
 }
 
-#mc_embed_signup .button {
-  font-size: 13px;
-  border: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  letter-spacing: 0.03em;
-  color: #fff;
-  background-color: #aaa;
-  box-sizing: border-box;
-  height: 32px;
-  line-height: 32px;
-  padding: 0 18px;
-  display: inline-block;
-  margin: 0;
-  transition: all 0.23s ease-in-out 0s;
+.footnotes ol li {
+  @apply list-decimal text-sm text-gray-600 leading-relaxed;
 }
-#mc_embed_signup .button:hover {
-  background-color: #777;
-  cursor: pointer;
-}
-
-.figure-max-h-8 img {
-  max-height: 8rem;
-}
-.figure-max-h-8 figcaption p {
-  @apply my-0 px-8;
-}
-
-@tailwind utilities;

@@ -3,9 +3,9 @@ slug-title: on-being-uncomfortable-with-writers-block
 date: 2021-01-11
 draft: false
 title: "On being uncomfortable with writer's block"
-subtitle: "Just do it"
+subtitle: 'Just do it'
 description: Thinking about Seth Godin's advice on how to cure writer's block and how that advice can help you get unstuck on other problems.
-images: ["https://source.unsplash.com/T1L9Q5g7eIQ/300x300"]
+images: ['https://source.unsplash.com/T1L9Q5g7eIQ/300x300']
 ---
 
 Today, I have writer's block. And so, I am just writing.

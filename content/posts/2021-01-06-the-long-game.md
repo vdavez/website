@@ -2,10 +2,10 @@
 slug-title: the-long-game
 date: 2021-01-06
 draft: false
-title: "Politics and Punctuated Equilibrium"
+title: 'Politics and Punctuated Equilibrium'
 subtitle: The Georgia elections and how change happens
-description:  A reflection on the results of the Georgia elections and the theory of punctuated equilibrium in politics.
-images: ["https://source.unsplash.com/-iOE0qBkioc/300x300"]
+description: A reflection on the results of the Georgia elections and the theory of punctuated equilibrium in politics.
+images: ['https://source.unsplash.com/-iOE0qBkioc/300x300']
 ---
 
 People across the United States woke up to the news this morning about Georgia electing two Democratic senators. Although there are, and will be, many takes about the _meaning_ of the election, one thing stands out to me: things can change rapidly.

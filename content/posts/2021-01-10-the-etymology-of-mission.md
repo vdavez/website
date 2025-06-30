@@ -2,10 +2,10 @@
 slug-title: the-etymology-of-mission
 date: 2021-01-10
 draft: false
-title: "The etymology of mission"
-subtitle: ""
-description: 
-images: ["https://source.unsplash.com/0GY8PGd17qw/300x300"]
+title: 'The etymology of mission'
+subtitle: ''
+description:
+images: ['https://source.unsplash.com/0GY8PGd17qw/300x300']
 ---
 
 Business literature abounds with doctrine on the importance of "mission statements." A "mission," according to Merriam Webster is "a specific task with which a person or a group is charged." As part of that sense, mission is defined as a "a preestablished and often self-imposed objective or purpose." All well and good.

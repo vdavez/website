@@ -2,12 +2,15 @@
 slug-title: innovation-in-the-judiciary
 date: 2022-11-30T22:00:00-06:00
 draft: false
-title: "Innovation in the Judiciary"
-subtitle: I'm excited about the Judicial Innovation Fellowship Program 
+title: 'Innovation in the Judiciary'
+subtitle: I'm excited about the Judicial Innovation Fellowship Program
 description: The Georgetown Law Tech Institute launched the Judicial Innovation Fellowship program and I think it's wonderful!
-images: ["https://www.law.georgetown.edu/tech-institute/wp-content/uploads/sites/42/2022/11/Judicial-Innovation-Fellowship-Logo-740x740.png"]
+images:
+  [
+    'https://www.law.georgetown.edu/tech-institute/wp-content/uploads/sites/42/2022/11/Judicial-Innovation-Fellowship-Logo-740x740.png',
+  ]
 categories: []
-tags: ["fellowships", "innovation"]
+tags: ['fellowships', 'innovation']
 ---
 
 Years ago, I [argued](https://esq.io/2016/08/should-lawyers-learn-to-code/) that lawyers should learn about writing software because doing so could improve the interactions between lawyers and technologists. As I wrote:
@@ -21,14 +24,14 @@ In my own experience, I have seen tech fellowship programs succeed in both [loca
 <!--more-->
 
 Readers of these pages know that trial courts at the state, local, territorial, and tribal (SLTT) levels are vital to the basic fabric of democracy in the United States. And, unfortunately, SLTT trial courts are typically structurally underfunded and rely on outmoded tools and technologies.
- 
+
 As the program explains:
 
 > Partnering with state and tribal courts to build critical data infrastructure, simplify process, and improve usability of court services, this competitive fellowship is a unique opportunity to innovate a core democratic institution. More than just a job with a competitive salary and benefits, this fellowship is the flagship opportunity to change the way people access their rights and are served by courts.
 
-On first blush, these goals may sound lofty. It's just a one-year fellowship, right? 
+On first blush, these goals may sound lofty. It's just a one-year fellowship, right?
 
-Over the years, though, a pattern with government tech fellowship programs has emerged. And I, for one, am hopeful to see it repeat itself here. That pattern? People join these fellowships expecting to stay for a year or two and then return to the private sector. But that expectation is quickly shattered when they realize the potential impact they can have and the level of professional satsifaction they can enjoy as public-servant technologists.
+Over the years, though, a pattern with government tech fellowship programs has emerged. And I, for one, am hopeful to see it repeat itself here. That pattern? People join these fellowships expecting to stay for a year or two and then return to the private sector. But that expectation is quickly shattered when they realize the potential impact they can have and the level of professional satisfaction they can enjoy as public-servant technologists.
 
 For example, over 50% of the Presidential Innovation Fellows end up staying in government roles after graduating from the program. By my read of the description, the PIF appears to be the closest analogue to the Judicial Innovation Fellowship program. If even a quarter of the technologists who join the courts as innovation fellows end up staying, our democracy will be better off.
 

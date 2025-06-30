@@ -2,11 +2,11 @@
 slug-title: til-plists
 date: 2024-01-10
 draft: false
-title: "TIL about launchd.plists"
-subtitle: "Running a background service on an Apple computer"
-description: "zvenyach.com | A TIL about running a background service on Apple computers"
-images: ["/images/more_you_know.png"]
-categories: ["til"]
+title: 'TIL about launchd.plists'
+subtitle: 'Running a background service on an Apple computer'
+description: 'zvenyach.com | A TIL about running a background service on Apple computers'
+images: ['/images/more_you_know.png']
+categories: ['til']
 tags: []
 ---
 
@@ -16,25 +16,25 @@ First, you create a `.plist` file, let's call it `com.vdavez.app.service.plist`.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>RunAtLoad</key>
-		<true/>
-		<key>KeepAlive</key>
-		<true/>
-		<key>Label</key>
-		<string>Dave's Django App Agent</string>
-		<key>ProgramArguments</key>
-		<array>
-			<string>/Users/vdavez/.local/bin/poetry</string>
-			<string>run</string>
-			<string>gunicorn</string>
-			<string>myapp:app</string>
-		</array>
-		<key>WorkingDirectory</key>
-		<string>/Users/vdavez/app</string>
-	</dict>
+ <dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>Label</key>
+  <string>Dave's Django App Agent</string>
+  <key>ProgramArguments</key>
+  <array>
+   <string>/Users/vdavez/.local/bin/poetry</string>
+   <string>run</string>
+   <string>gunicorn</string>
+   <string>myapp:app</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/vdavez/app</string>
+ </dict>
 </plist>
 ```
 

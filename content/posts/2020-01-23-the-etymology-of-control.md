@@ -2,9 +2,12 @@
 slug-title: the-etymology-of-control
 date: 2020-01-23T05:59:09-06:00
 draft: false
-title: "The etymology of control"
+title: 'The etymology of control'
 subtitle: The dark side of metrics
-images: ["https://images.unsplash.com/photo-1564901523975-b18a3eb1d11f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+images:
+  [
+    'https://images.unsplash.com/photo-1564901523975-b18a3eb1d11f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 According to Merriam Webster's dictionary, the [definition of the word "control"](https://www.merriam-webster.com/dictionary/control) is "to exercise restraining or directing influence over."

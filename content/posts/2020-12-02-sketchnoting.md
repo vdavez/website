@@ -2,10 +2,10 @@
 title: Sketchnoting
 date: 2020-12-02
 slug-title: sketchnoting
-description: "A TIL entry about the sketch notes"
-images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
+description: 'A TIL entry about the sketch notes'
+images: ['https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif']
 draft: false
-categories: ["til"]
+categories: ['til']
 ---
 
 I take a lot of meetings. And, despite the fact that I've been taking meetings every day for (looks at watch) well over a decade, I still feel like I don't love my notetaking system.

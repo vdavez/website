@@ -2,17 +2,16 @@
 title: Trimming local git branches
 slug-title: local-git-branch-trim
 date: 2021-07-03
-description: "Remembering how to clean local merged git branches"
-images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
+description: 'Remembering how to clean local merged git branches'
+images: ['https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif']
 draft: false
-categories: ["til"]
+categories: ['til']
 ---
 
 Every now and then I remember to clean local, and _merged_ git branches, and I always forget how to do it. So, TIL how to think about it, thanks to [this post](https://www.hacksparrow.com/git/delete-all-branches-except-master.html).
 
 1. Get on the `main` branch.
 2. Run a script using the following procedure:
-
    1. List all of the branch names
    2. Look for the asterisk (\*) and _ignore it_ (make sure it's verbose)
    3. Pass all of the other branches and run the git branch deletion command

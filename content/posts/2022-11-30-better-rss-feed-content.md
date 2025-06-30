@@ -2,24 +2,23 @@
 slug-title: better-rss-feed-content
 date: 2022-11-30T10:27:25-06:00
 draft: false
-title: "Better RSS Feed Content"
+title: 'Better RSS Feed Content'
 subtitle: Using `<!--more-->`
 description: A TIL entry about how to improve the look and feel of posts using Hugo's default RSS feed.
-images: ["https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif"]
-categories: ["til"]
-tags: ["blogging"]
+images: ['https://media.giphy.com/media/3og0IMJcSI8p6hYQXS/giphy.gif']
+categories: ['til']
+tags: ['blogging']
 ---
 
 {{< giphy id="3og0IMJcSI8p6hYQXS" >}}
 
-I rely heavily on RSS feeds and I published my own content here using an [RSS feed](https://vdavez.com/posts/index.xml). But, I noticed that my RSS reader wasn't formatting my posts very well. 
+I rely heavily on RSS feeds and I published my own content here using an [RSS feed](https://vdavez.com/posts/index.xml). But, I noticed that my RSS reader wasn't formatting my posts very well.
 
 TIL how to fix that using Hugo's [content summaries](https://gohugo.io/content-management/summaries/).
 
 Bottom line: mark up your content with a "<\!\-\-more\-\->" tag.
 
-<!--more-->
----
+## <!--more-->
 
 To illustrate the problem a bit, I have copied the RSS's feed XML from the paragraphs above to demonstrate what it looked like before and after I made the adjustment.
 
@@ -39,7 +38,7 @@ and after...
 
 As you can see, in the first snippet, there are no links and no paragraph breaks. Everything is just plain text. But in the second snippet, it's complete html.
 
-And all you need to do is add that "<\!\-\-more\-\->" tag to get it done. 
+And all you need to do is add that "<\!\-\-more\-\->" tag to get it done.
 
 That's because the default [Hugo RSS feed template](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml#L35) relies on the `.Summary` variable. And Hugo's default is to "automatically take[] the first 70 words of your content as its summary and store[] it into the `.Summary` page variable for use in your templates."
 

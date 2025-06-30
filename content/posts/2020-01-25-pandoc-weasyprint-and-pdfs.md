@@ -2,14 +2,17 @@
 slug-title: pandoc-weasyprint-and-pdfs
 date: 2020-01-25T07:19:09-06:00
 draft: false
-title: "Pandoc, Weasyprint, and PDF generation"
+title: 'Pandoc, Weasyprint, and PDF generation'
 subtitle: From plain text to PDF
-images: ["https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+images:
+  [
+    'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 I love writing in plain text. Given the choice between writing a document in Word, Google Docs, or my text editor (I primarily use [atom](https://atom.io/), don't @ me), I will choose my text editor every time. I prefer my text editor because I don't want to pay attention to layout / formatting when I'm writing, I just want to write.
 
-But no one wants to *read* a document in a text editor; they want to read on a tablet, or in the browser, or to print a document. Fortunately, there's a surprisingly powerful tool, [pandoc](https://pandoc.org) that I have been using a lot lately and that makes conversion of plain text into readable formats an easy task.
+But no one wants to _read_ a document in a text editor; they want to read on a tablet, or in the browser, or to print a document. Fortunately, there's a surprisingly powerful tool, [pandoc](https://pandoc.org) that I have been using a lot lately and that makes conversion of plain text into readable formats an easy task.
 
 Without spending too much time on the details, pandoc is a command-line tool that converts documents from one format to another. Have a markdown file and want a .docx? Pandoc can do that! Have an ePub and want an HTML? Pandoc to the rescue.
 
@@ -19,7 +22,7 @@ For example, this blog post is, itself, written in markdown. But suppose I wante
 
 If you're interested, you can [see what it looks like](/files/pandoc-test.pdf).
 
-But let's say you wanted to get *fancy* with your PDF, and add some better styles. For example, suppose I wanted to add colors to my links. To do *that*, I need to pass pandoc a "variable," specifically: `colorlinks: true`. At the command line, I run:
+But let's say you wanted to get _fancy_ with your PDF, and add some better styles. For example, suppose I wanted to add colors to my links. To do _that_, I need to pass pandoc a "variable," specifically: `colorlinks: true`. At the command line, I run:
 
 `pandoc content/posts/2020-01-25-pandoc-weasyprint-and-pdfs.md -V colorlinks:true -o static/files/pandoc-basic-style-test.pdf`
 
@@ -31,7 +34,7 @@ Now, let's say you want to go ahead and really gussy it up. It turns out you can
 
 Another [improvement](/files/pandoc-styled-test.pdf)! Though, frustratingly, there seem to be some CSS limitations / elements that just don't work. For example, I really want my links to have dotted underlines, but it just won't do it.
 
-So now, for the final touch, if I *really really* want a beautiful PDF, I can use [Weasyprint](https://weasyprint.org/), which is another tool that specializes in converting HTML to PDF. Here, I use the exact same stylesheet I used before, but pass a `-s` (standalone) flag and pipe to weasyprint:
+So now, for the final touch, if I _really really_ want a beautiful PDF, I can use [Weasyprint](https://weasyprint.org/), which is another tool that specializes in converting HTML to PDF. Here, I use the exact same stylesheet I used before, but pass a `-s` (standalone) flag and pipe to weasyprint:
 
 `pandoc content/posts/2020-01-25-pandoc-weasyprint-and-pdfs.md -s -t html | weasyprint - static/files/pandoc-weasyprint-test.pdf -s styles.css`
 

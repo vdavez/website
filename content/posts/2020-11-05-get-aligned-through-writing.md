@@ -2,11 +2,11 @@
 slug-title: get-aligned-through-writing
 date: 2020-11-05
 draft: false
-title: "Need to get aligned on a strategy?"
+title: 'Need to get aligned on a strategy?'
 subtitle: Start by writing it down
 description: |
   One of the best ways to create alignment on strategy and decisionmaking is to cultivate a writing culture. In this post, I explain why and how writing helps improve teams' decisions.
-images: ["https://source.unsplash.com/g3O5ZtRk2E4/300x300"]
+images: ['https://source.unsplash.com/g3O5ZtRk2E4/300x300']
 ---
 
 Delivery teams inevitably face the challenge of getting aligned on a product vision. If you've ever found yourself struggling to align your team, you've probably encountered frameworks involving various canvasses, frameworks, or articles advocating specific metrics (KPIs/OKRs). Maybe, you've dreamed of pulling together a team offsite to really get on the same page.

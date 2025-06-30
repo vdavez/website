@@ -2,14 +2,17 @@
 slug-title: learning-anxiety
 date: 2020-02-07T08:26:11-06:00
 draft: false
-title: "Learning Anxiety"
+title: 'Learning Anxiety'
 subtitle: Changing organizational culture
-images: ["https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"]
+images:
+  [
+    'https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+  ]
 ---
 
 Last year, when reading about organizational-culture change theory, I came across Edgar Schein's concept of "learning anxiety." Schein observed that people within organizations have two competing anxieties: learning anxiety (the fear of doing something new) and survival anxiety (the fear of irrelevance). For organizations to be situated for culture change, Schein theorized, the collective survival anxiety within those organizations must be greater than their learning anxiety.
 
-When I first thought about this theory, it seemed straightforward that the *challenge* for someone desiring change in in a bureaucratic organizational culture would be to reduce learning anxiety. After all, in many bureaucracies, the alternative  approach (increasing survival anxiety) is mostly ineffective. People know that leaders come and go, and often times you can "wait them out."
+When I first thought about this theory, it seemed straightforward that the _challenge_ for someone desiring change in in a bureaucratic organizational culture would be to reduce learning anxiety. After all, in many bureaucracies, the alternative approach (increasing survival anxiety) is mostly ineffective. People know that leaders come and go, and often times you can "wait them out."
 
 So it was that when I originally planned on writing this blog post, I thought it would be an easy one to write. As it turns out, I found myself [re-reading an interview of Schein](https://hbr.org/2002/03/the-anxiety-of-learning), and I struggled with it.
 

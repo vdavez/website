@@ -2,13 +2,11 @@
 slug-title: regeneration-redux
 date: 2021-01-05
 draft: false
-title: "Regeneration, redux"
+title: 'Regeneration, redux'
 subtitle: Practicing the "in breath"
-description: 
+description:
 images:
-  [
-    "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405478538l/22731005.jpg",
-  ]
+  ['https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405478538l/22731005.jpg']
 ---
 
 <style>

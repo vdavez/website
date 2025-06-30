@@ -2,17 +2,17 @@
 slug-title: war-ration-books-and-plain-language
 date: 2022-12-24
 draft: false
-title: "War Ration Books and Plain Language"
-subtitle: Clarity born out of necessity 
+title: 'War Ration Books and Plain Language'
+subtitle: Clarity born out of necessity
 description: zvenyach.com | A post about War Ration Books and how their instructions used plain language
-images: ["/images/war_ration_books_instructions.jpg"]
+images: ['/images/war_ration_books_instructions.jpg']
 categories: []
 tags: []
 ---
 
 {{< figure src="/images/war_ration_books_instructions.jpg" alt="A photograph of a War Ration Book's instructions" >}}
 
-At the onset of World War II, the US government established a [system of rationing foods and supplies](https://www.nationalww2museum.org/war/articles/rationing). As part of that system, individuals received "War Ration Books" with stamps that could be exchanged for rationed goods. 
+At the onset of World War II, the US government established a [system of rationing foods and supplies](https://www.nationalww2museum.org/war/articles/rationing). As part of that system, individuals received "War Ration Books" with stamps that could be exchanged for rationed goods.
 
 The other day, a family member discovered a handful of these books in another family member's home and I was struck by the instructions on the back of one.
 
@@ -33,9 +33,9 @@ On the bottom, the book borders on propaganda:
 >
 > Be guided by the rule: "If you don't need it, DON'T BUY IT."
 
-I'm fascinated by these instructions because they seem to be an excellent example of the use of [plain language in government](https://www.plainlanguage.gov). 
+I'm fascinated by these instructions because they seem to be an excellent example of the use of [plain language in government](https://www.plainlanguage.gov).
 
-The instructions write for the audience. These books were intended for distribution to the general public (though [women were the primary users](https://www.womenshistory.org/articles/food-rationing-and-canning-world-war-ii)) and used simple, straightforward words and short, concise sentences (e.g., it has a Flesch-Kincaid Grade Level of 5.7). It pulls the reader in quickly ("This book is valuable."). There's no jargon here (though I could quibble about whether the Office of Price Administration needed to be named specifically). There are no frills. 
+The instructions write for the audience. These books were intended for distribution to the general public (though [women were the primary users](https://www.womenshistory.org/articles/food-rationing-and-canning-world-war-ii)) and used simple, straightforward words and short, concise sentences (e.g., it has a Flesch-Kincaid Grade Level of 5.7). It pulls the reader in quickly ("This book is valuable."). There's no jargon here (though I could quibble about whether the Office of Price Administration needed to be named specifically). There are no frills.
 
 The instructions are organized well, using a numbered list at the top, and prose near the bottom. It uses strong typography, mixing use of italics and capitalization to highlight the main points.
 

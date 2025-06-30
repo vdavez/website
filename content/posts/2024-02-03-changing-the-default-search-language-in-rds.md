@@ -2,12 +2,12 @@
 slug-title: changing-the-default-search-language-in-rds
 date: 2024-02-03
 draft: false
-title: "Changing the default search language in RDS"
-subtitle: "An easy fix to a perplexing problem"
-description: "zvenyach.com | How to change the default full-text search language in postgresql"
-images: ["https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg"]
-categories: ["til"]
-tags: ["postgresql"]
+title: 'Changing the default search language in RDS'
+subtitle: 'An easy fix to a perplexing problem'
+description: 'zvenyach.com | How to change the default full-text search language in postgresql'
+images: ['https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg']
+categories: ['til']
+tags: ['postgresql']
 ---
 
 [Full text search in PostgreSQL](https://www.postgresql.org/docs/current/textsearch.html) is pretty great!

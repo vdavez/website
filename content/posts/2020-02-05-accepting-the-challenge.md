@@ -2,7 +2,7 @@
 slug-title: accepting-the-challenge
 date: 2020-02-05T07:43:22-06:00
 draft: false
-title: "Accepting the challenge"
+title: 'Accepting the challenge'
 subtitle: The heavy responsibility of making decisions
 ---
 

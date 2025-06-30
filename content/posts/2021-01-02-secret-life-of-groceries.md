@@ -2,13 +2,10 @@
 slug-title: secret-life-of-groceries
 date: 2021-01-02T05:48:21-06:00
 draft: false
-title: "The Secret Life of Groceries"
+title: 'The Secret Life of Groceries'
 subtitle: A review
-description:  A review of Benjamin Lorr's book, "The Secret Life of Groceries"
-images:
-  [
-    "https://www.benjaminlorr.net/wp-content/uploads/2020/08/Groceries_cover-450.jpeg",
-  ]
+description: A review of Benjamin Lorr's book, "The Secret Life of Groceries"
+images: ['https://www.benjaminlorr.net/wp-content/uploads/2020/08/Groceries_cover-450.jpeg']
 ---
 
 In the introduction to [The Secret Life of Groceries](https://www.benjaminlorr.net/book/the-secret-life-of-groceries/), Benjamin Lorr makes a profound claim about groceries:

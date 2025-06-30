@@ -2,11 +2,11 @@
 slug-title: maps-in-python
 date: 2024-01-14
 draft: false
-title: "Using python map() instead of pandas .apply()"
-subtitle: "A small code tweak to improve performance and code reuse"
-description: "zvenyach.com | A TIL about the python map() function"
-images: ["/images/more_you_know.png"]
-categories: ["til"]
+title: 'Using python map() instead of pandas .apply()'
+subtitle: 'A small code tweak to improve performance and code reuse'
+description: 'zvenyach.com | A TIL about the python map() function'
+images: ['/images/more_you_know.png']
+categories: ['til']
 tags: []
 ---
 
@@ -26,7 +26,7 @@ df["D"] = df.apply(lambda x: x["A"] ** 2, axis=1)
 
 # The new approach: Use python map() to iterate through the rows
 def power(x):
-	return x ** 2
+ return x ** 2
 
 df["E"] = list(map(power, df["A"]))
 ```
@@ -44,7 +44,7 @@ import multiprocessing
 # `if __name__ == "__main__":` things in front if you're using
 # multiprocessing.
 with multiprocessing.Pool() as pool:
-	df["F"] = list(pool.map(power, df["A"]))
+ df["F"] = list(pool.map(power, df["A"]))
 ```
 
 See? Just a slight tweak in the code and suddenly you're using all the cores.
